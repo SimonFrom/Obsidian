@@ -1,0 +1,5 @@
+- Klassenavne skal være ens med de andre modeller.
+- Der skal vises hvilken kryds reference kontrakten har, altså hvilken use case.
+- Operationer skal navngives ens.
+- Tilføj gerne et Output felt.
+- Hvis der er sprogskifte, skal der laves en glossary med oversættelser.

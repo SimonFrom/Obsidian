@@ -1,0 +1,1 @@
+![Artefakt Artefakter er vidnesbyrd om menneskelige ...](Exported%20image%2020251104231223-0.png)

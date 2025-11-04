@@ -1,0 +1,8 @@
+- Navngivningen skal være ens på tværs af modellerne.
+- Der skal være en overskrift på som viser hvilken use case diagrammet viser.
+- Skal være lavet over en use case.
+- Systemhændelse skal være tegnet som en fuldt optrukken linje med en udfyldt pil.
+- Systemrespons skal være en stiplet linje med ikke udfyldt pil.
+- Aktør skal være til venstre og systemet til højre.
+- Beskrivelser skal være på virksomhedens sprog.
+- Retur beskeder skal ikke have parenteser.

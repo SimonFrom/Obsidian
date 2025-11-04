@@ -1,0 +1,2 @@
+![Functional features capabilities security Usabilit...](Exported%20image%2020251104231227-0.png) ![FURPS et akronym for kvalitetsegenskaber i Functio...](Exported%20image%2020251104231230-1.png)  
+![FURPS 15 september 2024 2132 Supportability Perfor...](Exported%20image%2020251104231235-2.png)

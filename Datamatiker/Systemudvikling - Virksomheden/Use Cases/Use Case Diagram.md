@@ -1,0 +1,4 @@
+- Et use case-diagram kan opsummere detaljer om systemets aktører (også kaldet brugere) og deres interaktioner med systemet i en skitseagtig tegning.
+- **Aktører** – typisk menneskelige brugere, der ønsker at opnå et forretningsmål ved at interagere med systemet.
+- **Scenarier**, hvor dit system eller din applikation interagerer med mennesker, organisationer eller eksterne systemer.
+- **Systemets omfang og mål** samt de use cases, det skal understøtte.

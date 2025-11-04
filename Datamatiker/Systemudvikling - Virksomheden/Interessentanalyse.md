@@ -1,0 +1,9 @@
+- Bruges som værktøj til at identificere hvem er interessenter
+- Identifikation: Hvem, deres rolle, deres interesse
+- Vertikalt: Opgavestillere(projektejere, styregrupper, direktører osv..)
+- Horisontalt: indad(medarbejdere, kolleger), Udad(kunder, leverandører, partnere...)
+- Segmentering: Gidsel, ressourceperson, ekstern, grå eminence(påvirkning og indflydelse på projektet.
+- Forstå mulige konfilktområder på tværs af interessenterne.
+- Ressoucer: bidrage med financiering, likviditet, udvikling, ekspertise
+- Kaliberering: Forventningsafstemning, oplevelser, forandringskonsekvens, krav til interessenten
+- Håndtering: Hvordan interessenter håndteres og af hvem og om alle skal håndteres.

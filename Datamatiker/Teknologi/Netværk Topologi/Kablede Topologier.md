@@ -1,0 +1,19 @@
+- Star:
+    - Alle enheder på et netværk er forbundet igennem et centralt sted, en hub eller en switch f.eks.
+    - En fordel her er at alle enheder har deres egen forbindelse, så hvis mister forbindelse vil andre stadig fungerer.
+    - En ulemper er at hvis switch eller hub fejler har ingen forbindelse til noget, "Single Point Of Failure".
+- Ring:
+    - Her er alle enheder forbundet med hinanden og kommunikation foregår i en fast rækkefølge cirklen rundt.
+    - Denne topologi er gammel og ikke brugt meget mere.
+    - En fordel er at det er nemt fejlfinde, da man relativt nemt kan spore hvor kommunikationen stoppede.
+    - En ulempe er dog at alle er afhængige af alle, så fejler et kabel mellem to enheder, går systemet ned.
+- Bus:
+    - Alle computere og netværks enheder er forbundet til et centralt COAX kabel eller "backbone" via BNC (Bayonet Neill–Concelman) connectorer.
+    - En fordel er at det er relativt simpelt og billigt at implementere.
+    - En ulempe er det kræver et lukket kredsløb. Altså fjernes en enhed eller "terminator" i enden af COAX kablet, vil systemet sende data retur, "Signal Reflektion", og bryde sammen.
+- Mesh:
+    - I et Mesh netværk er alle computere forbundet med hinanden. Dette sikrer et robust system, grundet at der er mange forbindelser der skal fejle for at systemet går ned.
+    - Et eksempel: Med fire computere mesh forbundet, vil hver computer være forbundet til 3 computere.
+    - En ulempe er at mængden af kabler hurtigt bliver stor og uoverskuelig og dyrt at implementere.
+    - Det er sjældent brugt på LAN netværk, men ofte brugt på WAN, "Wide Area Network".
+    - Internettet er eksempel på et WAN Mesh netværk. Utallige routere er koblet sammen på tværs af lande.

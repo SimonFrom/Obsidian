@@ -1,0 +1,11 @@
+- [De 10 heuristikker principper](https://www.nngroup.com/articles/ten-usability-heuristics/)
+- [C.R.A.P](https://vwo.com/blog/crap-design-principles/)
+- Tænk over placering af knapper og felter så man kan nå på touchskærm og mus på computer
+- Designet skal være overskueligt for brugeren.
+- Sproget skal være relevant for brugerne.
+- Brugervenlighed skal være simpelt.
+- Det skal være nemt at kunne rette i fejl / gå tilbage hvis man laver fejl.
+- Visuelt udtryk skal være behageligt.
+- Der skal være overskuelig menustruktur.
+- Brugeren skal guides igennem.
+- Der skal også, når det er relevant, være mulighed for at brugeren kan bekræfte sine valg.

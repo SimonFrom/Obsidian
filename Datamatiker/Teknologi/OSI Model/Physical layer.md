@@ -1,0 +1,10 @@
+- Her er data i form af bits/binær - 0'er og 1'er.
+- Definerer også standarder for elektriske og hardware dele som bruges til at kommunikere over netværk. Kabel standarder, CAT 4, 5 og 6 f.eks. Men også strøm specifikationer.
+- Typen af kommunikation defineres også her:
+    - Simplex - Envejs. Radio f.eks.
+    - Half duplex - Tovejs, men kun en vej ad gangen. Walkie talkie f.eks.
+    - Full duplex - Tovejs og begge veje samtidigt. Telefon samtale f.eks.
+- Enheder som indgår her:
+    - Hubs.
+    - Netværks kort.
+    - Signal repeatere.

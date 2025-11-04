@@ -1,0 +1,25 @@
+![velse I Terminologi Del gruppen op i to mindre und...](Exported%20image%2020251104231302-0.png)   
+- Systems Sekvens Diagram:
+    - En oversigt over hvordan systemet snakker sammen med sig selv eller en aktør.
+    - Viser input og output.
+    - Basereret på EN use case.
+- Aktør:
+    - Personen eller et andet system der bruger hoved systemet.
+    - En igangsætter.
+- System:
+    - Programmet en aktør bruger.
+- Systemoperation:
+    - En operation der håndterer en systemhændelse.
+- Systemhændelse:
+    - Typisk sammenkoblet med en klasse i domænemodellen.
+    - Beskrivelse af navnet på hændelsen.
+- Systemrespons:
+    - En meddelelse der sender noget retur til en tidligere del af systemet eller aktøren.
+- Operations kontrakt:
+    - En detaljeret beskrivelse af en bestemt hændelse.
+    - Beskriver hvad en systemoperation gør, ikke hvordan.
+- Precondition:
+    - Noget det sker før en hændelse.
+    - Kan også være en betingelse der skal være opfyldt.
+- Postconditon:
+    - Noget der sker efter en hændelse.

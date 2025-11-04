@@ -1,0 +1,6 @@
+- Formål: give en klar struktur og en visuel repræsentation af systemet
+- Identificering af stamdata
+- Identificering af samlende objekter
+- Navngivning af klasser – Navnet skrives i en rektangel og i ental
+- Attributter (egenskaber) skrives i cirkel (instans af Objektet)
+- Assosiationslinjer tegnes mellem cirklerne (Attributterne)

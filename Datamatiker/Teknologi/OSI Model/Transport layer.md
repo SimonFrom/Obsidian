@@ -1,0 +1,10 @@
+- Packets får tilføjet flere headers og bliver segmenteret.
+    - Segments er processen hvor store datamængder fra applikationslaget opdeles i mindre stykker, kaldet segmenter, for nemmere transmission over netværket.
+    - Headers kan være sekvensnumre som sikrer korrekt samling igen ved modtageren.
+- Ansvarlig for valg af transport protokol:
+    - TCP (Transmission Control Protocol)
+        - En central protokol i internettet, der sikrer pålidelig og ordnet overførsel af data mellem computere. Den er essentiel for mange internetaktiviteter, såsom webbrowsing, e-mail og filoverførsler, hvor det er vigtigt, at data ankommer korrekt og i den rigtige rækkefølge.
+    - UDP (User Datagram Protocol)
+        - En "connectionless" protokol, hvilket betyder, at den sender data uden at etablere en fast forbindelse. Dette gør UDP hurtigere end f.eks. TCP, men det betyder også, at der ikke er nogen garanti for, at dataene når frem, eller at de når frem i den rigtige rækkefølge.
+- Process separering sker også her.
+    - Dette sker ved hjælp af porte.

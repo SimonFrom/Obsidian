@@ -1,0 +1,15 @@
+- Frames bliver lavet om til packets.
+- Ansvarlig for den logiske adresse tildeling til enheder via IP adresser. Logisk fordi at en IP adresse kan flyttes til en anden enhed, modsat MAC f.eks.
+- Protokoller inkluderer:
+    - IPv4
+        - En grundlæggende protokol for kommunikation på internettet
+    - IPv6
+        - Nyere udgave med mere adresse plads. 128 bit kontra 32 bit.
+    - ICMP (Internet Control Message Protocol)
+        - En netværksprotokol, der bruges til at sende fejlmeddelelser og kontrolbeskeder mellem netværksenheder
+    - Ipsec
+        - En protokolpakke, der bruges til at sikre kommunikation over usikre netværk, som f.eks. internettet
+    - Enheder inkluderer:
+        - Layer 3 switches
+        - Routere
+        - Firewalls

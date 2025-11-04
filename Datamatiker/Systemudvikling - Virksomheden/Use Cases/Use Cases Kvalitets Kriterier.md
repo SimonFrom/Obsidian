@@ -1,0 +1,13 @@
+- Det er vigtigt de falder under de 3 grupper og afklaret hvilken aktør gruppe de tilhører.
+- Det er vigtigt ikke at gøre aktøren for specifik
+- Det er vigtigt at det har et forretningsmæssigt formål (At det er klart og forståeligt for kunden)
+- Det er vigtigt at det har et forretningsmæssigt formål (At casen giver mening for kunden i forhold til deres dagligdag og beskriver en brugssituation (blackbox)
+- At den kan leve op til nogle af de tre test (Boss, EBP, Size)
+- Man må ikke beskrive, hvad systemet gør i detaljer.
+- Sproget giver mening for kunden.
+- Fokus på features.
+- Det er tekstformat, ikke diagram.
+- Man holder sig indenfor den detaljeringsgrad, der er bedt om.
+- Der skal være use cases, som dokumenterer, at systemet har den funktionalitet, som brugerne forventer.
+- Feedback:
+- Holde en rød tråd.

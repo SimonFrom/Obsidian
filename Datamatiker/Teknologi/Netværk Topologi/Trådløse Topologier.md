@@ -1,0 +1,9 @@
+- Infrastructure:
+    - Her er et modem koblet til en switch eller hub, som forgrener sig ud til de kablede enheder og der er også tilkoblet et eller flere Access Points til trådløs kommunikation.
+- Ad hoc:
+    - Her er den ingen hårde forbindelser, routere eller servere. Kun "Peer to Peer" forbindelser mellem enheder.
+    - Hver enhed er ansvarlig for deres egen sikkerheds protokoller og tilladelser.
+    - Det er en hurtig at opsætte et trådløst netværk uden brug af andet hardware.
+- Wireless Mesh:
+    - Et modem er tilkoblet en switch som kables til et Access Point. Andre AP'er kan få internet forbindelse trådløst igennem det nærmeste AP som vil sende oplysninger og data tilbage igennem rækken indtil det første kablede AP nås.
+    - Topologien er robust da der er flere AP'er der kan fejle, men data vil stadig kunne nå frem igennem andre.

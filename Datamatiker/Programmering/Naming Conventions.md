@@ -1,0 +1,11 @@
+- **PascalCase**: (også kaldet **UpperCamelCase**) er en konvention for at skrive sammensatte ord i programmering, hvor hvert ord starter med et stort bogstav. Det bruges ofte til at navngive klasser, metoder og nogle gange variabler
+    - Hvert ord i navnet starter med et stort bogstav.
+    - Der er ingen mellemrum, bindestreger eller understregningstegn mellem ordene.
+- **camelCase**: er en navngivningskonvention, der bruges til at skrive sammensatte ord, hvor det første ord starter med et lille bogstav, og hver efterfølgende ord starter med et stort bogstav. Denne konvention er ofte anvendt til navngivning af variabler, metoder og felter i mange programmeringssprog
+    - Det første ord starter med et lille bogstav.
+    - Alle efterfølgende ord starter med et stort bogstav.
+    - Der er ingen mellemrum, bindestreger eller understregningstegn.
+- **snake_case**: er en navngivningskonvention, hvor sammensatte ord adskilles med understregningstegn (_), og alle bogstaver er små. Denne stil bruges primært i sprog som Python, Ruby og til filnavne på systemer, der ikke understøtter store bogstaver i filnavne. Snake_case gør det lettere at læse navne på variabler, funktioner og filer, især når de er sammensat af flere ord.
+    - Alle bogstaver er små.
+    - Ord adskilles med understregningstegn (_).
+    - Der er ingen mellemrum, bindestreger eller store bogstaver.

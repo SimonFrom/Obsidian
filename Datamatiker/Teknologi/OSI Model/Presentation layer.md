@@ -1,0 +1,2 @@
+- Dette er et lidt forældet lag.
+    - Formålet var at konvertere data så det kunne vises i programmer.

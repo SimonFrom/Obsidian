@@ -1,0 +1,13 @@
+- Bits bliver lavet om til frames og headers bliver tilføjet.
+    - Headers er source og destination adresser som fortæller hvilken enhed bitsne stammer fra og hvilken enhed det er forventet at de lander ved og bliver behandlet
+- Er ansvarlig for kommunikation over LAN eller på det samme netværk.
+- Den fysiske netværk adresse, MAC, hører også til her.
+- Flow control, som er at sende og modtage frames, og error control er også her.
+- Protokoller inkluderer blandt andet:
+    - Ethernet
+    - Frame-Relay
+    - Token ring
+    - Fiber distrubuted data interface (FDDI)
+- Enheder kan være:
+    - Bridges
+    - Layer 2 switches
