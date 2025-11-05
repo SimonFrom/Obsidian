@@ -2,7 +2,7 @@
 
 [Blazor Vs MVC](https://app.diagrams.net/?src=about#G1Ng9OBqiRzMVfLRzMT5Q17Klhm-_CiI5p#%7B%22pageId%22%3A%22zUhdyCwPMsGWzt2a2LMs%22%7D)
 
-*Blazor is component based SPA framework that achieves interactivity with C# -- Frank Liu*
+*Blazor is component based SPA(Single Page Application) framework that achieves interactivity with C# -- Frank Liu*
 
 En Blazor component kan have så mange child components som det kræves.
 
@@ -16,3 +16,9 @@ Forskellene bliver sammenlignet og derefter vil Blazor rerender det ændrede ind
 
 Her bliver der downloadet en WebAssembly fil til browseren som eksekveres.
 
+## Component types:
+
+Routable/Page Components:
+- Opfører sig som en sides indhold
+Non-routable Components:
+- Kaldes også reusable components
