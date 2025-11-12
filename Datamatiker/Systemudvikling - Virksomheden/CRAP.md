@@ -4,3 +4,4 @@
 - **Repetition/Gentagelse**: Formål: Skabe enhed og sammenhæng i designet.
 - **Alignment**/**Justering**: Formål: Skabe orden og visuel forbindelse mellem elementer.
 - **Proximity**/**Nærhed**: Formål: Gruppér relaterede elementer og skab en klar hierarki.
+
