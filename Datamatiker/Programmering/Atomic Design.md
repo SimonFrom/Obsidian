@@ -1,10 +1,10 @@
 Atomic Design bryder designet af apps og websider op i små bider, som gør vedligeholdelsen og implementering af ændringer nemmere og hurtigere.
 
-**Atoms/Atomer**
+**Atoms**
 - De mest grundlæggende elementer såsom knapper, input felter, dropdown menuer osv.
-**Molecules/Molekyler**
-- Grupper at atomer der bliver sat sammen til at lave en komponent. Et billede, input felt og en OK knap f.eks.
-**Organisms/Organismer**
+**Molecules**
+- Grupper af atomer der bliver sat sammen til at lave en komponent. Et billede, input felt og en OK knap f.eks.
+**Organisms**
 - Grupper af molekyler og/eller atomer der udgår en sektion som en bruger kan interagere med.
 **Templates**
 - En samling af alt overstående som tilsammen skaber en side lignede struktur uden det præcise færdige indhold.
