@@ -1,3 +1,4 @@
+[[High level design]]
 - I en use case skal der beskrives en situation og beskrives hvordan et system skal agere. Man skal ikke beskrive i detaljer hvordan systemet fungerer.
 - Der vil være en aktør/bruger som sender inputs ind i systemet og systemet sender noget tilbage.
 - Beskrivelsen, navngivningen på aktøren og titlen på casen skal afspejle det forretningsmæssige formål.

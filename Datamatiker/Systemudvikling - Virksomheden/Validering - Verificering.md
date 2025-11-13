@@ -1,3 +1,7 @@
+[[Krav]]
+[[High level design]]
+[[Low Level Design]]
+
 ## Validering:
 
 - Laver vi det rigtige system?

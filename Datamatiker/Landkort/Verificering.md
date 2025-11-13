@@ -1,3 +1,3 @@
-[[Krav]]
-[[High level design]]]
+
+[[High level design]]
 [[Low Level Design]]
