@@ -9,7 +9,7 @@ Det kan være:
 - Ens eget system
 
 Typiske fejl eller forglemmelser i planlægningen kan være:
-- At man antager at alt virker. "*Det virkede igår*" citat: samtlige studerende til præsentationen...
+- At man antager at alt virker. "*Det virkede i går*" citat: samtlige studerende til præsentationen...
 - Ingen rollback plan
 	- Denne skal altid tage hensyn til alt. Det kan være images af operativ systemer eller databaser. Det skal altid være muligt at gå tilbage til skridtet før.
 - For stram deadline
