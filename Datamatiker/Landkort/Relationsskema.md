@@ -1,2 +1,2 @@
-[[High level design]]
+
 [[Databaseskema]]

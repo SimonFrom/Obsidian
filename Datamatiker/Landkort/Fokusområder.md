@@ -1,2 +1,2 @@
-[[Datamatiker landkort]]
+
 [[Udrulning - Deployment]]

@@ -1,2 +1,2 @@
-[[Datamatiker landkort]]
+
 [[Fokusområder]]

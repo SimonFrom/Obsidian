@@ -1,5 +1,4 @@
-[[Krav]]
-[[High level design]]
+
 [[Low Level Design]]
 
 ## Validering:
