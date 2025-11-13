@@ -1,3 +1,3 @@
 [[AND, OR, XOR]]
-[[Generalt]]
+[[remote/Datamatiker/Teknologi/Kryptografi/Generalt]]
 [[Polyalphabetic Cipher]][[The One Time Pad]]
