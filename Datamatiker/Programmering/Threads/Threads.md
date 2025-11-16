@@ -29,7 +29,7 @@ Flere threads, der deler ressourcer, kan føre til race conditions, hvor resulta
 lock er en simpel mekanisme til at sikre, at kun én thread ad gangen kan få adgang til en sektion af koden:
  ![Exported image](Exported%20image%2020251104230617-1.png)  
 
-Lock(this) skal bruges varsomt da man låser på selve instansen af et objekt. Derved kan man låse objekter som bliver brugt andre steder i ens kode uvidende og lave 'Deadlock' eller 'Raceconditions'.  
+Lock(this) skal bruges varsomt da man låser på selve instansen af et objekt. Derved kan man låse objekter som bliver brugt andre steder i ens kode uvidende og lave 'Deadlock' eller 'Race conditions'.  
 I stedet bør man som ovenover oprette et private readonly objekt som ingen andre end klassen selv kan tilgå og derved har man større kontrol over hvem og hvor det bliver brugt.   En anden måde at sikre ens værdier er at bruge **Interlocked.Increment** som vist nedenunder:
 
 ![Exported image](Exported%20image%2020251104230618-2.png)
