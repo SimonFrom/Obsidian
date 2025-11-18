@@ -1,4 +1,4 @@
-[[Fokusområder]]
+[[Systemudviklingsmetoder]]
 
 En teknik består af tre elementer:
 - Input
