@@ -17,4 +17,4 @@ Det er ikke ualmindeligt at 75% af et projekts omkostninger bliver brugt på ved
 	- Improved Flexibilty
 	- Bug swarms
 	- Bad programming practices
-	- 
+	 
