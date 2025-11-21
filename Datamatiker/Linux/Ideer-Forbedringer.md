@@ -1,1 +1,1 @@
-				
+Script til at åbne azure og starte docker
