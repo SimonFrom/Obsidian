@@ -6,3 +6,6 @@ child komponenterne står for at udføre en del af eller hele logikken.
 
 Her vises at parent sender parameter videre til child som kommunikerer tilbage med EventCallback
 
+## Struktur i praksis:
+
+
