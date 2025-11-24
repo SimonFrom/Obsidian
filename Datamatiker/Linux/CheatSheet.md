@@ -1,0 +1,4 @@
+```
+# Reload .bashrc
+source ~/.bashrc
+```
