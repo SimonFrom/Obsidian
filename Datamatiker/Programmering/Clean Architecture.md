@@ -23,15 +23,35 @@ Det primære mål er at opnå:
 - Forretningslogik
 ### Application:
 - Services
+- Interfaces til Database
+- Use Cases (kommandoer/queries)
 ### Infrastructure:
 - Database adgang/Entity Framework
+- Repositories implementeres
 ### Presentation:
 - UI/Web UI
 
 ### Solution struktur:
 ![[Pasted image 20251126125627.png]]
+BogenseVikingelaug
+├── BogenseVikingelaug.Domain
+│   ├── Entities
+│   └── Enums
+├── BogenseVikingelaug.Application
+│   ├── Common/Interfaces
+│   ├── Events/Commands
+│   └── Events/Queries
+├── BogenseVikingelaug.Infrastructure
+│   ├── Persistence
+│   └── Configurations
+└── BogenseVikingelaug.Web (Blazor/MVC)
+    ├── Pages / Controllers
+    └── ViewModels
 
-Ideen er at man tilføjer referencer tilbage til det foregående ClassLibrary.
-WebUI --> Infrastructure --> Domain --> Application
+#### Referencer:
+Web -> Application
+Application -> Domain
+Infrastructure -> Application + Domain
+Domain ->
 
 I hvert projekt laver man en Dependency Injection klasse til som man til sidst injecter i WebUI.Server projektet. Denne skal indeholde de repositories, interfaces, modeller eller hvad man skal bruge som man normalt ville registrere i program direkte.
