@@ -54,4 +54,32 @@ Application -> Domain
 Infrastructure -> Application + Domain
 Domain ->
 
+### DI Container:
 I hvert projekt laver man en Dependency Injection klasse til som man til sidst injecter i WebUI.Server projektet. Denne skal indeholde de repositories, interfaces, modeller eller hvad man skal bruge som man normalt ville registrere i program direkte.
+
+```
+namespace BogenseVikingelaug.Infrastructure;
+
+public static class InfrastructureServiceRegistration
+{
+    public static IServiceCollection AddInfrastructureServices(
+        this IServiceCollection services, 
+        IConfiguration configuration)
+    {
+        services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(configuration.GetConnectionString(
+            "DefaultConnection")));
+
+        // Register repositories
+        services.AddScoped<IEventRepository, EventRepository>();
+        services.AddScoped<IMemberRepository, MemberRepository>();
+
+        return services;
+    }
+}
+```
+AddInfrastructure() tilføjes så i program.cs således:
+```
+// Add Infrastructure services
+builder.Services.AddInfrastructureServices(builder.Configuration);
+```
