@@ -1,7 +1,7 @@
 [Cascading Values](https://www.pragimtech.com/blog/blazor/blazor-multiple-cascading-parameters/)
 
 
-En Blazor applikation består af komponenter. Man laver individuelle komponenter og samler dem sammen. Komponenter kan være nested i en anden komponent og den komponent kan være nested i en tredje komponent osv...
+En Blazor applikation består af komponenter. Man laver individuelle komponenter og samler dem sammen. Komponenter kan være nested i en anden komponent og den komponent kan være nested i en tredje komponent osv.......
 
 ![[Pasted image 20251119211654.png]]
 
