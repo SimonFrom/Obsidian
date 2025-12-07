@@ -15,4 +15,4 @@
 
 **Continuous Delivery** sørger for at den reviewede kode automatisk bliver testet når det uploades til et repository. Herfra kan et andet team være sikker på at det er klar til brug.
 
-**Continuous Development** tager det et skridt videre og sørger for at koden automatisk bliver deployet til et produktions miljø.
+**Continuous Development** tager det et skridt videre og sørger for at koden automatisk bliver deployet til et produktions miljø. asda
