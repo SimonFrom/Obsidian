@@ -2,7 +2,9 @@
  
 ## Hvad er SCRUM:
 
-En system udviklings metode.  
+## Ikke en systemudviklings metode!! Kan egentlig ikke bruges til at udvikle it systemer, men god til at styrke team sammenarbejde.
+
+
 Det er en måde at arbejde sammen i teams på tværs af fagligheder. Tænk programmører og forretnings konsulenter f.eks.  
 SCRUM foregår også i fastlagte tidsintervaller kaldet Sprints. Disse er max en måned lange, men helst omkring en uge eller to. Målet med sprints er at man i enden af perioden har et produkt der virker, er testet og i princippet kunne sendes på markedet.  
 Hvert SCRUM team er også selvkørende mht. planlægning og hierarki.

@@ -1,4 +1,4 @@
-
+***Lavet til at bedømme om man skal arbejde agilt eller ikke***
 Som regel i litteratur om agil udvikling er der 11 dimensioner man tænker på og vurdere udfra:
 #### **1. Ændringer i krav**
 
