@@ -36,6 +36,6 @@ Det kan for eksempel være:
 - Analysere
 - Tegne et diagram
 - Tegne en overordnet skitse
-- Lave en et skema
+- Lave et skema
 - Skrive en liste
 Valget skal give mening i forhold til inputtet og det mål man forsøger at opnå.
