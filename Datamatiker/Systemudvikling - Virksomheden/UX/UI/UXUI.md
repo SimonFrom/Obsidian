@@ -68,4 +68,3 @@ Dette spørgsmål dækker navigation og handlingsmuligheder. Brugeren skal nemt 
     
 Dette spørgsmål handler om orientering. Brugeren skal altid vide, hvor de befinder sig i systemet, f.eks. hvilken side de er på, hvilken sektion af appen, eller hvilket trin i en proces.  
 Eksempler på løsninger:  
-Eksempler på løsninger:

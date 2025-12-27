@@ -94,14 +94,14 @@ Kompleksitet kan føre til fejl, misforståelser, forsinkelser og højere omkost
 
 ##### Hvordan håndterer man kompleksitet?
 
-|Tiltag|Forklaring|
-|---|---|
-|**Modulær arkitektur**|Opdel systemet i mindre, uafhængige moduler/tjenester.|
-|**Dokumentation**|Sørg for god og opdateret dokumentation af kode, krav og beslutninger.|
-|**DevOps og automatisering**|Automatiser test, deployment og overvågning.|
-|**Agil udvikling**|Arbejd iterativt og håndter kompleksitet i små bidder.|
-|**Domæneeksperter**|Involver brugere og eksperter tæt i udviklingen.|
-|**God kommunikation**|Skab fælles forståelse på tværs af udvikling, ledelse og brugere.|
+| Tiltag                       | Forklaring                                                             |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| **Modulær arkitektur**       | Opdel systemet i mindre, uafhængige moduler/tjenester.                 |
+| **Dokumentation**            | Sørg for god og opdateret dokumentation af kode, krav og beslutninger. |
+| **DevOps og automatisering** | Automatiser test, deployment og overvågning.                           |
+| **Agil udvikling**           | Arbejd iterativt og håndter kompleksitet i små bidder.                 |
+| **Domæneeksperter**          | Involver brugere og eksperter tæt i udviklingen.                       |
+| **God kommunikation**        | Skab fælles forståelse på tværs af udvikling, ledelse og brugere.      |
 
 ---
 

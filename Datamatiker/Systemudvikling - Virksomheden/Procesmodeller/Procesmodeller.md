@@ -2,7 +2,11 @@
 
 En lineær procesmodel følger en sekventiel, trinvis tilgang hvor hver fase skal gennemføres før den næste kan påbegyndes. Processen bevæger sig fra start til slut i en lige linje uden tilbagegang. Et klassisk eksempel er vandfaldsmodellen, hvor man går gennem faserne: kravspecifikation → design → programmering → test → implementering. Hver fase skal være fuldstændigt afsluttet før næste påbegyndes.
 
-Vandfaldsmodellen V-modellen Sashimi Model Structured Systems Analysis and Design Method (SSADM) Information Engineering (IE)
+- Vandfaldsmodellen 
+- V-modellen 
+- Sashimi Model 
+- Structured Systems Analysis and Design Method (SSADM) 
+- Information Engineering (IE)
 
 **Sammenligning af Lineære Modeller**
 
