@@ -1,14 +1,30 @@
 OSI står for "Open Systems Interconnection".
- 
+
+I praksis bruges [[TCP IP Model]] fremfor OSI. 
+
 OSI modellen deler netværk kommunikation op i syv lag:
  
-1. Physical - Hvilke kabler bruges der f.eks?
-2. Data link - Hvad netværks hardware bruges, switch, router eller AP f.eks.
-3. Network - Logical addresses, IP blandt andet
-4. Transport - Bryder data ned til packets og sørger for at data kan samles igen ved modtageren
-5. Session - Hvordan er forbindelsen lavet? TCP, SSH, LAN mellem to computere
-6. Presentation - Gammelt lag, brugt til at konvertere data som ens program kunne læse
-7. Application - Kan sidestilles med API, her bor logikken
+1. Physical - De fysiske forhold for netværket.
+   Kabler, signaler osv
+2. Data link - Kommunikation på lokalt netværk.
+    MAC, Ethernet, Switches --> Hvem er næste punkt på ruten?
+3. Network - Routing mellem netværk.
+   IP adresser, Router, ping --> Hvor skal pakken hen?
+4. Transport - Korrekt levering af data.
+   **TCP** --> Pålidelig/Langsom, **UDP** --> Hurtig, upålidelig 
+5. Session - Styrer sessioner mellem to systemer
+   Åbner og lukker forbindelser, Session-ID'er --> Login, kurve osv.
+6. Presentation - Sørger for at data kan forstås.
+   Kryptering, Komprimering, Formatering --> Kan vi forstå hinanden?
+7. Application - Det lag som brugeren interagerer med.
+   HTTP, HTTPS, DNS --> Browsere, mail klienter, api'er.
 
 For at kunne huske rækkefølgen kan følgende sætning bruges:  
 **P**lease **D**o **N**ot **T**hrow **S**ausage **P**izza **A**way
+
+## Hurtig fejlsøgningsregel
+
+> ❌ Ingen net → Lag 1–2  
+> ❌ Kan ikke pinge → Lag 3  
+> ❌ Forbindelse dropper → Lag 4  
+> ❌ App virker ikke → Lag 7

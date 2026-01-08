@@ -9,5 +9,5 @@
 [[Subnet mask]]
 [[Switch]]
 [[TCP vs UDP]]
-[[TCPIP Model]]
+[[TCP IP Model]]
 [[Physical eller logical network]]
