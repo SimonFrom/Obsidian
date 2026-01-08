@@ -1,0 +1,1 @@
+Docker er en platform som gør det lettere at bygge, køre og dele software ved hjælp af [[Containere]]
