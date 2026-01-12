@@ -1,4 +1,3 @@
-[XSS Filter Evasion Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
 [XSS Vulnerabilities Scanner](https://www.acunetix.com/demo/)
 [OWASP Java Encoder filter](https://owasp.org/www-project-java-encoder/)
 
