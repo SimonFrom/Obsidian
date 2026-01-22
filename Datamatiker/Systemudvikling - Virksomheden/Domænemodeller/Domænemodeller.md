@@ -5,4 +5,5 @@
 - Der tegnes associationslinjer mellem klasserne
 - Der tilføjes multiplicitet på asscioationslinjerne (1..5, 1..*, 0...*, *)
 - Udtrykkes i UML-notationen som et statisk klassediagram via UML -klasser og UML-attributter
+- Hello 
     ![Exported image](Exported%20image%2020251104231328-0.png)
