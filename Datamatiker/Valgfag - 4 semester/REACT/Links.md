@@ -1,2 +1,4 @@
-[React Native Full Course for Beginners | Complete All-in-One Tutorial | 4 Hours - YouTube](https://www.youtube.com/watch?v=WDunoPNBxKA)
-[JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours - YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&list=PL0Zuz27SZ-6Oi6xNtL_fwCrwpuqylMsgT&index=29)
+- [ ] [React Native Full Course for Beginners | Complete All-in-One Tutorial | 4 Hours - YouTube](https://www.youtube.com/watch?v=WDunoPNBxKA)
+- [ ] [JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours - YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&list=PL0Zuz27SZ-6Oi6xNtL_fwCrwpuqylMsgT&index=29)
+- [ ] [In depth React Native](https://books.google.dk/books?hl=da&lr=&id=9FM6EQAAQBAJ&oi=fnd&pg=PP1&dq=(%22React+Native%22+OR+%22React-Native%22)+AND+(book+OR+textbook)+AND+(introduction+OR+intro+OR+beginner*+OR+guide*+OR+tutorial*)&ots=qzTCCYZ7HE&sig=0y42_N_yO7rB_IgJKdejKOCLfrM&redir_esc=y#v=onepage&q&f=false)
+- [ ] 

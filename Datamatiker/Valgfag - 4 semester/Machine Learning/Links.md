@@ -10,3 +10,5 @@
 - [ ] [OpenML dataset](https://www.openml.org/search?type=data&sort=runs&status=active)
 
 - [ ] [LinkedInLearning ML intro](https://www.linkedin.com/learning/machine-learning-with-python-foundations/machine-learning-in-our-world-23459526?resume=false&u=57075649)
+- [ ] [Machine Learning Python](https://books.google.dk/books?hl=da&lr=&id=9FOQDwAAQBAJ&oi=fnd&pg=PP2&dq=%22machine+learning%22+AND+python&ots=p-rltAUSDw&sig=rO96XteVF6GrHsdCmc_HC9_g7YU&redir_esc=y#v=onepage&q=%22machine%20learning%22%20AND%20python&f=false)
+- [ ] 
