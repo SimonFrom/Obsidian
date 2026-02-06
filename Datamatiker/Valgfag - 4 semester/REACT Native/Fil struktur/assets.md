@@ -1,0 +1,1 @@
+Billeder og andre filer som appen skal bruge

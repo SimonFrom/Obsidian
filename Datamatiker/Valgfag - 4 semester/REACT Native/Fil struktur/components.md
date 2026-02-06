@@ -1,0 +1,1 @@
+React Native Komponenter som er stylede til brug i appen

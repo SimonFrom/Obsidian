@@ -1,0 +1,1 @@
+Farve værdier til brug på tværs af appen
