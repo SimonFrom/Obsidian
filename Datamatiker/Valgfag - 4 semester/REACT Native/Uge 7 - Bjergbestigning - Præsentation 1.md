@@ -11,15 +11,29 @@
 
 - Hvad vil jeg vide (underemner, begreber, områder)?
 	- Moderne JavaScript og TypeScript
+	- Arkitektur og state management i moderne frontend
+	- Integration af REST API'er
 
 - Hvad vil jeg kunne?
+	- Udvikle en funktionel prototype af en web- eller mobilapp
+	- Kombinere JavaScript-teknologier med ML-modeller i en samlet løsning
+	- Samarbejde med eksterne partnere (virksomheder) om design, test og evaluering
+	- Reflektere over teknologivalg, performance og brugeroplevelse i moderne app-udvikling
 
 - Hvad har jeg fundet ud af, som jeg skal undersøge nærmere?
+	- State management
+	- Syntax
+	- Forskel på JS og TS
+	- React sikkerheds brud
 
 - Hvordan skal mit emne bidrage ind i projektet?
+	- Lave en løsning som virker på mobil og ikke kun en web app, som primært fokuserer på visning af ML output
 
 - Hvilke udfordringer skal jeg overkomme?
+	- Stort emne der skal begrænses
 
 - Hvordan vil jeg overkomme udfordringerne?
+	- Research og sparring med ERFA, proces og projekt grupperne
 
 - Hvilke kilder har jeg fundet, som er interessante
+	- Se [Links](obsidian://open?vault=Obsidian&file=Datamatiker%2FValgfag%20-%204%20semester%2FREACT%20Native%2FLinks) i React Native mappe
