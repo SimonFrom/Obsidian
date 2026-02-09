@@ -10,6 +10,7 @@
 	- Strukturere projekter med komponent baseret arkitektur
 
 - Hvad vil jeg vide (underemner, begreber, områder)?
+	- Moderne JavaScript og TypeScript
 
 - Hvad vil jeg kunne?
 
