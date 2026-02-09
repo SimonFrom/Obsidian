@@ -1,5 +1,5 @@
 - Hvad er mit emne og hvad dækker det over?
-	- React Native er 
+	- React Native er et framework
 
 - Hvor har min research indtil nu ført mig hen?
 

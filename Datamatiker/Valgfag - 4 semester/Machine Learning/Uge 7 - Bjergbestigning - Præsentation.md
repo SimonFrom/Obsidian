@@ -1,5 +1,5 @@
 - Hvad er mit emne og hvad dækker det over?
-	- Machine Learning er et underemne til AI der bygger på data, mønstre og laver forudsigelser eller beslutninger uden eksplicit at være programmeret til det. Jo mere data, jo bedre og mere præcis output.
+	- Machine Learning er et underemne til AI der bygger på data, mønstre og laver forudsigelser eller beslutninger uden eksplicit at være programmeret til det. Jo mere data, jo bedre og mere præcis output. Hej hej
 
 - Hvor har min research indtil nu ført mig hen?
 	- Til foden af bjerget....
