@@ -1,8 +1,8 @@
 - Hvad er mit emne og hvad dækker det over?
-	- Machine Learning
-	- 
+	- Machine Learning er et underemne til AI der bygger på data, mønstre og laver forudsigelser eller beslutninger uden eksplicit at være programmeret til det. Jo mere data, jo bedre og mere præcis output.
 
 - Hvor har min research indtil nu ført mig hen?
+	- Til foden af bjerget....
 
 - Hvad ønsker jeg på nuværende tidspunkt at mit endemål skal være?
 	- At give mig viden omkring hvordan ML modeller kan trænes og anvendes i moderne løsninger.
