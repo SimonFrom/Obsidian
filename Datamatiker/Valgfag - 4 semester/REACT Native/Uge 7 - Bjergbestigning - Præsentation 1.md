@@ -1,5 +1,5 @@
 - Hvad er mit emne og hvad dækker det over?
-	- React Native 
+	- React Native er 
 
 - Hvor har min research indtil nu ført mig hen?
 
