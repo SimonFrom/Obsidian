@@ -3,3 +3,5 @@
 - [ ] [In depth React Native](https://books.google.dk/books?hl=da&lr=&id=9FM6EQAAQBAJ&oi=fnd&pg=PP1&dq=(%22React+Native%22+OR+%22React-Native%22)+AND+(book+OR+textbook)+AND+(introduction+OR+intro+OR+beginner*+OR+guide*+OR+tutorial*)&ots=qzTCCYZ7HE&sig=0y42_N_yO7rB_IgJKdejKOCLfrM&redir_esc=y#v=onepage&q&f=false)
 - [ ] [Learn React Native - Code Academy](https://www.codecademy.com/enrolled/courses/learn-react-native)
 - [ ] [Design patterns in React Nactive](https://dev.to/iammtander/design-patterns-for-react-native-applications-a-complete-guide-1pdl)
+- [ ] [Design Patterns and SOLID in React Native](https://www.komododigital.co.uk/insights/react-and-react-native-design-patterns-solid-principles/)
+- [ ] [React Native Architecture Patterns](https://blog.mrinalmaheshwari.com/%EF%B8%8F-react-native-architecture-patterns-explained-mvc-mvp-mvvm-redux-clean-and-more-114545757188)
