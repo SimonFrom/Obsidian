@@ -2,3 +2,4 @@
 - [ ] [JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours - YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&list=PL0Zuz27SZ-6Oi6xNtL_fwCrwpuqylMsgT&index=29)
 - [ ] [In depth React Native](https://books.google.dk/books?hl=da&lr=&id=9FM6EQAAQBAJ&oi=fnd&pg=PP1&dq=(%22React+Native%22+OR+%22React-Native%22)+AND+(book+OR+textbook)+AND+(introduction+OR+intro+OR+beginner*+OR+guide*+OR+tutorial*)&ots=qzTCCYZ7HE&sig=0y42_N_yO7rB_IgJKdejKOCLfrM&redir_esc=y#v=onepage&q&f=false)
 - [ ] [Learn React Native - Code Academy](https://www.codecademy.com/enrolled/courses/learn-react-native)
+- [ ] [Design patterns in React Nactive](https://dev.to/iammtander/design-patterns-for-react-native-applications-a-complete-guide-1pdl)
