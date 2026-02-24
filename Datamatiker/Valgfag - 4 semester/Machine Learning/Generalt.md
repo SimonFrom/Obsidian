@@ -36,6 +36,13 @@ Groft set kan alle emner indenfor AI deles op i to kategorier, her sammenlignet 
 ### Steps i ML
 1. Data Collection:
 	1. Her samles al dataen
+	   Er den retvisende?
+	   Når man indsamler data bør man tænke på 5 ting:
+		1. Accuracy
+		2. Relevance
+		3. Variability
+		4. Ethics
+		5. Quantity
 2. Data exploration:
 	1. Kig på dataen:
 		Hvilke typer er der?
