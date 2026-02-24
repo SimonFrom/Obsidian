@@ -1,0 +1,1 @@
+En ML model kan beskrives som en computer der har modtaget en række instrukser den skal udføre med input data
