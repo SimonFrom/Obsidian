@@ -1,0 +1,5 @@
+- [ ] Dynamic Routing
+- [ ] Destruct params
+- [ ] web/ios prefix til filer
+- [ ] Regions
+- [ ] Spread
