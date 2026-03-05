@@ -21,3 +21,4 @@ MyComponent/
 - [ ] Spread
 - [ ] React vs React Native
 - [ ] Bundler
+- [ ] Android SDK emulator
