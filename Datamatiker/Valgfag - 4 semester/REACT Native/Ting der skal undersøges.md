@@ -1,6 +1,6 @@
 - [ ] Dynamic Routing
 - [ ] Destruct params
-- [ ] web/ios/android extensions til filer/Platform-Specfic code
+- [x] web/ios/android extensions til filer/Platform-Specfic code
       Man kan opdele sine komponenter eller screens med Button.web.tsx eller Button.ios.tsx. Dette gør at react selv vælger hvad der passer til den platform som der køres på.
 - [x] Regions
       Fungerer ligesom i c# med 
