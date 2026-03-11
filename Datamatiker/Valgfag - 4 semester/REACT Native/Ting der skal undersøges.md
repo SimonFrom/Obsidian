@@ -21,4 +21,4 @@ MyComponent/
 - [ ] Spread
 - [ ] React vs React Native
 - [ ] Bundler
-- [ ] Android SDK emulator
+- [ ] Android SDK emulator - Er det tilsvarende at teste på en real device?
