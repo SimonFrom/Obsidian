@@ -17,7 +17,7 @@ $3/4=0.75$
 
 Her rammer vores model rigtigt 3 ud af 4 gange og er derved 75% korrekt.
 
-#### MAE (Mean Absolute Error)
+### MAE (Mean Absolute Error)
 En anden test man kan bruge til regression er MAE.
 Her vil man kigge på differencen imellem ens resultater.
 ![[Pasted image 20260310124947.png]]
