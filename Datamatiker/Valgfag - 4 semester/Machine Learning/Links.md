@@ -9,7 +9,7 @@
 
 - [ ] [OpenML dataset](https://www.openml.org/search?type=data&sort=runs&status=active)
 
-- [ ] [LinkedInLearning ML intro](https://www.linkedin.com/learning/machine-learning-with-python-foundations/machine-learning-in-our-world-23459526?resume=false&u=57075649)
+- [x] [LinkedInLearning ML intro](https://www.linkedin.com/learning/machine-learning-with-python-foundations/machine-learning-in-our-world-23459526?resume=false&u=57075649)
 
 - [x] [Jupyter intro](https://www.linkedin.com/learning/introducing-jupyter/present-data-like-a-pro-with-jupyter?u=57075649)
 

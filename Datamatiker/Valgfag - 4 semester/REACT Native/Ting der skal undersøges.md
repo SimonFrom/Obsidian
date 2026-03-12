@@ -1,4 +1,5 @@
-- [ ] Dynamic Routing
+- [x] Dynamic Routing
+      Hvis man f.eks skal sende et id med til en anden side vil man kunne gøre det med Dynamic Routing og tilgå variablen på den nye side
 - [ ] Destruct params
 - [x] web/ios/android extensions til filer/Platform-Specfic code
       Man kan opdele sine komponenter eller screens med Button.web.tsx eller Button.ios.tsx. Dette gør at react selv vælger hvad der passer til den platform som der køres på.
@@ -18,7 +19,10 @@ MyComponent/
 - styles.ts ← StyleSheet
 ```
 
-- [ ] Spread
-- [ ] React vs React Native
+- [x] Spread
+      Spread er måde at tilføje ting til en liste/array. Når man spreder noget ind skaber man et nyt array med det nye objekt.
+- [x] React vs React Native
+      React er kun til web
 - [ ] Bundler
-- [ ] Android SDK emulator - Er det tilsvarende at teste på en real device?
+- [x] Android SDK emulator - Er det tilsvarende at teste på en real device?
+      Til vores behov er det fint med emulator. Man kan ikke teste små forskelle i hardware og andre ting. 

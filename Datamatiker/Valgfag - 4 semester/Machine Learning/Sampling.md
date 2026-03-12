@@ -12,16 +12,16 @@ Der er flere undertyper af sampling, se evt [Geek for geeks - sampling](https://
 ### Eksempel:
 Vi har 20 studerende, 12 damer og 8 mænd. Vi skal bruge en sample på 5 studerende.
 ![[Pasted image 20260309102233.png]]
-#### Random sampling:
+### <font color="#2DC26B">Random sampling</font>:
 Her vælger vi tilfældigt 5. Vi vælger 11, 9, 15, 19 og 3.
 Disse 5 fjernes fra populationen og indgår ikke i modellens trænings data.
 
-#### Random sampling with replacement/Bootstrapping:
+### <font color="#2DC26B">Random sampling with replacement/Bootstrapping</font>:
 Her vælger vi tilfældigt 5. Vi vælger 11, 9, 15, 19 og 15 igen.
 Med replacement fjernes der ikke noget fra populationen og derved kan man vælge den samme data 2 gange. Dette gør at vores population ikke formindskes og derved kan vi få en stor training og test pool.
 Dette er også godt hvis population ikke er særlig stor, da men i teorien vil have en uendelig størrelse at vælge fra.
 
-#### Stratified random sampling:
+### <font color="#2DC26B">Stratified random sampling</font>:
 Her inddeles populationen i underkatogorier, kaldet "Strata". Dette sikrer at fordeling af vores features i vores sample er jævn og svarere til populationen. 
 Vi kan f.eks stratificere(opdele i lag, klasser eller undergrupper) på køn:
 ![[Pasted image 20260309104259.png]]
