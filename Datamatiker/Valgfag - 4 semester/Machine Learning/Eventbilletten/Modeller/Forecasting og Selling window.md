@@ -8,35 +8,36 @@
 
 
 ### Klasse:
-**Event:**
-- `start` — event date, the target reference point for all time-based features
-- `sellStart` / `sellEnd` — defines the sales window length
-- `maxAmount` — total capacity, needed to calculate sell-through rate
-- `tickets[].amount` — available inventory per ticket type
-- `tickets[].price` — price point
-- `locationCity` / `locationPostal` — venue location
-- `categories[]` — seating zones and their capacities
-- `seating.active` — whether it's a seated event
-- `eventType` — SINGLE vs recurring
-- `createdAt` — when the event was created (distance from creation to sell start)
-- `showCountdown` — signals urgency marketing is active
+Event:
 
-**Transaction:**
+- `start` — eventdato
+- `sellStart` / `sellEnd` — definerer salgets længde
+- `maxAmount` — samlet kapacitet, nødvendig for at beregne salgsprocenten
+- `tickets[].amount` — tilgængeligt lager per billettype
+- `tickets[].price` — prisniveau
+- `locationCity` / `locationPostal` — lokation placering
+- `categories[]` — siddezoner og deres kapaciteter
+- `seating.active` — om det er et event med pladsnummerering
+- `eventType` — ENKELT vs tilbagevendende
+- `createdAt` — hvornår eventet blev oprettet (tid fra oprettelse til salgsstart)
+- `showCountdown` — signalerer at urgency-markedsføring er aktiv
 
-- `createdAt` — exact purchase timestamp, core feature for building velocity curves
-- `tickets[].amount` — tickets per order
-- `realPrice` — actual revenue per order
-- `status` — only COMPLETE orders should be used
-- `salesChannelId` — web vs POS vs internal, affects sales pattern
-- `ipLookup.lookup.city` / `.region` — buyer origin for geographic features
-- `appliedCoupons` — whether discounts affected purchase timing
-- `appliedDiscountGroups` — same
+Transaktion:
 
-**Derived features you'd compute:**
+- `createdAt` — præcist købstidspunkt, central feature til opbygning af hastighedskurver
+- `tickets[].amount` — billetter per ordre
+- `realPrice` — faktisk omsætning per ordre
+- `status` — kun FULDFØRTE ordrer bør anvendes
+- `salesChannelId` — web vs POS vs intern, påvirker salgsmønsteret
+- `ipLookup.lookup.city` / `.region` — købers oprindelse til geografiske features
+- `appliedCoupons` — om rabatter påvirkede købstidspunktet
+- `appliedDiscountGroups` — samme
 
-- Days from sellStart to purchase (purchase timing)
-- Days from purchase to event start (urgency signal)
-- Sales velocity at day intervals (e.g. tickets sold per day)
-- Cumulative sell-through % at each point in time
-- Sales window length in days
-- Capacity utilization rate
+Afledte features du ville beregne:
+
+- Dage fra salgsstart til køb (købstiming)
+- Dage fra køb til eventstart (urgency-signal)
+- Salgshastighed ved dagsintervaller (f.eks. solgte billetter per dag)
+- Kumulativ salgsprocent på hvert tidspunkt
+- Salgets længde i dage
+- Kapacitetsudnyttelsesrate
