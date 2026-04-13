@@ -18,6 +18,7 @@
 
 **Transaction:**
 
+Hele ip delen er nok ubrugelig. For at det kunne være brugbart ville man være nødt til at tjekke at om kunden er på den angivne hjemmeadresse, som ikke altid er udfyldt. Så jeg blive nødt til sorterer dem fra som har tomme felter.
 - `ipLookup.lookup.city` — kunde by
 - `ipLookup.lookup.region` — buyer landsdel
 - `ipLookup.lookup.ll` — længde og bredde grader for mere præcis beregning, ikke super vigtig
