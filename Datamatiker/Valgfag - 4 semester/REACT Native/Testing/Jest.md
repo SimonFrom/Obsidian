@@ -31,4 +31,44 @@ I teorien kunne man beskrive komponent tests som en del af Unit eller Integratio
 
 Det er vigtigt at huske at disse tests kun fungerer i et JavaScript Node.js miljø. Så de vil ikke give en 100% afklaring på om det hele fungerer som tiltænkt på ios og android enheder.
 
-Generalt skal man skrive testen fra brugerens synspunkt og hvordan de ser app'en. Så man skal ikke tænke så meget på den hårde logik, denne burde også testes seperat før, så man kan sikre at det komponenten modtager korrekt data.
+Generelt skal man skrive testen fra brugerens synspunkt og hvordan de ser app'en. Så man skal ikke tænke så meget på den hårde logik, denne burde også testes seperat før, så man kan sikre at det komponenten modtager korrekt data.
+
+## Simuler bruger input:
+For at kunne teste en brugers input uden at fysisk skulle trykke på knapperne, kan man bruge tre metoder fra [React Native Testing Library](https://oss.callstack.com/react-native-testing-library/). 
+- fireEvent - Aktiverer et event, onChangeText f.eks
+```javascript
+fireEvent.changeText(  
+getByPlaceholderText('Enter grocery item'),  
+'banana',  
+);
+```
+- press - Laver et tryk på en knap f.eks
+```javascript
+fireEvent.press(getByText('Add the item to list'));
+```
+- getAllByText(text, options?) - Søger i det renderede DOM og returnere alle elementer der passer. Man kan præcisere hvad med søger efter med selector options, f.eks getAllByText('banana', { selector: 'button' })
+```javascript
+const bananaElements = getAllByText('banana');  
+expect(bananaElements).toHaveLength(1);
+```
+
+Det overstående forløb skulle gerne:
+1. Aktivere et changeText event med strengen 'banana' i et tekstfelt
+2. "Trykke" på knappen til at tilføje til en liste
+3. Finde alle elementer med 'banana' og tjekke om listen indeholder 'banana'
+
+## Snapshot testing:
+Det er også muligt at teste ens komponenters layout og design. 
+Et komponent snapshot kan forklares som en nemmere læsbar udgave af en tsx/jsx komponent, som bliver genereret under en test. 
+
+```typescript
+<Text
+  style={
+    Object {
+      "fontSize": 20,
+      "textAlign": "center",
+    }
+  }>
+  Welcome to React Native!
+</Text>
+```
