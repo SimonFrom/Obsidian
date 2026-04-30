@@ -72,3 +72,11 @@ Et komponent snapshot kan forklares som en nemmere læsbar udgave af en tsx/jsx 
   Welcome to React Native!
 </Text>
 ```
+
+Som en generel regel er det vigtigt at holde ens snapshots små og kun til enkelt stående komponenter, ikke hele sider, en knap eller tekst felt f.eks. Alt der ikke matcher snapshottet vil få testen til at fejle, så selv meget små ændringer vil give en fejl.
+
+## End-To-End/E2E test:
+Ønsker man at teste ens komplette app kan man bruge E2E tests. Her tænker man ikke på komponenter, api'er eller logik. 
+Her kan man finde og interagere med elementer på skærmen, teste om elementer rent faktisk renderer, hvad tekst der står og så videre...
+
+[Detox](https://github.com/wix/detox/), [appium](https://appium.io/docs/en/latest/) og [Maestro](https://docs.maestro.dev/) er populære tools til E2E.
