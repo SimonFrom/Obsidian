@@ -1,4 +1,4 @@
-## Generelt
+!## Generelt
 **Indledning — hvad er det:** 
 React Native er et framework, til at bygge native mobilapps til iOS og Android med JavaScript eller TypeScript og React biblioteket. 
 Hele ideen med React Native er at du skriver koden én gang, og den kører på både iOS og Android. Det sparer enormt meget tid og penge sammenlignet med at bygge to separate native apps. 
