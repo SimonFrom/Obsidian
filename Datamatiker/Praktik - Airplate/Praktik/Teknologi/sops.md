@@ -6,5 +6,7 @@
 ### Beskrivelse:
 
 ^d51967
+Sops er et krypterings værktøj med `private` og `public` keys.
+
 
 ### Kommandoer:
