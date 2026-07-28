@@ -4,7 +4,6 @@
 
 
 ### Beskrivelse:
-
 ^d51967
 Bun er en package manager til Node.js, ligesom npm, yarn eller pnpm. 
 
@@ -13,7 +12,6 @@ Kendetegn:
 - **Alsidig** Passer ind i alle projekter med en package.json fil.
 - **bunx**. Starter npm pakker næsten med det samme, ligesom npx. 
 ### Kommandoer:
-
 ^54d8de
 > 
 >`bun run bringup --dev  --mode traefik --skip-alerts --skip-live-listener-check`
