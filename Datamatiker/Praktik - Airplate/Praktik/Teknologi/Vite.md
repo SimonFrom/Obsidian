@@ -22,8 +22,8 @@ Vite gør det anderledes. Det bliver splittet op i to miljøer, dev og prod.
 ### Kommandoer:
 ^edd94f
 
-> Start dev server
-> `bun run dev`
+> Start dev server med AirPlate theme sat
+> `bun dev:default`
 
 > Start prod build
 > `bun run build`
