@@ -29,3 +29,6 @@ Kendetegn:
 > Start en pakke binary uden at installere den globalt
 > `bunx <pakke navn>`
 
+> Start dev frontend
+>  VITE_API_HOST=localhost:3001 bun dev:default
+
