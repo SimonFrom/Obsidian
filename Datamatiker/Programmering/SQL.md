@@ -202,7 +202,7 @@ Normaliseringsformer i SQL-databaser bruges til at organisere data for at reduce
     - Her bliver en værdi fra tabel 1 knyttet til flere i tabel 2
     - Syntax for at skrive det i relations skema:
         - CUSTOMERS(CustomerID, FirstName, LastName, Phone, Birthday) Primær nøglen understreges og skrives først.
-        - ORDERS(OrderID, Order, _CustomerID_) Den fremmede nøgle til at kæde tabellerne sammen med skrives med rød og i kursiv.
+        - ORDERS(OrderID, Order, <font color="#c0504d">CustomerID</font>) Den fremmede nøgle til at kæde tabellerne sammen med skrives med rød og i kursiv.
           
         
 - ![Exported image](Exported%20image%2020251104231007-9.png)
