@@ -1,4 +1,6 @@
+## 03-08-2026
 Jeg har løst merge konflikter for min feature fra sidste uge.
 
 Jeg har også arbejdet videre med scanner gruppe funktionen. 
 Der var lidt der skulle ændres fra sidste uge database mæssigt, gruppe_nummer gav ikke mening at have med alligevel, så det skulle slettes fra docker databasen. 
+
