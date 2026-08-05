@@ -15,3 +15,7 @@ Her blev det heldigvis fanget hurtigt i en tidlig feedback og er en relativt lil
 ## 05-08-2026
 Ikke fylde db
 Localstorage?
+Idag opstod et problem. Med det database design/skema jeg havde startet med at lave var der faktisk ikke nogen måde at persistere navnene på grupperne, med mindre at der var nogle scannere i gruppen hvilket der ikke nødvendigvis er. 
+
+Jeg prøvede at lave en løsning med at bruge localStorage da min tanke var at så længe det persisterede indtil dashboardet blev lukket var fint. Men der bliver åbenbart gemt en masse andre ting i localStorage og jeg har ikke nogen måde at skille mit fra det. 
+Så løsningen blev at lave en tabel mere i databasen med id og gruppe navn. Så bliver navnet gemt der og kan genbruges og forsvinder uanset om der er indhold i.
