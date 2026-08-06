@@ -19,3 +19,7 @@ Idag opstod et problem. Med det database design/skema jeg havde startet med at l
 
 Jeg prøvede at lave en løsning med at bruge localStorage da min tanke var at så længe det persisterede indtil dashboardet blev lukket var fint. Men der bliver åbenbart gemt en masse andre ting i localStorage og jeg har ikke nogen måde at skille mit fra det. 
 Så løsningen blev at lave en tabel mere i databasen med id og gruppe navn. Så bliver navnet gemt der og kan genbruges og forsvinder uanset om der er indhold i.
+
+
+## 06-08-2026
+Sygedag
