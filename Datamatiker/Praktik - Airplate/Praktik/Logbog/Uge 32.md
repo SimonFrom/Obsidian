@@ -6,9 +6,9 @@ Tirsdag fandt jeg en central misforståelse i kravene. Jeg havde tænkt relation
 
 Onsdag stødte jeg på et persisteringsproblem. Gruppenavne kunne ikke gemmes, hvis gruppen ikke havde scannere tilknyttet. Min første ide var localStorage, men den blev droppet, fordi det blandede sig med andet gemt data uden mulighed for at adskille det. Løsningen blev i stedet en dedikeret `SCANNER_GROUP_NAMES` tabel med id og navn, en renere, mere robust løsning end en client-side workaround.
 
-Torsdag var sygedag.
+Torsdag var desværre en barn syg dag.
 
-Fredag landede min første feature på produktionsserveren, en fin milepæl. Jeg fandt og lukkede også et sikkerhedshul, gruppenavne kunne læses på tværs af organisationer, hvilket potentielt afslørede, hvor andre organisationer havde scannere placeret. Det blev løst ved at tilføje `organization_id` til gruppe-tabellen, så data isoleres pr. organisation, noget der matcher den organisation_id-isolation, jeg også har arbejdet med andre steder i systemet. Jeg fik desuden lavet en elegant løsning til gruppesletning direkte fra dropdown'en, inklusiv separat håndtering af, om scannere blot skal fjernes fra gruppen eller om selve gruppen skal slettes.
+Fredag landede min første feature på produktionsserveren, en fin milepæl. Jeg fandt og lukkede også et lille sikkerhedshul jeg selv havde skabt, gruppenavne kunne læses på tværs af organisationer, hvilket potentielt afslørede, hvor andre organisationer havde scannere placeret. Det blev løst ved at tilføje `organization_id` til gruppe-tabellen, så data isoleres pr. organisation, noget der matcher den organisation_id-isolation, jeg også har arbejdet med andre steder i systemet. Jeg fik desuden lavet en elegant løsning til gruppesletning direkte fra dropdown'en, inklusiv separat håndtering af, om scannere blot skal fjernes fra gruppen eller om selve gruppen skal slettes.
 
 ## 03-08-2026
 Jeg har løst merge konflikter for min feature fra sidste uge.
