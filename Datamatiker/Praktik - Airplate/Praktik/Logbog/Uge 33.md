@@ -8,7 +8,8 @@ Der var ikke de store rettelser, både på grund af en beskrivelse fra start af,
 Jeg lavede pull request på både front end og backend siden og skrev et database migrations script til nemt at kunne opdatere dev databasen.
 
 ## 11-08-2026
-Påmindelse om git struktur og disciplin. Da grupperings featureren skulle merges ind til dev testing var der en masse merge konflikter. Hvilket jeg ikke helt kunne forstå siden at så lang tid siden den var oprettet. Men umiddelbart er mit gæt at jeg har branchet ud fra min tidligere feature branch og ikke master. Så der var jo helt naturligt en masse ting der manglede. 
+Påmindelse om git struktur og disciplin. Da grupperings featureren skulle merges ind til dev testing var der en masse merge konflikter. Hvilket jeg ikke helt kunne forstå, eftersom at det ikke var så lang tid siden den var oprettet. Men mit umiddelbare gæt at jeg har branchet ud fra min tidligere feature branch og ikke master. Så der var jo helt naturligt en masse ting der manglede. De blev løst med en merge commit og derefter kunne alt merges. 
+Der kom også lidt små ændringer til UI, mest nogle farver der lige skulle ændres lidt for et andet visuelt udtryk.
 
 ## 12-08-2026
 
