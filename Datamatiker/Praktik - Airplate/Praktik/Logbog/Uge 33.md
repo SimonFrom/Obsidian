@@ -24,7 +24,9 @@ Dagen gik med opstart på en ny opgave. Ved nye opgaver har jeg prøvet at struk
 	- Review kører af to omgange. Et par hurtige peer reviews igennem iterationerne af opgaven og tilsidst en "bruger test" på vores dev server som resten af virksomheden hjælper med.
 
 ## 13-08-2026
-
+Idag har været lidt en planlægning og tænke tanker dag. 
+Den nye opgave er en mulighed for at vælge notifikationer til eller fra på sensorer eller områder. 
+Sensorer fungerer umiddelbart som det skal da alt data man skal bruge er tilgængelig på frontend siden, men zonerne er kun tilgængelige på backend siden. 
 
 
 ## 14-08-2026
