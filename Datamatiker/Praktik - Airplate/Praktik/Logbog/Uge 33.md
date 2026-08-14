@@ -27,6 +27,11 @@ Dagen gik med opstart på en ny opgave. Ved nye opgaver har jeg prøvet at struk
 Idag har været lidt en planlægning og tænke tanker dag. 
 Den nye opgave er en mulighed for at vælge notifikationer til eller fra på sensorer eller områder. 
 Sensorer fungerer umiddelbart som det skal da alt data man skal bruge er tilgængelig på frontend siden, men zonerne er kun tilgængelige på backend siden. 
+Så det kræver en lidt større ændring backend mæssigt som lige skal planlægges ordentligt. 
 
+Derudover havde vi i studie gruppen også planlagt et møde til at drøfte mulige afsluttende samarbejdspartnere og projekter. Vi blev enige om at sige ja tak til et samarbejde med Frank Institute Of Sports omkring at lave en webapp til at beregne kalorie og kulhydrat indtag i forbindelse med sport, nærmere bestemt cykling, løb og triathlon som kan indgå i deres coaching af kunder. Det er en proces som idag bliver gjort manuelt igennem excel ark, så en oplagt mulighed for at sætte lidt mere strøm til et projekt. 
 
 ## 14-08-2026
+Dagen idag stod på lidt bug fixing og refaktorering af en filter funktion til at vælge zoner til og fra. Det er både frontend og backend der skal ændres og ændringen på backend skal også bruges løsningen med at kunne vælge sensorer fra eller til.
+
+Det bliver en lidt større ændring og der er forskellige måde det kunne gøres på, så jeg har brugt noget af dagen på at sparre med kollegaer og Claude for at danne et overblik. 
