@@ -8,7 +8,8 @@ I den her sammenhæng tænker jeg at det mest er fordi jeg har svært ved rigtig
 Men jeg holder ved og fortsætter selvfølgelig. 
 
 ## 18-08-2026
-
+Notifikations feature klar til review. Jeg er lidt i tvivl om det rent faktisk virker efter hensigten da den websocket der bruges til kommunikation ikke er tilgængelig når programmet køres som localhost grundet nogle certifikater som bliver sat op når der er kontakt til serveren. 
+Dog har jeg testet med manuelt lavet objekter som bliver sendt til frontend, som skulle ligne det backenden burde sende. 
 
 ## 19-08-2026
 
