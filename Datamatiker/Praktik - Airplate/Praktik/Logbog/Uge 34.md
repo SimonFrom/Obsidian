@@ -23,7 +23,8 @@ Eftersom at man nogle gange programmere at "testen" skal klikke på en knap elle
 Motivationen er også vendt igen efter starten på ugen, hvorfor ved jeg ikke, men jeg er mere positivt stemt nu i hvert fald.
 
 ## 21-08-2026
-
+Jeg fik skrevet testene færdige. Jeg valgte at opdele det i 3 forskellige test for at have en sund afkobling mellem dem.
+Nu skal jeg igang med at dokumentere de nye features jeg har lavet indtil så de kan sendes ud til kunder og komme rigtigt i produktion.
 
 
 ### Svar til Leif på mail:
