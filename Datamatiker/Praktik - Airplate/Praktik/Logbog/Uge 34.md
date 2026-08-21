@@ -17,7 +17,10 @@ Men jeg fik startet op på at skrive Playwright test til notifikations features.
 Mønstret minder meget om AAA som vi kender fra vores unit tests i undervisningen, men med en anden syntax selvfølgelig. Men overordnet med arrange, act og assert er det meget ens.
 
 ## 20-08-2026
+Jeg skrev videre på tests. 
+Eftersom at man nogle gange programmere at "testen" skal klikke på en knap eller valgmulighed, kan man være nødt til lige frem at programmere en ventetid eller dobbelt tjekke at det rent faktisk eksisterer på siden inden der klikkes, ellers vil testen fejle på det og ikke på om koden rent faktisk fungerer efter hensigten.
 
+Motivationen er også vendt igen efter starten på ugen, hvorfor ved jeg ikke, men jeg er mere positivt stemt nu i hvert fald.
 
 ## 21-08-2026
 
