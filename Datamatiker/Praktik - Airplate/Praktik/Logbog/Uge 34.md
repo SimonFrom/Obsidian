@@ -1,5 +1,11 @@
 ## Sammendrag:
+Ugen startede lidt tungt, hvor jeg gik igennem en periode med tvivl om mit uddannelsesvalg. Det bundede primært i, at jeg havde svært ved at føle et reelt ejerskab over det projekt, jeg er en del af i praktikken, da jeg ikke har været med fra starten, noget jeg kunne se giver visse udfordringer, når man skal ud og arbejde i praksis. Jeg mærkede også, at jeg i højere grad så frem til vores kommende eksamensprojekt end til de resterende uger i praktikken, men jeg holdt fast og fortsatte arbejdet.
 
+Fagligt fik jeg gjort en notifikationsfeature klar til review, om end jeg var lidt usikker på, om den fungerede fuldstændig efter hensigten, da websocket-forbindelsen ikke var tilgængelig lokalt grundet certifikatopsætning mod serveren. Jeg løste det ved at teste med manuelt konstruerede objekter, der efterlignede det, backenden forventes at sende.
+
+Efter en dag primært præget af kontorflytning kom jeg i gang med at skrive Playwright-tests til notifikationsfeaturen. Jeg opdagede, at testmønstret minder meget om AAA-strukturen (Arrange, Act, Assert), som vi kender fra unit tests i undervisningen, blot med en anden syntaks. I forbindelse med testskrivningen lærte jeg også, at man ofte er nødt til at indbygge ventetid eller eksplicit tjekke, at et element faktisk findes på siden, før der interageres med det ellers risikerer testen at fejle på grund af timing frem for reel funktionalitet.
+
+Hen mod slutningen af ugen vendte motivationen heldigvis, og jeg fik færdiggjort testene, som jeg valgte at opdele i tre separate tests for at holde en god afkobling mellem dem. Ugen sluttede med, at jeg skulle i gang med at dokumentere de nye features, så de kan gøres klar til kunder og komme i egentlig produktion.
 
 ## 17-08-2026
 Sløv dag.
