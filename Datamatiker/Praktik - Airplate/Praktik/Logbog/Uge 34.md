@@ -1,5 +1,6 @@
 ## Sammendrag:
 
+
 ## 17-08-2026
 Sløv dag.
 Det har faktisk været en træls dag at komme igennem idag. Jeg er blevet enormt meget i tvivl om jeg egentlig har valgt den rigtige uddannelse. 
