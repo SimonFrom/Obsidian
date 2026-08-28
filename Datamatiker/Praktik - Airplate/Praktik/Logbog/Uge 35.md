@@ -9,7 +9,8 @@ Nyhedsbrevet er også en oplagt mulighed til at opfordre til feedback fra bruger
 Efter feedback på nyhedsbrev færdigjorde jeg det og det er nu til den sidste godkendelse. Jeg fik også en ny opgave som består i at tilpasse PDF genereringen til også at håndtere organisationer kun med sensorer, før var det kun med alarm zoner. 
 
 ## 26-08-2026
-
+Pdf genereringen gik ret glidende og voldte ikke de store problemer. 
+Der var ikke så meget nyt i det, det var fint med en refaktorerings opgave, det gav en fin status på at jeg har fået en forståelse for hvor tingene ligger og findes i programmet
 
 ## 27-08-2026
 
