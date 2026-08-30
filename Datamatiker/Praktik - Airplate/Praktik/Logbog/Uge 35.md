@@ -1,4 +1,9 @@
 ## Sammendrag:
+Ugen bød på arbejde med et nyhedsbrev til kunder om de nye features, hvilket gav anledning til nogle refleksioner om dokumentation som fagligt emne. Jeg synes at formidling af begrundelse og brug af nye features nok ikke er noget, man umiddelbart forbinder med faget, men at dokumentation reelt kan opdeles i to spor: en teknisk del til andre udviklere og en brugervejledning til slutbrugere, der fungerer som en ensidet forventningsafstemning af, hvad man kan forvente at kunne gøre med et produkt. Et nyhedsbrev er en oplagt anledning til at opfordre til feedback, da brugere, der bliver gjort opmærksomme på nye features, ofte selv vil afprøve dem og dermed fange bugs, som enten er blevet overset eller er hardwarebaserede.
+
+Efter feedback blev nyhedsbrevet færdiggjort og sendt til endelig godkendelse. Sideløbende fik jeg en ny opgave, der gik ud på at tilpasse PDF-genereringen, så den også kunne håndtere organisationer med kun sensorer og ikke udelukkende alarmzoner som tidligere. Denne opgave forløb glidende uden større udfordringer, og selvom der ikke var meget nyt i det rent teknisk, gav refaktoreringsopgaven en god status på, at jeg efterhånden har opnået en solid forståelse for programmets opbygning.
+
+Jeg reflekterede desuden over, hvor svært jeg synes det er at drage flere paralleller til undervisningen, end jeg allerede har gjort. Ud over begreber som afkobling og AAA-mønsteret kan jeg på systemudviklingssiden mest konstatere, at der arbejdes agilt, men uden at det minder om de mere strukturerede metoder og praksisser, vi har lært på uddannelsen. Jeg kunne selvfølgelig godt foreslå at indføre de ting som vi har mødt i undervisningen, men konkluderede, at det ikke er min plads at gøre det – jeg er i praktikken for at opleve, hvordan det er at være i en virksomhed, ikke for at ændre på den.
 
 ## 24-08-2026
 Jeg har idag skrevet nyhedsbrev som skal sendes ud til kunder omkring de nye features. 
