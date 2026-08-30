@@ -13,8 +13,9 @@ Pdf genereringen gik ret glidende og voldte ikke de store problemer.
 Der var ikke så meget nyt i det, det var fint med en refaktorerings opgave, det gav en fin status på at jeg har fået en forståelse for hvor tingene ligger og findes i programmet
 
 ## 27-08-2026
-
-
+Jeg synes det er enormt svært at drave parreleller til dele fra undervisningen, mere end jeg allerede har gjort. Jeg kan da godt blive ved med at nævne afkobling, AAA og hvad jeg ellers har sagt indtil videre. Men på systemudviklings siden kan jeg ikke sige så meget andet end at vi arbejder meget agilt. Det jeg har haft med at gøre er meget simpelt og ikke i nærheden af de strukturer, praksisser og metoder vi har lært på uddannelsen. 
+Her kunne man måske sige at "Men så kan du jo bare foreslå at bruge scrum, sashimi osv osv", men det synes jeg overhovdet ikke er min plads. 
+Jeg er der for at opleve hvordan det er at være i en virksomhed, ikke rette på dem. 
 ## 28-08-2026
 
 
