@@ -5,7 +5,7 @@
 Et forslag som du kan tage med til de andre undervisere og måske endda bruge til de kommende hold, kunne være nogle øvelser i det her med at læse og finde rundt i noget større systemer end dem vi laver i undervisningen. Gerne noget rigtig produktions kode som er dejligt rodet og med teknisk gæld hist og her. 
 Det er noget som jeg synes har været enormt de-motiverende i de første par uger. 
 Hvordan man lige gør det praktisk i forbindelse med undervisningen, har jeg ikke lige den gode ide til. 
-Men det kunne sagtens være et lidt længere forløb over en uge eller to hvor de studerende fik udleveret koden uden noget dokumentation og så skulle dokumentere og eventuelt implementere nye ting i programmet som snakker sammen med det gamle. 
+Men det kunne sagtens være et lidt længere forløb over en uge eller to hvor de studerende fik udleveret koden uden noget dokumentation og så skulle dokumentere og eventuelt implementere nye tbng i programmet som snakker sammen med det gamle. 
 
 ## 08/09/2026
 En ting jeg skal arbejde med personligt, er det med at tage munden for fuld. 
@@ -22,4 +22,3 @@ En er mængden af data der kan være. Det kan nemt flere tusinder gps spor med e
 ## 11/09/2026
 En anden ting til zone backfill som jeg arbejder på er at flytte den store opgave i at lede hele databasen igennem til en baggrunds tråd og så kun vise et lille udsnit lige efter zonen er lavet. 
 Jeg har to ideer som jeg vil arbejde videre udfra, de minder meget om hinanden men er ret forskellige alligevel.
-Grundideen er at 
