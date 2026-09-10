@@ -16,6 +16,10 @@ Det er ikke noget som jeg føler jeg har skulle tænke over på studiet før, me
 
 
 ## 10/09/2026
-
-
+Jeg er igang med at lave en ny feature som har vist sig at være ret omfattende og med ret meget kød på. Opgaven går ud på at når man laver en ny alarm zone, skal den historiske aktivitet kunne ses. 
+I teorien er det jo simpelt nok, men der er mange faktorer der spiller ind. 
+En er mængden af data der kan være. Det kan nemt flere tusinder gps spor med enkelte punkter der er gemt i databasen, der skal tjekkes igennem for om de koordinater rammer noget i den nye zone. Med de linjer der er i databasen, er det ikke utænkeligt at det ville tage et sted imellem 15-30 minutter at kigge det hele igennem for at bedømme om der er krydset ind i alarmzonen. Løsningen bliver højst sandsynligt at starte med at tjekke enten take off lokation eller operatør lokation og se om de er indenfor 10-15 km af den nye zone, det er meget usandsynligt at der vil være nogle krydsninger af zonen så langt væk fra og det er meget hurtigere at tjekke en lille del af hver linje end at skulle gå hele gps sporet igennem. 
 ## 11/09/2026
+En anden ting til zone backfill som jeg arbejder på er at flytte den store opgave i at lede hele databasen igennem til en baggrunds tråd og så kun vise et lille udsnit lige efter zonen er lavet. 
+Jeg har to ideer som jeg vil arbejde videre udfra, de minder meget om hinanden men er ret forskellige alligevel.
+Grundideen er at 
