@@ -10,10 +10,10 @@ Ting jeg har lavet/skiftet på den:
 - Bagdæk skiftet for 5000 km siden ca
 - Renoveret karburator med nye dyser og pakninger
 - Oilefilter
-- Køleevæske
+- Kølervæske
 - Batteri skiftet 17/8/2026
 - Gaffel service
-Jeg kører på den dagligt stort set og den kører godt, dog er der nogle ting som man bør kigge på.
+Jeg kører på den flere gange ugentligt og den kører godt, dog er der nogle ting som man bør kigge på.
 - Kæde kit (Trænger meget og bør laves inden sæson start).
 - Renoveret forbremse kalibere. Den højre hænger lidt for meget og kan ikke masseres væk desværre.
 - Efter renoveringen af karburatorene, er der en pakning ved et af svømmerhusene der sidder en lille smule skævt og gør at den lugter benzin. Den drypper ikke eller bruger mere end den har gjort før og jeg har kørt med det uden problemer.
