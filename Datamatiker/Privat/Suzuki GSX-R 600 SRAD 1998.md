@@ -2,17 +2,17 @@ Så er tiden kommet til den skal videre.
 God solid starter cykel til dem der skal have en sports motorcykel og ud og nyde sommeren. Den har ikke kørt voldsomt mange km, den står på 38.xxx, men slår du nummerpladen op kan man se at det nok ikke passer helt. Tidligere ejer mente at den havde fået skiftet speedometer til et med ca 10.000 km mindre, så omkring 48.xxx kørte km. 
 
 Ting jeg har lavet/skiftet på den:
-- Dominator udstødning med db-killer
-- Bremseklodser og skiver foran
+- Dominator udstødning med db-killer 
+- Bremseklodser og skiver foran i 2026
 - Bremse og koblings greb
-- Nyt benzin filter og slanger fra tank til karburator
+- Nyt benzin filter og slanger fra tank til karburator i 2026
 - USB oplader
 - Bagdæk skiftet for 5000 km siden ca
-- Renoveret karburator med nye dyser og pakninger
+- Renoveret karburator med nye dyser og pakninger i 2026
 - Oilefilter
 - Kølervæske
 - Batteri skiftet 17/8/2026
-- Gaffel service
+- Gaffel service i 2025
 Jeg kører på den flere gange ugentligt og den kører godt, dog er der nogle ting som man bør kigge på.
 - Kæde kit (Trænger meget og bør laves inden sæson start).
 - Renoveret forbremse kalibere. Den højre hænger lidt for meget og kan ikke masseres væk desværre.
