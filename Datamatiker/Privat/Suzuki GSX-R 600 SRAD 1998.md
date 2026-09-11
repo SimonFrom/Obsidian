@@ -12,7 +12,7 @@ Ting jeg har lavet/skiftet på den:
 - Oilefilter
 - Kølervæske
 - Batteri skiftet 17/8/2026
-- Gaffel service i 2025
+- Gaffel service i 2025, bør nok laves igen næste indenfor et år eller to
 Jeg kører på den flere gange ugentligt og den kører godt, dog er der nogle ting som man bør kigge på.
 - Kæde kit (Trænger meget og bør laves inden sæson start).
 - Renoveret forbremse kalibere. Den højre hænger lidt for meget og kan ikke masseres væk desværre.
