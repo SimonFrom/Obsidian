@@ -46,20 +46,23 @@ Rough shape only. Types, nullability, and exact fields are not settled.
 - Name
 - ProfilePictureUrl (points to blob storage)
 - Area / Location
+- AvailableRadius
 - Qualifications: list of `Qualification`
 - CanDoPhysicalWork: bool
 - ContactInfo
 
-**OrganizerProfile** (Group B)
+**OrganizationProfile** (Group B)
 - Id
 - OrganizationName
 - Description
 - VerificationStatus (nullable for v1)
 - ContactInfo
+- WebsiteURL
+- LogoURL
 - Multiple Users can administer one OrganizerProfile — see `OrganizerAdmin` below. Not 1:1 with User.
 
 **OrganizerAdmin** (join table, OrganizerProfile ↔ User)
-- OrganizerProfileId
+- OrganizationProfileId
 - UserId
 - CreatedAt
 
@@ -68,18 +71,38 @@ Rough shape only. Types, nullability, and exact fields are not settled.
 - Name (free text, normalized on submit — e.g. trimmed, capitalized)
 - Category: enum, e.g. `DriverLicense`, `Certificate`, `Profession`
 - Existing entries are surfaced as autocomplete suggestions when a user adds a new one, to nudge convergence on shared wording over time rather than enforcing a fixed list upfront.
+- Exception: `DriverLicense` doesn't need free-text normalization since Danish driving license categories are a fixed, legally standardized list — this can be a real enum (`DriverLicenseCategory`) instead of free text:
+	- `AM_Lille` — lille knallert, 30 km/t
+	- `AM_Stor` — stor knallert, 45 km/t
+	- `A1` — let motorcykel, op til 125 cm³
+	- `A2` — mellemstor motorcykel, op til 35 kW
+	- `A` — motorcykel, ingen effektbegrænsning
+	- `B` — personbil, op til 3.500 kg
+	- `B96` — personbil med tungere trailer end almindelig B tillader
+	- `BE` — personbil med tungt påhængskøretøj/trailer
+	- `C1` — lastbil, 3.500–7.500 kg
+	- `C1E` — C1 med anhænger
+	- `C` — lastbil, over 3.500 kg
+	- `CE` — lastbil med anhænger (sættevogn)
+	- `D1` — minibus, 9–16 passagerer
+	- `D1E` — D1 med anhænger
+	- `D` — bus, over 16 passagerer
+	- `DE` — bus med anhænger
+	- `T` — traktor/motorredskab
 
 **Event**
 - Id
-- OrganizerId (→ OrganizerProfile)
+- OrganizationId (→ OrganizerProfile)
 - Name
+- Description
 - Type / Category
 - Location
-- DateTime
+- Start and End date - DateTime
 - Compensation: string
 - QualificationsNeeded: list of `HelperRole.Qualifications`
 - Status: `Draft` | `Published` | `Cancelled` | `Completed`
-- CreatedAt
+- CreatedBy
+- HelperRoles
 
 **HelperRole** 
 - Id
