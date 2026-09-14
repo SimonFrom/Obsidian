@@ -40,6 +40,7 @@ Group A should also **never** have any costs involved with their use of the appl
 	- Client/Server for seperation between front and backend.
 	- Service and repository pattern.
 	- SOLID principle.
+	- DRY principle. Reuse or ensure polymorphism for classes and methods.
 - Backend:
 	- Written in C#
 	- Incorporates Identity and Entity Frameworks for authentication and object management.
