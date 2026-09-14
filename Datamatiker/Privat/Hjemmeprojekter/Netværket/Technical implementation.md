@@ -38,29 +38,36 @@ Rough shape only. Types, nullability, and exact fields are not settled.
 **User** (Identity-backed)
 - Id
 - Email
-- Role: `VolunteerA` | `OrganizerB` (open question: one `Role` enum, or fully separate account types from the start?)
+- Role: `Volunteer` | `Organizer` 
 - CreatedAt
 
 **VolunteerProfile** (Group A, 1:1 with User)
 - UserId
 - Name
-- ProfilePictureUrl (points to blob storage, see [[Mission statement]] Tech stack)
+- ProfilePictureUrl (points to blob storage)
 - Area / Location
 - Qualifications: list of `Qualification`
 - CanDoPhysicalWork: bool
-- ContactInfo (nullable, still open whether this is collected at all, see Mission statement)
+- ContactInfo
 
-**OrganizerProfile** (Group B, 1:1 with User)
-- UserId
+**OrganizerProfile** (Group B)
+- Id
 - OrganizationName
 - Description
-- VerificationStatus (open: verification itself is out of scope for MVP, but the field may still need to exist as a placeholder)
+- VerificationStatus (nullable for v1)
 - ContactInfo
+- Multiple Users can administer one OrganizerProfile — see `OrganizerAdmin` below. Not 1:1 with User.
+
+**OrganizerAdmin** (join table, OrganizerProfile ↔ User)
+- OrganizerProfileId
+- UserId
+- CreatedAt
 
 **Qualification**
 - Id
-- Name
+- Name (free text, normalized on submit — e.g. trimmed, capitalized)
 - Category: enum, e.g. `DriverLicense`, `Certificate`, `Profession`
+- Existing entries are surfaced as autocomplete suggestions when a user adds a new one, to nudge convergence on shared wording over time rather than enforcing a fixed list upfront.
 
 **Event**
 - Id
@@ -69,25 +76,24 @@ Rough shape only. Types, nullability, and exact fields are not settled.
 - Type / Category
 - Location
 - DateTime
-- Compensation (free text or structured? open question)
-- QualificationsNeeded: list of `Qualification`
+- Compensation: string
+- QualificationsNeeded: list of `HelperRole.Qualifications`
 - Status: `Draft` | `Published` | `Cancelled` | `Completed`
 - CreatedAt
 
-**HelperRole** (the renamed "Open positions", 1:N under Event)
+**HelperRole** 
 - Id
 - EventId
 - Title
-- Description (nullable)
+- Description
 - SlotsAvailable
-- QualificationsRequired (nullable, overrides/adds to Event-level qualifications?)
 
 **EventSelection** (a Group A member selecting into an event/role, name TBD)
 - Id
 - EventId
-- HelperRoleId (nullable if roles aren't granular yet)
+- HelperRoleId
 - VolunteerId
-- Status: `Pending` | `Accepted` | `Declined`
+- Status: `Pending` | `Contacted` | `Declined` — B is notified once A selects, then decides whether to reach out (`Contacted`) or not (`Declined`); this is B's only checkpoint, since B can't see or contact A before this point.
 - CreatedAt
 
 **Rating** (see [[Mission statement]] Trust & Safety)
@@ -117,11 +123,13 @@ Rough shape only. Types, nullability, and exact fields are not settled.
 - CreatedAt
 - Open question: delivery mechanism (email/push/in-app-only) not decided, see Mission statement Tech stack.
 
+### Decisions:
+- **User model:** Single `User` table with a `Role` field (`Volunteer` | `Organizer`), shared Identity/login logic. Group A/B separation happens in program flow, not at the account-model level.
+- **Auth:** JWT, confirmed for the token-based API/React Native setup.
+- **EventSelection semantics:** Not a hard commitment either A or B can be forced into. A selects an event/role; B is then notified and decides whether to contact A or not — that decision (`Contacted` / `Declined`) is B's only real checkpoint, since B has no visibility into or access to A before this point.
+- **HelperRole:** Mandatory. Every event defines at least one `HelperRole`, even for a single generic ask.
+- **Qualification management:** Free text, normalized on submit (trim, capitalize, etc.) rather than a fixed predefined list — a fixed list would need full up-front coverage of every possible human qualification, which isn't feasible. As the qualification table fills up, existing entries feed autocomplete suggestions, nudging convergence toward shared wording over time instead of enforcing it upfront.
+- **Multi-tenancy:** One `OrganizerProfile` can have multiple admin `User`s. Modeled as `OrganizerProfile` ↔ `User` via a join table (`OrganizerAdmin`), not a 1:1 relationship.
+
 ### Open questions:
-- Single `User` table with a `Role` field vs. fully separate `Volunteer`/`Organizer` account models. Affects Identity setup and how much shared logic (e.g. login) can be reused.
-- Auth strategy for the API: leaning JWT, since React Native (a separate client repo, not server-rendered) needs a token-based approach rather than cookies.
-- Is `EventSelection` a hard commitment or more like an "interest" that Group B still has to accept? Mission statement doesn't specify whether Group B can decline a volunteer.
-- Should `HelperRole` be mandatory (every event must define roles/slots) or can an event just have a single generic ask?
-- How are `Qualification` values managed: a fixed predefined list, or can Group B/Group A submit free-text ones?
-- Where does GDPR data-deletion (right to be forgotten) hook into this schema: cascade deletes, soft deletes, or anonymization?
-- Multi-tenancy: can one `OrganizerProfile` have multiple admin users, or is it strictly one User : one OrganizerProfile?
+- Where does GDPR data-deletion (right to be forgotten) hook into this schema: cascade deletes, soft deletes, or anonymization? Still to be determined.
