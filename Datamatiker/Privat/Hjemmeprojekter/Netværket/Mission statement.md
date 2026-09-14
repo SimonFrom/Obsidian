@@ -5,8 +5,9 @@ All technical documents will be written in english, but all UI and UX in the pro
 
 ### Purpose:
 The core of this application can be divided in two. 
-1. People who would like to find events to volunteer at in communities that they not necessarily are part of in their day to day, called "Group A" from now on.
-2. Communities or event managers who need volunteers to help out with their events, called "Group B" from now on.
+1. People who would like to find events to volunteer at in communities that they not necessarily are part of in their day to day, called **Group A** from now on.
+2. Communities or event managers who need volunteers to help out with their events, called 
+   **Group B** from now on.
 
 ### User flow:
 The flow can also be described from both perspectives:
@@ -35,6 +36,10 @@ Group A should also **never** have any costs involved with their use of the appl
 
 
 ### Tech stack:
+- Architecture:
+	- Client/Server for seperation between front and backend.
+	- Service and repository pattern.
+	- SOLID principle.
 - Backend:
 	- Written in C#
 	- Incorporates Identity and Entity Frameworks for authentication and object management.
