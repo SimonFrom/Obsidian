@@ -1,5 +1,9 @@
 ## Sammendrag
+Denne uge har jeg tænkt en del over, hvordan man kunne gøre undervisningen bedre – jeg tror det ville hjælpe med øvelser i at læse og finde rundt i større systemer end dem vi laver i undervisningen, gerne rigtig produktionskode der er lidt rodet og har teknisk gæld hist og her. Det har været en af de ting jeg har fundet mest demotiverende de første uger i praktikken. Kunne evt. være et forløb over en uge eller to, hvor man får udleveret udokumenteret kode og selv skal dokumentere den og bygge nyt oven på, der spiller sammen med det gamle.
 
+Jeg har også opdaget noget om mig selv: jeg er god til at tage imod opgaver og gå i gang, men jeg mister overblikket undervejs, og så falder både kvaliteten af arbejdet og mit udbytte af det. Det er ikke noget jeg har skullet forholde mig til før på studiet, for mængden af opgaver har været meget mere overskuelig de første fire semestre.
+
+Rent fagligt har jeg brugt tiden på en feature, hvor man skal kunne se historisk aktivitet, når man opretter en ny alarmzone. Lyder simpelt, men er det ikke helt – der kan være tusindvis af GPS-spor der skal tjekkes, og en naiv gennemgang ville nemt tage 15-30 minutter. Løsningen bliver at tjekke take off- eller operatørlokation op imod 10-15 km fra zonen først, da krydsninger længere væk er usandsynlige – det sparer en masse tid. Jeg arbejder også på at flytte selve databasegennemgangen over i en baggrundstråd, så man kun ser et lille udsnit af data lige efter zonen er oprettet, og har to lignende men forskellige ideer jeg går videre med.
 
 ## 07/09/2026
 Et forslag som du kan tage med til de andre undervisere og måske endda bruge til de kommende hold, kunne være nogle øvelser i det her med at læse og finde rundt i noget større systemer end dem vi laver i undervisningen. Gerne noget rigtig produktions kode som er dejligt rodet og med teknisk gæld hist og her. 
