@@ -61,9 +61,8 @@ Group A should also **never** have any costs involved with their use of the appl
 - Backend:
 	- Written in C#
 	- Incorporates Identity and Entity Frameworks for authentication and object management.
-- Frontend - To be determined:
-	-  Option 1: A Blazor frontend for MVP/V1 and later add a React Native frontend for cross platform apps.
-	- Option 2: Straight to a React Native frontend that will handle both the webapp and native apps.
+- Frontend:
+	- Leaning React Native from the start, handling both the webapp and native apps. Lives in a separate repo from the backend. Not fully final yet.
 - Database:
 	- A SQL database that for development purposes run from a local docker container and later will move to a hosted solution. Host is yet to be determined.
 - File storage:
