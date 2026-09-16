@@ -25,6 +25,11 @@ The core of this application can be divided in two.
 ### Success metric:
 - A concrete success metric for V1 (e.g. number of matched events, active users) is TBD.
 
+### Monetization:
+1. Per event flat rate
+2. Yearly/Monthly subscription
+3. Percentage of proceeds per event
+
 ### User flow:
 The flow can also be described from both perspectives:
 - Group A:
