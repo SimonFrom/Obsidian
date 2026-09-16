@@ -156,3 +156,4 @@ Rough shape only. Types, nullability, and exact fields are not settled.
 
 ### Open questions:
 - Where does GDPR data-deletion (right to be forgotten) hook into this schema: cascade deletes, soft deletes, or anonymization? Still to be determined.
+- Contact flow: Right now I'm leaning towards having Group A contact Group B managers to volunteer. Not the other way around. This is in part to ease the work load on Group B manegers. This way, one person has to contact one person. The other way it would be, one person has to contact many persons.

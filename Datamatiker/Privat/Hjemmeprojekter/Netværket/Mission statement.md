@@ -14,7 +14,7 @@ The core of this application can be divided in two.
 - There should be a way to report to developers or block another user.
 
 ### Privacy:
-- The app handles personal data (name, photo, location, qualifications, contact info) that becomes visible to Group B once a Group A member selects an event. This must comply with GDPR.
+- To Be Determined: The app handles personal data (name, photo, location, qualifications, contact info) that becomes visible to Group B once a Group A member selects an event. This must comply with GDPR.
 
 ### Out of scope for MVP:
 - Verification of Group B organizers (manual approval vs. self-service). TBD, not required for V1.
