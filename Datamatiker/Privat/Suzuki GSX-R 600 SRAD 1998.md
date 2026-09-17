@@ -4,7 +4,7 @@ God solid starter cykel til dem der skal have en sports motorcykel og ud og nyde
 Ting jeg har lavet/skiftet på den:
 - Dominator udstødning med db-killer 
 - Bremseklodser og skiver foran i 2026
-- Bremse og koblings greb
+- PuigBremse og koblings greb
 - Nyt benzin filter og slanger fra tank til karburator i 2026
 - USB oplader
 - Bagdæk skiftet for 5000 km siden ca
