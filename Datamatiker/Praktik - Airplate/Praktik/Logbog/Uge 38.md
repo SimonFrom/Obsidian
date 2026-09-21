@@ -1,6 +1,6 @@
 ## Sammendrag:
 
-
+Jeg har ikke det store at skrive i den her uge. Jeg synes ikke det har været en særlig produktiv uge og jeg har haft lidt svært ved at koncentrere mig ordentligt, dog er jeg så småt gået igang med at samle sammen til praktik eksamen med de dokumenter jeg skal bruge som referencer og emner/projekter jeg vil fremhæve. 
 ## 14-09-2026
 
 ## 15-09-2026
