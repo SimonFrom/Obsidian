@@ -11,6 +11,8 @@ I tillæg til overstående er en anden side effekt af den meget agile tilgang at
 En anden ting er at de issues vi som udviklere arbejder udfra, ikke er skrevet af den endelige beslutnings tager. Så nogle gange er der sneget ting ind som slet ikke er dømt relevant og har resulteret i at jeg har brugt tid på noget som egentligt skulle slettes igen. 
 Hvis man satte sig og skrev de issues sammen med beslutnings tager, eller at han selv skrev dem, kunne det resultere i mere præcis udvikling og et mere autonomt flow. 
 
+Jeg har også arbejdet videre med eksamens forberedelse og samle materiale. Der udover er jeg også så småt gået igang med skrive min præsentation ned.
+
 #### 23/09/2026
 
 #### 24/09/2026
