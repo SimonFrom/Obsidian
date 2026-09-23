@@ -37,9 +37,9 @@ Dette var også ren frontend, men bød på en masse brug af If-Else udtryk at sk
 
 3. **Gruppering af sensorer i brugerskabte grupper**
 Sensorene havde ikke nogen inddeling før, kun delt op på organisations niveau.
-Jeg designede en ny tabel til MySQL databasen, med tanke på normalisering og sikring af korrekthed i databasen ved hjælp af cascading deletes. 
+Jeg designede en ny tabel til MySQL databasen, med tanke på normalisering og sikring af korrekthed i databasen ved hjælp af cascading deletes. Denne opgave gav også en læring? i vigtigheden af kravs afklaring/acceptance criteria. Det GitHub issue jeg arbejdede ud fra viste sig ikke at stemme helt overens med det ønskede udtryk og det endte med en god refaktorering inden endelig godkendelse. 
 **Refleksion:**
-Jeg fik brugt min viden omkring database design, herunder primary, foreign og composite keys og normaliserings former(Læs op og tjek). 
+Jeg fik brugt min viden omkring database design, herunder primary, foreign og composite keys og normaliserings former(Læs op og tjek) og så endnu engang vigtigheden af at et team ensretter i form af projektstyring.
 
 4. **Filtrerings funktion til visningen af live droner**
 
