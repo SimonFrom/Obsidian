@@ -11,11 +11,15 @@ MAC adressen bruges som det primære ID igennem programmet efterfølgende.
 Firmaet DJI har lavet deres egen standard, OcuSync. Her bliver der ikke sendt MAC, istedet sender den et takeoff punkt, dette punkt fungerer som ID igennem programmet istedet for.
 
 #### 2. Hvad har jeg lavet
+Fra første dag har der været stor frihed under ansvar. Jeg fik ret hurtigt den første opgave, et lille sammenlignings label på forsiden. 
+![[Pasted image 20260923084059.png]]
+![[Indsat billede.png]]
 #### 3. Hoved feature - Zone backfill og prioritering
-- Database setup:
+- **Database setup - Influx/Timeseries og MySQL:**
   Influx holder alle punkter som bliver logget og MySQL holder kun et repræsentativt punkt for hver flyvning. 
   Rå punkter streamer ind i influx, herefter kører der to jobs, time mæssigt og døgn baseret, som laver dem til komplette flyvninger med zoner og locations data og skriver dem til MySql og laver en række per flyvning. 
-- Begge databaser har data som den anden ikke har. Influx har f.eks hele rækken af punkter som sensoren har logget fra dronen, men i basalt set er det ikke logget som en flyvning, kun en bucket af punkter med nogle drone informationer.
-- MySQL derimod, samler al informationen sammenlignet på 
+- Begge databaser har data som den anden ikke har. Influx har f.eks hele rækken af punkter som sensoren har logget fra dronen, men basalt set er det ikke logget som en flyvning, kun en bucket af punkter/measurements med nogle drone informationer.
+- MySQL derimod, samler al informationen sammenlignet på enten MAC/Takeoff punkt(OcuSync droner), start og stop koordinat, men opbevarer kun et repræsentativt punkt for flyvningen. Det er disse tre felter der fungerer som nøgler imellem de to databaser.
+- Derfor er det også nødvendigt for at kunne få det fulde billede at kigge i begge databaser. 
 #### 4. Refleksion over praktikken
 
