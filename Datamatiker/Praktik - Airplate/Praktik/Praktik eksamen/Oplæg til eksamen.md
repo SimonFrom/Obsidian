@@ -23,10 +23,12 @@ Flowet kan beskrives i 4 trin:
 4. **Aflevering/Feedback - Iterativt**
    Arbejdet sendes til review af hele teamet. Igen kan en iterativ tilgang være nødvendig for at tilfredsstille både interne stakeholders, men også kundens behov. 
 
-Fra første dag har der været stor frihed under ansvar. Jeg fik ret hurtigt den første opgave, et lille sammenlignings label på forsiden. Kort fortalt bliver der sammenlignet i forhold til den tilsvarende forudgående periode, altså her bliver de sidste 3 dage sammenlignet med de 3 dage før det.
-![[Pasted image 20260923084059.png]]
-![[Indsat billede.png]]
-
+## Opgaver:
+**Labels til sammenligning af data perioder** 
+Min første opgave var tilføje labels som nemt kunne visning en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt give et overblik uden at man skulle finde og sammenligne tal.
+![[Indsat billede 1.png]]
+**Refleksion:** 
+I og med dette var min første kontakt med kode basen var den store udfordring at finde rundt og identificere de korrekte lister og variabler jeg kunne bruge. Grundviden omkring software arkitektur og komponent opbygning hjalp mig godt på vej her.
 
 
 #### 3. Hoved feature - Zone backfill og prioritering
