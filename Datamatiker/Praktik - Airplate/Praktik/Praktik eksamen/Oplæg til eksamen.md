@@ -24,12 +24,31 @@ Flowet kan beskrives i 4 trin:
    Arbejdet sendes til review af hele teamet. Igen kan en iterativ tilgang være nødvendig for at tilfredsstille både interne stakeholders, men også kundens behov. 
 
 ## Opgaver:
-**Labels til sammenligning af data perioder** 
-Min første opgave var tilføje labels som nemt kunne visning en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt give et overblik uden at man skulle finde og sammenligne tal.
+1. **Labels til sammenligning af data perioder** 
+Min første opgave var tilføje labels som nemt kunne visning en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt give et overblik uden at man skulle finde og sammenligne tal. En fin frontend opgave at starte ud på, da alt data var tilgængelig fra backend allerede.
 ![[Indsat billede 1.png]]
 **Refleksion:** 
-I og med dette var min første kontakt med kode basen var den store udfordring at finde rundt og identificere de korrekte lister og variabler jeg kunne bruge. Grundviden omkring software arkitektur og komponent opbygning hjalp mig godt på vej her.
+I og med dette var min første kontakt med kode basen var den store udfordring at finde rundt og identificere de korrekte lister og variabler jeg kunne bruge. Min grundviden omkring software arkitektur og komponent opbygning hjalp mig godt på vej her.
 
+2. **Opdatering af pdf rapport generering**
+Næste opgave bød på at jeg skulle lave mulighed for at organisationer som kun har sensorer og ikke abonnerer på alarm zoner kunne generere en rapport med aktivitet.
+**Refleksion:**
+Dette var også ren frontend, men bød på en masse brug af If-Else udtryk at skelne imellem den ene og den anden type.
+
+3. **Gruppering af sensorer i brugerskabte grupper**
+Sensorene havde ikke nogen inddeling før, kun delt op på organisations niveau.
+Jeg designede en ny tabel til MySQL databasen, med tanke på normalisering og sikring af korrekthed i databasen ved hjælp af cascading deletes. 
+**Refleksion:**
+Jeg fik brugt min viden omkring database design, herunder primary, foreign og composite keys og normaliserings former(Læs op og tjek). 
+
+4. **Filtrerings funktion til visningen af live droner**
+
+
+**Refleksion:**
+
+5. **Backfill af aktivitet i ny oprettede zoner**
+
+**Refleksion:**
 
 #### 3. Hoved feature - Zone backfill og prioritering
 - **Database setup - Influx/Timeseries og MySQL:**
