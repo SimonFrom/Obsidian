@@ -37,7 +37,7 @@ Fra første dag har der været stor frihed under ansvar. Jeg fik ret hurtigt den
 - MySQL derimod, samler al informationen sammenlignet på enten MAC/Takeoff punkt(OcuSync droner), start og stop koordinat, men opbevarer kun et repræsentativt punkt for flyvningen. Det er disse 3 felter der fungerer som nøgler imellem de to databaser.
 - Derfor er det også nødvendigt at kigge i begge databaser for at kunne få det fulde billede. MySQL for at få oplysninger om organisationens sensorer og alarm zoner og Influx for at at få den fulde rute som dronen bevægede sig i og kunne holde dette op mod alarm zoner.
 - **Program flow**
-  Samtidig med at der bliver logget bliver der også åbnet en WebSocket forbindelse til live visning af drone aktivitet. Der er dermed 2 grene som modtager information samtidigt
+  Samtidig med at der bliver logget bliver der også åbnet en WebSocket forbindelse til live visning af drone aktivitet. Der er dermed 2 grene som modtager information samtidigt.
 #### 4. Refleksion over praktikken
 Overordnet set har det været en givende oplevelse at være i praktik. Endnu engang har jeg opdaget noget nyt omkring mig selv fag mæssigt. 
 Hele aspektet med at den "daglige vedligeholdelse" af software er faktisk ikke nødvendigvis den vej jeg skal gå. 
