@@ -51,7 +51,7 @@ Jeg fik brugt min erfaring for at analysere og researche/undersøge hvad en løs
 5. **Backfill af aktivitet i ny oprettede zoner**
 Når man opretter en ny alarm zone vil detektionerne altid kun være fremadrettet. Man skal ikke tænke langt for at forestille sig at et firma der ejere nogle sensorere, kunne tænke sig at vide hvad der er foregået før oprettelsen. Med de mobile sensorer vil det også kunne være med til at give et billede af aktiviteten i området man befinder sig i. Der er også tænkt afgrænsning/private oplysninger ind i hentningen, en organisation har kun adgang til data fra sensorer som de i forvejen har adgang til. Det er ikke alle kunder der er interesserede i at andre kan se aktiviteten i deres område.  
 **Refleksion:**
-
+Under udvikling er det vigtigt at have i tankerne at, bare fordi at det er data du har i systemet, er det ikke nødvendigvis "din data" som du har fuld kontrol over. I AirPlates tilfælde er der nogle områder som ikke skal være offentligt kendte, så derfor er det vigtigt med afgrænsning.
 
 #### 3. Refleksion over praktikken
 Overordnet set har det været en givende oplevelse at være i praktik. Endnu engang har jeg opdaget noget nyt omkring mig selv fag mæssigt. 
