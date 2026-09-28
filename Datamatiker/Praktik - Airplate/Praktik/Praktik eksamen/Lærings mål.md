@@ -1,14 +1,14 @@
 ### Nationale læringsmål for praktikken 
-#### Viden 
+#### *Viden* 
 **Den studerende har:** 
 	• viden om og forståelse for den daglige drift i praktikvirksomheden særligt i forhold i arbejdsopgaverne i praktikken. 
 	• forståelse for erhvervets og praktikområdets anvendelse af teori, metode og teknologi i praksis. 
-#### Færdigheder 
+#### *Færdigheder* 
 **Den studerende kan:** 
 	• anvende alsidige tekniske og analytiske arbejdsmetoder, der knytter sig til beskæftigelse inden for praktikken. 
 	• vurdere praksisnære problemstillinger og opstilling af løsnings muligheder inden for praktikken. 
 	• formidle praksisnære problemstillinger og begrundede løsningsforslag til samarbejdspartnere, kunder eller brugere i praktikken. 
-#### Kompetencer 
+#### *Kompetencer* 
 **Den studerende kan:** 
 	• håndtere udviklings orienterede praktiske og faglige situationer i forhold til praktikken. 
 	• håndtere strukturering og planlægning af daglige arbejdsopgaver i praktikken. 

@@ -42,24 +42,18 @@ Jeg designede en ny tabel til MySQL databasen, med tanke på normalisering og si
 Jeg fik brugt min viden omkring database design, herunder primary, foreign og composite keys og normaliserings former(Læs op og tjek) og så endnu engang vigtigheden af at et team ensretter i form af projektstyring.
 
 4. **Filtrerings funktion til visningen af live droner**
-
-
+På forsiden viser der live hvilke droner der spores i øjeblikket. Der kan være 1 eller 100. For at give brugerne mulighed for kun at ase relevante informationer, var der et ønske om at kunne vælge imellem hvor meget aktivitet der skulle vises eller ikke vises. 
+![[Pasted image 20260928100608.png]]
+Dette krævede en undersøgelse af hvordan websocket forbindelsen virkede og hvad der blev sendt. Det viste sig at websocket forbindelsen alene ikke var nok. Der er ikke nogle oplysninger omkring hvilke alarmzoner dronen har krydset og det krævede kontakt til både Influx timeseries databasen og MySQL databasen. Derfra valgte jeg at tilføje alarm_zone_id til websocket forbindelsen og bruge den variabel til at tjekke.
 **Refleksion:**
+Jeg fik brugt min erfaring for at analysere og researche/undersøge hvad en løsning på et problem kan være for derfter at fremstille løsnings forslag til samarbejdspartnere/teammedlemmer.
 
 5. **Backfill af aktivitet i ny oprettede zoner**
-
+Når man opretter en ny alarm zone vil detektionerne altid kun være fremadrettet. Man skal ikke tænke langt for at forestille sig at et firma der ejere nogle sensorere, kunne tænke sig at vide hvad der er foregået før oprettelsen. Med de mobile sensorer vil det også kunne være med til at give et billede af aktiviteten i området man befinder sig i. Der er også tænkt afgrænsning/private oplysninger ind i hentningen, en organisation har kun adgang til data fra sensorer som de i forvejen har adgang til. Det er ikke alle kunder der er interesserede i at andre kan se aktiviteten i deres område.  
 **Refleksion:**
 
-#### 3. Hoved feature - Zone backfill og prioritering
-- **Database setup - Influx/Timeseries og MySQL:**
-  Influx holder alle punkter som bliver logget og MySQL holder kun et repræsentativt punkt for hver flyvning. 
-  Rå punkter streamer ind i influx, herefter kører der to jobs, time mæssigt og døgn baseret, som laver dem til komplette flyvninger med zoner og locations data og skriver dem til MySql og laver en række per flyvning. 
-- Begge databaser har data som den anden ikke har. Influx har f.eks hele rækken af punkter som sensoren har logget fra dronen, men basalt set er det ikke logget som en flyvning, kun en bucket af punkter/measurements med nogle drone informationer.
-- MySQL derimod, samler al informationen sammenlignet på enten MAC/Takeoff punkt(OcuSync droner), start og stop koordinat, men opbevarer kun et repræsentativt punkt for flyvningen. Det er disse 3 felter der fungerer som nøgler imellem de to databaser.
-- Derfor er det også nødvendigt at kigge i begge databaser for at kunne få det fulde billede. MySQL for at få oplysninger om organisationens sensorer og alarm zoner og Influx for at at få den fulde rute som dronen bevægede sig i og kunne holde dette op mod alarm zoner.
-- **Program flow**
-  Samtidig med at der bliver logget bliver der også åbnet en WebSocket forbindelse til live visning af drone aktivitet. Der er dermed 2 grene som modtager information samtidigt.
-#### 4. Refleksion over praktikken
+
+#### 3. Refleksion over praktikken
 Overordnet set har det været en givende oplevelse at være i praktik. Endnu engang har jeg opdaget noget nyt omkring mig selv fag mæssigt. 
 Hele aspektet med at den "daglige vedligeholdelse" af software er faktisk ikke nødvendigvis den vej jeg skal gå. 
 Jeg synes faktisk det er enormt spændende at designe og opstarte systemer, som vi har gjort en del gange i løbet af uddannelsen. 
