@@ -3,6 +3,7 @@
 - Har opnået viden omkring hvordan en timeseries og relationel database kan arbejde sammen.
 - Har opnået større indsigt i brugen af AI accelereret udvikling til planlægning, dokumentation og debugging af samspillet mellem nye og gamle features.
 - Har opnået ny viden omkring brugen af Docker Containere, blandt andet i forbindelse med lokal database til udviklings brug.
+- Har været i kontakt med CI/CD pipeline. 
 
 
 
