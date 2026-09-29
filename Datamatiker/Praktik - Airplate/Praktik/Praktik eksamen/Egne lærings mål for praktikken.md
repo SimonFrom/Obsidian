@@ -9,7 +9,6 @@
 
 ### Færdigheder:
 - Kan omsætte løst definerede krav og ønsker til klare implementerings løsninger, både på et teoretisk og praktisk plan.
-- 
 
 
 
