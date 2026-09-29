@@ -26,7 +26,7 @@ Flowet kan beskrives i 4 trin:
 Af konkrete opgaver jeg har haft og arbejdet med kan nævnes:
 
 1. **Labels til sammenligning af data perioder** 
-Min første opgave var tilføje labels som nemt kunne visning en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt give et overblik uden at man skulle finde og sammenligne tal. En fin frontend opgave at starte ud på, da alt data var tilgængelig fra backend allerede.
+Min første opgave var at tilføje labels som nemt kunne visning en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt og give et overblik uden at man skulle finde og sammenligne tal. En fin frontend opgave at starte ud på, da alt data var tilgængelig fra backend allerede.
 ![[Indsat billede 1.png]]
 **Refleksion:** 
 I og med dette var min første kontakt med kode basen var den store udfordring at finde rundt og identificere de korrekte lister og variabler jeg kunne bruge. Min grundviden omkring software arkitektur og komponent opbygning hjalp mig godt på vej her.
@@ -45,12 +45,12 @@ Jeg fik brugt min viden omkring database design, herunder primary, foreign og co
 4. **Filtrerings funktion til visningen af live droner**
 På forsiden viser der live hvilke droner der spores i øjeblikket. Der kan være 1 eller 100. For at give brugerne mulighed for kun at se relevante informationer, var der et ønske om at kunne vælge imellem hvor meget og hvilken aktivitet der skulle vises eller ikke vises. 
 ![[Pasted image 20260929082850.png]]
-Dette krævede en undersøgelse af hvordan websocket forbindelsen virkede og hvad der blev sendt. Det viste sig at websocket forbindelsen alene ikke var nok. Der er ikke nogle oplysninger omkring hvilke alarmzoner dronen har krydset og det krævede kontakt til både Influx timeseries databasen og MySQL databasen. Derfra valgte jeg at tilføje alarm_zone_id til websocket forbindelsen og bruge den variabel til at tjekke.
+Dette krævede en undersøgelse af hvordan websocket forbindelsen virkede og hvad der blev sendt. Det viste sig at websocket forbindelsen alene ikke var nok. Der er ikke nogle oplysninger omkring hvilke alarmzoner dronen har krydset og det krævede kontakt til både Influx timeseries databasen og MySQL databasen. Derfra valgte jeg at tilføje alarm_zone_id, som blev sat hvis en drones spor fra Influx krydsede de opbevarede zone koordinater i MySQL databasen, til websocket forbindelsen og bruge den variabel til at tjekke.
 **Refleksion:**
-Jeg fik brugt min erfaring for at analysere og researche/undersøge hvad en løsning på et problem kan være for derfter at fremstille løsnings forslag til samarbejdspartnere/teammedlemmer.
+Jeg fik brugt min erfaring for at analysere og researche/undersøge hvad en løsning på et problem kan være for derefter at fremstille løsnings forslag til samarbejdspartnere/teammedlemmer.
 
 5. **Backfill af aktivitet i ny oprettede zoner**
-Når man opretter en ny alarm zone vil detektionerne altid kun være fremadrettet. Man skal ikke tænke langt for at forestille sig at et firma der ejere nogle sensorere, kunne tænke sig at vide hvad der er foregået før oprettelsen. Med de mobile sensorer vil det også kunne være med til at give et billede af aktiviteten i området man befinder sig i. Der er også tænkt afgrænsning/private oplysninger ind i hentningen, en organisation har kun adgang til data fra sensorer som de i forvejen har adgang til. Det er ikke alle kunder der er interesserede i at andre kan se aktiviteten i deres område.  
+Når man opretter en ny alarm zone vil detektionerne altid kun være fremadrettet. Man skal ikke tænke langt for at forestille sig at et firma der ejere nogle sensorer, kunne tænke sig at vide hvad der er foregået før oprettelsen. Med de mobile sensorer vil det også kunne være med til at give et billede af aktiviteten i området man befinder sig i. Der er også tænkt afgrænsning/private oplysninger ind i hentningen, en organisation har kun adgang til data fra sensorer som de i forvejen har adgang til. Det er ikke alle kunder der er interesserede i at andre kan se aktiviteten i deres område.  
 **Refleksion:**
 Under udvikling er det vigtigt at have i tankerne at, bare fordi at det er data du har i systemet eller databasen, er det ikke nødvendigvis "din data" som du har fuld kontrol eller råderet over. I AirPlates tilfælde er der f.eks nogle områder som ikke skal være offentligt kendte, så derfor er det vigtigt med afgrænsning.
 
