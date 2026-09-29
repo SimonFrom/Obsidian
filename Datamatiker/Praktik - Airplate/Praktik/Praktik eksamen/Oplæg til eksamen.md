@@ -66,3 +66,4 @@ Her små 3 måneder efter føler jeg stadig ikke at jeg har helt styr på det, j
 
 Det har også været spændende at komme ud og se en anden tilgang til software udvikling på team delen. 
 Fra uddannelsen kender vi jo til forskellige strukturer og projektstyrings værktøjer og har generelt været vant til en langsommere fremgang, både på grund af erfaringsgrundlaget men også brugen af AI. I det relativt lille team her hos AirPlate fungerer det fint, men det har også været tydeligt for mig at se at der skal ikke være mange flere udviklere ind over før at en streng disciplin, koordination og planlægning mellem features og ændringer er en fundamental nødvendighed når der i kraftig grad anvendes AI.
+
