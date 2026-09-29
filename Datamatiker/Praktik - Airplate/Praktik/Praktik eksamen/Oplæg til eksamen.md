@@ -43,7 +43,7 @@ Jeg fik brugt min viden omkring database design, herunder primary, foreign og co
 
 4. **Filtrerings funktion til visningen af live droner**
 På forsiden viser der live hvilke droner der spores i øjeblikket. Der kan være 1 eller 100. For at give brugerne mulighed for kun at ase relevante informationer, var der et ønske om at kunne vælge imellem hvor meget aktivitet der skulle vises eller ikke vises. 
-![[Pasted image 20260928100608.png]]
+![[Pasted image 20260929082850.png]]
 Dette krævede en undersøgelse af hvordan websocket forbindelsen virkede og hvad der blev sendt. Det viste sig at websocket forbindelsen alene ikke var nok. Der er ikke nogle oplysninger omkring hvilke alarmzoner dronen har krydset og det krævede kontakt til både Influx timeseries databasen og MySQL databasen. Derfra valgte jeg at tilføje alarm_zone_id til websocket forbindelsen og bruge den variabel til at tjekke.
 **Refleksion:**
 Jeg fik brugt min erfaring for at analysere og researche/undersøge hvad en løsning på et problem kan være for derfter at fremstille løsnings forslag til samarbejdspartnere/teammedlemmer.
