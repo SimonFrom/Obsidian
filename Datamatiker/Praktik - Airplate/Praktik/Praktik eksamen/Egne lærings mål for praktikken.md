@@ -15,5 +15,5 @@
 
 ### Kompetencer:
 - Kan designe og planlægge udvikling af nye features på fullstack niveau. 
-- Kan modtage feedback og omdanne denne til refaktorerings ønsker af nye features.
+- Kan modtage feedback og omdanne denne til refaktorerings opgaver af nye features.
 - Kan indsamle ny viden omkring ukendte mønstre og teknologi.
