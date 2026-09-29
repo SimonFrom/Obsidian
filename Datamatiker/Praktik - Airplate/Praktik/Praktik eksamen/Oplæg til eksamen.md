@@ -2,7 +2,7 @@
 AirPlate er en dansk ejet start up som arbejder i feltet omkring sporing og logging af drone aktivitet. 
 De har udviklet deres egne scannere/sensorer til at spore aktiviteten og har udviklet deres egen web applikation og native app til visning og logging.
 #### Tech baggrund:
-Når en drone letter udsender den et RemoteID signal, som er en industri standard, som bliver sendt over WiFi/Bluetooth. Dette indeholder en MAC adresse og et sæt felter: 
+Når en drone letter og er igang med en flyvning udsender den et RemoteID signal, som er en industri standard, som bliver sendt over WiFi/Bluetooth. Dette indeholder en MAC adresse og et sæt felter: 
 - Længde og bredde grader
 - Højde
 - Hastighed
@@ -23,7 +23,7 @@ Flowet kan beskrives i 4 trin:
 4. **Aflevering/Feedback - Iterativt**
    Arbejdet sendes til review af hele teamet. Igen kan en iterativ tilgang være nødvendig for at tilfredsstille både interne stakeholders, men også kundens behov. 
 
-Af deciderede opgaver jeg har haft og arbejdet med kan nævnes:
+Af konkrete opgaver jeg har haft og arbejdet med kan nævnes:
 
 1. **Labels til sammenligning af data perioder** 
 Min første opgave var tilføje labels som nemt kunne visning en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt give et overblik uden at man skulle finde og sammenligne tal. En fin frontend opgave at starte ud på, da alt data var tilgængelig fra backend allerede.
