@@ -51,7 +51,7 @@ Jeg fik brugt min erfaring for at analysere og researche/undersøge hvad en løs
 5. **Backfill af aktivitet i ny oprettede zoner**
 Når man opretter en ny alarm zone vil detektionerne altid kun være fremadrettet. Man skal ikke tænke langt for at forestille sig at et firma der ejere nogle sensorere, kunne tænke sig at vide hvad der er foregået før oprettelsen. Med de mobile sensorer vil det også kunne være med til at give et billede af aktiviteten i området man befinder sig i. Der er også tænkt afgrænsning/private oplysninger ind i hentningen, en organisation har kun adgang til data fra sensorer som de i forvejen har adgang til. Det er ikke alle kunder der er interesserede i at andre kan se aktiviteten i deres område.  
 **Refleksion:**
-Under udvikling er det vigtigt at have i tankerne at, bare fordi at det er data du har i systemet, er det ikke nødvendigvis "din data" som du har fuld kontrol over. I AirPlates tilfælde er der nogle områder som ikke skal være offentligt kendte, så derfor er det vigtigt med afgrænsning.
+Under udvikling er det vigtigt at have i tankerne at, bare fordi at det er data du har i systemet eller databasen, er det ikke nødvendigvis "din data" som du har fuld kontrol eller råderet over. I AirPlates tilfælde er der f.eks nogle områder som ikke skal være offentligt kendte, så derfor er det vigtigt med afgrænsning.
 
 #### 3. Refleksion over praktikken
 Overordnet set har det været en givende oplevelse at være i praktik. Endnu engang har jeg opdaget noget nyt omkring mig selv fag mæssigt. 
@@ -60,3 +60,9 @@ Jeg synes faktisk det er enormt spændende at designe og opstarte systemer, som 
 For lige at klemme AI bølgen ind i dette dokument, er det også min overbevisning at det er et af vigtigste punkter i dag når det handler om software udvikling. 
 "*Garbage in, garbage out*"
 Med et veldesignet grundsystem at læne sig op af, vil videreudviklingen og vedligeholdelsen være umådeligt meget nemmere.
+
+En af de største udfordringer var helt klart i starten, da jeg skulle sætte mig ind i en helt ny forudviklet kodebase. For alle, uanset erfarings niveau vil jeg tro, vil det være en stor opgave og med min mængde erfaring, er det så bare en endnu større opgave. Det føltes faktisk som et enormt stort pres og der var da dage hvor jeg tænkte om "jeg overhovedet havde lært nok" på uddannelsen og var klar til både praktik og reelt arbejde lige om lidt. 
+Her små 3 måneder efter føler jeg stadig ikke at jeg har helt styr på det, jeg har selvfølgelig en meget bedre forståelse end da jeg startede, men jeg føler slet ikke at jeg kan sige at jeg er i mål med den del. 
+
+Det har også været spændende at komme ud og se en anden tilgang til software udvikling på team delen. 
+Fra uddannelsen kender vi jo til forskellige strukturer og projektstyrings værktøjer og har været vant til en langsommere fremgang, både på grund af erfaringsgrundlaget men også brugen af AI. I det relativt lille team her hos AirPlate fungerer det fint, men det har også været tydeligt for mig at se at der skal ikke være mange flere udviklere ind over før at en streng disciplin, koordination og planlægning mellem features og ændringer er en fundamental nødvendighed.
