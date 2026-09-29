@@ -5,16 +5,11 @@
 - Har opnået ny viden omkring brugen af Docker Containere, blandt andet i forbindelse med lokal database til udviklings brug.
 - Har været i kontakt med CI/CD pipeline. 
 
-
-
-
 ### Færdigheder:
 - Kan omsætte løst definerede krav og ønsker til klare implementerings løsninger, både på et teoretisk og praktisk plan.
 - Kan formidle viden omkring nye features og afgrænsning af deres scope til slut brugere.
 - Kan argumentere for brugen af Vite bundler i udviklings sammenhæng
 - Kan bruge bun, som en erstatning for npm, i et udviklings miljø til at køre unit og playwright tests og deploye til en dev server.
-
-
 
 ### Kompetencer:
 - Kan designe og planlægge udvikling af nye features på fullstack niveau. 
