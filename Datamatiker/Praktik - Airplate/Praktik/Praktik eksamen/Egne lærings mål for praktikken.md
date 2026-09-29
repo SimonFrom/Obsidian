@@ -16,4 +16,3 @@
 - Kan modtage feedback og omdanne denne til refaktorerings opgaver af nye features.
 - Kan indsamle ny viden omkring ukendte mønstre og teknologi.
 - Kan skrive playwright tests til at teste ny UI komponenter.
-- 
