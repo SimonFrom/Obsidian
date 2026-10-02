@@ -23,6 +23,6 @@ MyComponent/
       Spread er måde at tilføje ting til en liste/array. Når man spreder noget ind skaber man et nyt array med det nye objekt.
 - [x] React vs React Native
       React er kun til web
-- [ ] Bundler
+- [x] Bundler
 - [x] Android SDK emulator - Er det tilsvarende at teste på en real device?
       Til vores behov er det fint med emulator. Man kan ikke teste små forskelle i hardware og andre ting. 
