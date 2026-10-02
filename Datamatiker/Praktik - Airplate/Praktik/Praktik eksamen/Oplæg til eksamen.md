@@ -1,7 +1,8 @@
 #### 1. Kort intro af AirPlate som virksomhed
 AirPlate er en dansk ejet start up som arbejder i feltet omkring sporing og logging af drone aktivitet. 
 De har udviklet deres egne scannere/sensorer til at spore aktiviteten og har udviklet deres egen web applikation og native app til visning og logging.
-#### Tech baggrund:
+
+#### **Grov teknisk opsætning hos AirPlate:**
 Når en drone letter og er igang med en flyvning udsender den et RemoteID signal, som er en industri standard, som bliver sendt over WiFi/Bluetooth. Dette indeholder en MAC adresse og et sæt felter: 
 - Længde og bredde grader
 - Højde
@@ -56,15 +57,15 @@ Under udvikling er det vigtigt at have i tankerne at, bare fordi at det er data 
 
 #### 3. Refleksion over praktikken
 Overordnet set har det været en givende oplevelse at være i praktik. Endnu engang har jeg opdaget noget nyt omkring mig selv fag mæssigt. 
-Hele aspektet med at den "daglige vedligeholdelse" af software er faktisk ikke nødvendigvis den vej jeg skal gå. 
+Hele aspektet med at den "daglige vedligeholdelse" af software er faktisk ikke nødvendigvis den vej jeg skal gå, som jeg ellers troede. 
 Jeg synes faktisk det er enormt spændende at designe og opstarte systemer, som vi har gjort en del gange i løbet af uddannelsen. 
 For lige at klemme AI bølgen ind i dette dokument, er det også min overbevisning at det er et af vigtigste punkter i dag når det handler om software udvikling. 
 "*Garbage in, garbage out*"
 Med et veldesignet grundsystem at læne sig op af, vil videreudviklingen og vedligeholdelsen være umådeligt meget nemmere.
 
-En af de største udfordringer var helt klart i starten, da jeg skulle sætte mig ind i en helt ny forudviklet kodebase. For alle, uanset erfarings niveau vil jeg tro, vil det være en stor opgave og med min mængde erfaring, er det så bare en endnu større opgave. Det føltes faktisk som et enormt stort pres og der var da dage hvor jeg tænkte om "jeg overhovedet havde lært nok" på uddannelsen og var klar til både praktik og reelt arbejde lige om lidt. 
+En af de største udfordringer var helt klart i starten, da jeg skulle sætte mig ind i en helt ny eksisterende kodebase. For alle, uanset erfarings niveau vil jeg tro, vil det være en stor opgave og med min mængde erfaring, er det så bare en endnu større opgave. Det føltes faktisk som et enormt stort pres og der var da dage hvor jeg tænkte om "jeg overhovedet havde lært nok" på uddannelsen og var klar til både praktik og reelt arbejde lige om lidt. 
 Her små 3 måneder efter føler jeg stadig ikke at jeg har helt styr på det, jeg har selvfølgelig en meget bedre forståelse end da jeg startede, men jeg føler slet ikke at jeg kan sige at jeg er i mål med den del. 
 
 Det har også været spændende at komme ud og se en anden tilgang til software udvikling på team delen. 
-Fra uddannelsen kender vi jo til forskellige strukturer og projektstyrings værktøjer og har generelt været vant til en langsommere fremgang, både på grund af erfaringsgrundlaget men også brugen af AI. I det relativt lille team her hos AirPlate fungerer det fint, men det har også været tydeligt for mig at se at der skal ikke være mange flere udviklere ind over før at en streng disciplin, koordination og planlægning mellem features og ændringer er en fundamental nødvendighed når der i kraftig grad anvendes AI.
+Fra uddannelsen kender vi jo til forskellige strukturer og projektstyrings værktøjer og har generelt været vant til en langsommere fremgang, både på grund af erfaringsgrundlaget men også brugen af AI. I det relativt lille team her hos AirPlate fungerer det fint, men det har også været tydeligt for mig at se at der skal ikke være mange flere udviklere ind over før at en streng disciplin, koordination og planlægning mellem features og ændringer af kodebasen er en fundamental nødvendighed når der i kraftig grad anvendes AI.
 
