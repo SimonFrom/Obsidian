@@ -1,5 +1,5 @@
 #### 1. Kort intro af AirPlate som virksomhed
-AirPlate er en dansk ejet start up som arbejder i feltet omkring sporing og logging af drone aktivitet. 
+AirPlate er en dansk ejet start up virksomhed som arbejder i feltet omkring sporing, logging og alarmering af drone aktivitet. 
 De har udviklet deres egne scannere/sensorer til at spore aktiviteten og har udviklet deres egen web applikation og native app til visning og logging.
 
 #### **Grov teknisk opsætning hos AirPlate:**
@@ -9,13 +9,13 @@ Når en drone letter og er igang med en flyvning udsender den et RemoteID signal
 - Hastighed
 - Operatør ID
 MAC adressen bruges som det primære ID igennem programmet efterfølgende.
-Firmaet DJI har lavet deres egen standard, OcuSync. Her bliver der ikke sendt MAC, istedet sender den et takeoff punkt, dette punkt fungerer som ID igennem programmet istedet for.
+Firmaet DJI har lavet deres egen standard, OcuSync. Her bliver der ikke sendt MAC, istedet sender den et takeoff punkt længde og bredde grader, dette punkt fungerer som ID igennem programmet istedet for.
 
 #### 2. Hvad har jeg lavet
 Stillingen har været fullstack udvikler, så jeg har været i berøring med næsten alle aspekter indenfor software udvikling, fra ide til udførelse. 
-Flowet kan beskrives i 4 trin:
+Mit arbejds flow kan beskrives i 4 trin:
 1. **Idé**
-   Her blev den grove skitse lavet som vi kender det fra pre sprint i SCRUM f.eks. 
+   Her blev den grove skitse lavet som vi kender det fra presprint i SCRUM f.eks. 
    Det kunne også være at der allerede var et velbeskrevet ønske, som åbnede op for opfølgende spørgsmål. Acceptance Criteria bliver opstillet.
 2. **Design - Iterativt** 
    Skitsen bliver præciseret og bevæger sig over i black box. Research omkring ny teknologi bliver lavet. Ændringer til databasen vil også blive produceret her i form af migration scripts.
@@ -27,7 +27,7 @@ Flowet kan beskrives i 4 trin:
 Af konkrete opgaver jeg har haft og arbejdet med kan nævnes:
 
 1. **Labels til sammenligning af data perioder** 
-Min første opgave var at tilføje labels som nemt kunne visning en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt og give et overblik uden at man skulle finde og sammenligne tal. En fin frontend opgave at starte ud på, da alt data var tilgængelig fra backend allerede.
+Min første opgave var at tilføje labels som nemt kunne vise en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt og give et overblik uden at man skulle finde og sammenligne tal. En fin frontend opgave at starte ud på, da alt data var tilgængelig fra backend allerede.
 ![[Indsat billede 1.png]]
 **Refleksion:** 
 I og med dette var min første kontakt med kode basen var den store udfordring at finde rundt og identificere de korrekte lister og variabler jeg kunne bruge. Min grundviden omkring software arkitektur og komponent opbygning hjalp mig godt på vej her.
@@ -39,19 +39,19 @@ Dette var også ren frontend, men bød på en masse brug af If-Else udtryk at sk
 
 3. **Gruppering af sensorer i brugerskabte grupper**
 Sensorene havde ikke nogen inddeling før, kun delt op på organisations niveau.
-Jeg designede en ny tabel til MySQL databasen, med tanke på normalisering og sikring af korrekthed i databasen ved hjælp af cascading deletes. Denne opgave gav også en lektie i vigtigheden af kravs afklaring/acceptance criteria. Det GitHub issue jeg arbejdede ud fra viste sig ikke at stemme helt overens med det ønskede udtryk og det endte med en god refaktorering inden endelig godkendelse. 
+Jeg designede en ny tabel til MySQL databasen, med tanke på normalisering og sikring af samtidighed i databasen ved hjælp af cascading deletes. Denne opgave gav også en lektie i vigtigheden af kravs afklaring/acceptance criteria. Det GitHub issue jeg arbejdede ud fra viste sig ikke at stemme helt overens med det ønskede udtryk og det endte med en god refaktorering inden endelig godkendelse. 
 **Refleksion:**
-Jeg fik brugt min viden omkring database design, herunder primary, foreign og composite keys og normaliserings former(Læs op og tjek) og så endnu engang vigtigheden af at et team ensretter i form af projektstyring.
+Jeg fik brugt min viden omkring database design, herunder primary, foreign og composite keys og normaliserings former og så endnu engang vigtigheden af at et team ensretter i form af projektstyring.
 
 4. **Filtrerings funktion til visningen af live droner**
-På forsiden viser der live hvilke droner der spores i øjeblikket. Der kan være 1 eller 100. For at give brugerne mulighed for kun at se relevante informationer, var der et ønske om at kunne vælge imellem hvor meget og hvilken aktivitet der skulle vises eller ikke vises. 
+På forsiden viser der live hvilke droner der spores i øjeblikket. Der kan være 1 eller 100. For at give brugerne mulighed for kun at se relevante informationer og begrænse hvad der bliver vist, var der et ønske om at kunne vælge imellem hvor meget og hvilken aktivitet der skulle vises eller ikke vises. 
 ![[Pasted image 20260929082850.png]]
 Dette krævede en undersøgelse af hvordan websocket forbindelsen virkede og hvad der blev sendt. Det viste sig at websocket forbindelsen alene ikke var nok. Der er ikke nogle oplysninger omkring hvilke alarmzoner dronen har krydset og det krævede kontakt til både Influx timeseries databasen og MySQL databasen. Derfra valgte jeg at tilføje alarm_zone_id, som blev sat hvis en drones spor fra Influx krydsede de opbevarede zone koordinater i MySQL databasen, til websocket forbindelsen og bruge den variabel til at tjekke.
 **Refleksion:**
 Jeg fik brugt min erfaring for at analysere og researche/undersøge hvad en løsning på et problem kan være for derefter at fremstille løsnings forslag til samarbejdspartnere/teammedlemmer.
 
 5. **Backfill af aktivitet i ny oprettede zoner**
-Når man opretter en ny alarm zone vil detektionerne altid kun være fremadrettet. Man skal ikke tænke langt for at forestille sig at et firma der ejere nogle sensorer, kunne tænke sig at vide hvad der er foregået før oprettelsen. Med de mobile sensorer vil det også kunne være med til at give et billede af aktiviteten i området man befinder sig i. Der er også tænkt afgrænsning/private oplysninger ind i hentningen, en organisation har kun adgang til data fra sensorer som de i forvejen har adgang til. Det er ikke alle kunder der er interesserede i at andre kan se aktiviteten i deres område.  
+Når man opretter en ny alarm zone vil detektionerne altid kun være fremadrettet. Man skal ikke tænke langt for at forestille sig at et firma der ejer nogle sensorer, kunne tænke sig at vide hvad der er foregået før oprettelsen af zonen. Med de mobile sensorer vil det også kunne være med til at give et billede af aktiviteten i området man befinder sig i. Der er også tænkt afgrænsning/private oplysninger ind i hentningen, en organisation har kun adgang til data fra sensorer som de i forvejen har adgang til. Det er ikke alle kunder der er interesserede i at andre kan se aktiviteten i deres område.  
 **Refleksion:**
 Under udvikling er det vigtigt at have i tankerne at, bare fordi at det er data du har i systemet eller databasen, er det ikke nødvendigvis "din data" som du har fuld kontrol eller råderet over. I AirPlates tilfælde er der f.eks nogle områder som ikke skal være offentligt kendte, så derfor er det vigtigt med afgrænsning.
 
