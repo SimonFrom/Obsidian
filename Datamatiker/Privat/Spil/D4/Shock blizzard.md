@@ -1,8 +1,8 @@
 - [x] Aspect of heavenly strength
 - [x] Storm splitters aspect
-- [ ] Mage-lords aspect
-- [ ] Aspect of shredding blades
-- [ ] Aspect of splintering energy
+- [x] Mage-lords aspect
+- [x] Aspect of shredding blades
+- [x] Aspect of splintering energy
 - [x] Aspect of arrogance
 - [ ] Conceited aspect
 - [ ] Prodigys aspect
