@@ -3,19 +3,19 @@ AirPlate er en dansk ejet start up virksomhed som arbejder i feltet omkring spor
 De har udviklet deres egne scannere/sensorer til at spore aktiviteten og har udviklet deres egen web applikation og native app til visning og logging.
 
 #### **Grov teknisk opsætning hos AirPlate:**
-Når en drone letter og er igang med en flyvning udsender den et RemoteID signal, som er en industri standard, som bliver sendt over WiFi/Bluetooth. Dette indeholder en MAC adresse og et sæt felter: 
+Når en drone letter og er igang med en flyvning udsender den et RemoteID signal, som er en industri standard, som bliver sendt over WiFi/Bluetooth. Dette indeholder en MAC adresse og et sæt felter: ****
 - Længde og bredde grader
 - Højde
 - Hastighed
 - Operatør ID
 MAC adressen bruges som det primære ID igennem programmet efterfølgende.
-Firmaet DJI har lavet deres egen standard, OcuSync. Her bliver der ikke sendt MAC, istedet sender den et takeoff punkt længde og bredde grader, dette punkt fungerer som ID igennem programmet istedet for.
+Drone producenten DJI har lavet deres egen standard, OcuSync. Her bliver der ikke sendt MAC, istedet sender den et takeoff punkt længde og bredde grader, dette punkt fungerer som ID igennem programmet istedet for.
 
 #### 2. Hvad har jeg lavet
-Stillingen har været fullstack udvikler, så jeg har været i berøring med næsten alle aspekter indenfor software udvikling, fra ide til udførelse. 
+Min stilling har været som fullstack udvikler, så jeg har været i berøring med næsten alle aspekter indenfor software udvikling, fra design til backend og frontend. 
 Mit arbejds flow kan beskrives i 4 trin:
 1. **Idé**
-   Her blev den grove skitse lavet som vi kender det fra presprint i SCRUM f.eks. 
+   Her blev den grove skitse lavet som vi kender det fra pre sprint i SCRUM f.eks. 
    Det kunne også være at der allerede var et velbeskrevet ønske, som åbnede op for opfølgende spørgsmål. Acceptance Criteria bliver opstillet.
 2. **Design - Iterativt** 
    Skitsen bliver præciseret og bevæger sig over i black box. Research omkring ny teknologi bliver lavet. Ændringer til databasen vil også blive produceret her i form af migration scripts.
@@ -27,7 +27,7 @@ Mit arbejds flow kan beskrives i 4 trin:
 Af konkrete opgaver jeg har haft og arbejdet med kan nævnes:
 
 1. **Labels til sammenligning af data perioder** 
-Min første opgave var at tilføje labels som nemt kunne vise en stigning eller et fald i drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt og give et overblik uden at man skulle finde og sammenligne tal. En fin frontend opgave at starte ud på, da alt data var tilgængelig fra backend allerede.
+Min første opgave var at tilføje labels som nemt kunne vise en stigning eller et fald i målt drone aktivitet, direkte på forsiden. Ideen var det skulle holdes simpelt og give et overblik uden at man skulle finde og sammenligne tal. En fin frontend opgave at starte ud på, da alt data var tilgængelig fra backend allerede og en god opfordring til at gå på opdagelse i systemet.
 ![[Indsat billede 1.png]]
 **Refleksion:** 
 I og med dette var min første kontakt med kode basen var den store udfordring at finde rundt og identificere de korrekte lister og variabler jeg kunne bruge. Min grundviden omkring software arkitektur og komponent opbygning hjalp mig godt på vej her.
@@ -46,7 +46,7 @@ Jeg fik brugt min viden omkring database design, herunder primary, foreign og co
 4. **Filtrerings funktion til visningen af live droner**
 På forsiden viser der live hvilke droner der spores i øjeblikket. Der kan være 1 eller 100. For at give brugerne mulighed for kun at se relevante informationer og begrænse hvad der bliver vist, var der et ønske om at kunne vælge imellem hvor meget og hvilken aktivitet der skulle vises eller ikke vises. 
 ![[Pasted image 20260929082850.png]]
-Dette krævede en undersøgelse af hvordan websocket forbindelsen virkede og hvad der blev sendt. Det viste sig at websocket forbindelsen alene ikke var nok. Der er ikke nogle oplysninger omkring hvilke alarmzoner dronen har krydset og det krævede kontakt til både Influx timeseries databasen og MySQL databasen. Derfra valgte jeg at tilføje alarm_zone_id, som blev sat hvis en drones spor fra Influx krydsede de opbevarede zone koordinater i MySQL databasen, til websocket forbindelsen og bruge den variabel til at tjekke.
+Dette krævede en undersøgelse af hvordan websocket forbindelsen virkede som sender live oplysninger og hvad der helt præcist blev sendt. Det viste sig at websocket forbindelsen ikke indeholdt nogle informationer omkring krydsninger af alarm zoner og det krævede kontakt til både Influx timeseries databasen og MySQL databasen at få det. Derfor valgte jeg at tilføje alarm_zone_id, som blev sat hvis en drones spor fra Influx krydsede de opbevarede zone koordinater i MySQL databasen, til websocket forbindelsen og bruge den variabel til at bestemme om en drone skulle vises eller ej.
 **Refleksion:**
 Jeg fik brugt min erfaring for at analysere og researche/undersøge hvad en løsning på et problem kan være for derefter at fremstille løsnings forslag til samarbejdspartnere/teammedlemmer.
 
@@ -56,16 +56,16 @@ Når man opretter en ny alarm zone vil detektionerne altid kun være fremadrette
 Under udvikling er det vigtigt at have i tankerne at, bare fordi at det er data du har i systemet eller databasen, er det ikke nødvendigvis "din data" som du har fuld kontrol eller råderet over. I AirPlates tilfælde er der f.eks nogle områder som ikke skal være offentligt kendte, så derfor er det vigtigt med afgrænsning.
 
 #### 3. Refleksion over praktikken
-Overordnet set har det været en givende oplevelse at være i praktik. Endnu engang har jeg opdaget noget nyt omkring mig selv fag mæssigt. 
-Hele aspektet med at den "daglige vedligeholdelse" af software er faktisk ikke nødvendigvis den vej jeg skal gå, som jeg ellers troede. 
+Overordnet set har det været en givende oplevelse at være i praktik. Endnu engang har jeg opdaget noget nyt omkring mig selv fag og branche mæssigt. 
+Hele aspektet med at den "daglige vedligeholdelse" af software er måske ikke nødvendigvis den vej jeg skal gå, som jeg ellers troede. 
 Jeg synes faktisk det er enormt spændende at designe og opstarte systemer, som vi har gjort en del gange i løbet af uddannelsen. 
 For lige at klemme AI bølgen ind i dette dokument, er det også min overbevisning at det er et af vigtigste punkter i dag når det handler om software udvikling. 
 "*Garbage in, garbage out*"
-Med et veldesignet grundsystem at læne sig op af, vil videreudviklingen og vedligeholdelsen være umådeligt meget nemmere.
+Med et veldesignet grundsystem at læne sig op af, vil videreudviklingen og vedligeholdelsen være umådeligt meget nemmere, både for menesker og maskiner.
 
 En af de største udfordringer var helt klart i starten, da jeg skulle sætte mig ind i en helt ny eksisterende kodebase. For alle, uanset erfarings niveau vil jeg tro, vil det være en stor opgave og med min mængde erfaring, er det så bare en endnu større opgave. Det føltes faktisk som et enormt stort pres og der var da dage hvor jeg tænkte om "jeg overhovedet havde lært nok" på uddannelsen og var klar til både praktik og reelt arbejde lige om lidt. 
 Her små 3 måneder efter føler jeg stadig ikke at jeg har helt styr på det, jeg har selvfølgelig en meget bedre forståelse end da jeg startede, men jeg føler slet ikke at jeg kan sige at jeg er i mål med den del. 
 
-Det har også været spændende at komme ud og se en anden tilgang til software udvikling på team delen. 
+På trods af dette har det også været enormt spændende at komme ud og se en anden tilgang til software udvikling på team delen. 
 Fra uddannelsen kender vi jo til forskellige strukturer og projektstyrings værktøjer og har generelt været vant til en langsommere fremgang, både på grund af erfaringsgrundlaget men også brugen af AI. I det relativt lille team her hos AirPlate fungerer det fint, men det har også været tydeligt for mig at se at der skal ikke være mange flere udviklere ind over før at en streng disciplin, koordination og planlægning mellem features og ændringer af kodebasen er en fundamental nødvendighed når der i kraftig grad anvendes AI.
 
