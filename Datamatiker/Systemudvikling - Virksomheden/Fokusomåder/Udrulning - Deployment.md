@@ -36,7 +36,7 @@ Overordnet kan man sige at jo større scope systemet eller projektet har, jo mer
 	- Her flytter man brugerne over i små grupper og gennem tester det hele, hver gang.
 	- En fordel er at man sikrer at der er altid er medarbejdere der kan arbejde produktivt uden at skulle kæmpe med software.
 	- En ulempe kan være at der er to systemer der skal supporteres samtidigt.
-- **Incremental Cutover:**
+- **Incremental Deployment:**
 	- Her udbyder man systemet i små bidder af gangen, eventuelt samtidig med **Staged** eller **Gradual**. 
 	- Bedst til mindre systemer, da større *Monolithic applications* tit er afhængige af sig selv i stor grad.
 	- Passer godt sammen med iterative udviklings modeller, såsom RAD, da man udvikler små bider af gangen i forvejen.
