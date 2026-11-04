@@ -1,4 +1,4 @@
-# TypeScript Øvelser — Start Here hh
+# TypeScript Øvelser — Start Here
 
 A hands-on path to level up your TypeScript, starting gentle and getting harder.
 A running theme throughout: **splitting functions across files** with `export` /
