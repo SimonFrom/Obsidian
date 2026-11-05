@@ -1,5 +1,13 @@
 [Katie Dill, Head of Design at Stripe](https://www.youtube.com/watch?v=GLvFTMtw4Jk)
 
+### Key points: 
+- Avoid Zombie UI: Stop building generic, soulless interfaces. 
+- Refuse to confuse done with good: Speed and polish don't equal quality. 
+- Have a clear POV: Set human standards so AI doesn't default to generic outputs. 
+- Encode intent: Embed design standards directly into AI workflows. 
+- Embrace post-build editing: Human quality control shifts to rigorous editing at the end. 
+- Raise the ceiling: Use AI to invent new interfaces, not just make old ones faster.
+
 ### 1. Have a point of view:
 Without a clear point of view or direction, AI will design and create it for you. 
 We as developers, not AI, need to decide what we want to convey that our app can do and feel like. 
