@@ -55,7 +55,7 @@ Simons egne ansøgninger er skrevet i et roligt, almindeligt dansk. Følg det:
 - Korte, konkrete afsnit: hvad han har lavet, med hvilke værktøjer, og hvad det lærte ham, koblet til stillingens krav.
 - Han nævner ærligt, hvad han ikke har prøvet, og at han gerne lærer det. Ingen overdrivelser.
 - Omkring én side.
-- Afslut med hvornår han kan starte, at han gerne kommer til samtale, og GitHub-link (github.com/SimonFrom).
+- Afslut med hvornår han kan starte, at han gerne kommer til samtale, og GitHub-link (github.com/SimonFrom). 
 this 
 ## Tjekliste for AI-formuleringer
 

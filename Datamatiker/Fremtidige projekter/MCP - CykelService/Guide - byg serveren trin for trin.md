@@ -552,12 +552,24 @@ insert into repairs (bike_id, customer_id, total_price, intake_date, delivery_da
   (2, 2, 1200, '2026-11-05', '2026-11-08', true,  false, null),
   (1, 1, 300,  '2026-10-10', '2026-10-12', true,  false, null);
 
+-- Til bike_history i 10.2
+create table repair_items (id int generated always as identity primary key, repair_id int references repairs(id), title text not null, price numeric(10,2) not null default 0, quantity int not null default 1, total numeric(10,2) not null default 0, discount_type text, discount_value numeric(10,2) not null default 0);
+
+insert into repair_items (repair_id, title, price, quantity, total) values
+  (1, 'Bremsekabel',  150, 1, 150),
+  (1, 'Arbejdsløn',   300, 1, 300),
+  (2, 'Kæde',         350, 2, 700),
+  (2, 'Service',      500, 1, 500),
+  (3, 'Lapning',      150, 2, 300);
+
 create role mcp_readonly with login password 'laese-kode';
 grant usage on schema public to mcp_readonly;
-grant select on customers, bikes, repairs to mcp_readonly;
+grant select on customers, bikes, repairs, repair_items to mcp_readonly;
 ```
 
-Tabellerne er lavet til test ud fra appens kode. Ret dem til, så de passer med det, du fandt i 2.1.
+Tabellerne er lavet til test ud fra appens kode. Ret dem til, så de passer med det, du fandt i 2.1. Linjerne i `repair_items` summerer til `total_price` på hver reparation (450, 1200 og 300), så du kan se, om `bike_history` regner rigtigt.
+
+⚠️ `repair_items` er tilføjet bagefter og ikke kørt sammen med resten.
 
 ```bash
 docker run -d --rm --name cykel-pg -e POSTGRES_PASSWORD=test -p 55432:5432 postgres:17
@@ -663,6 +675,7 @@ Nu kender du mønstret. De to sidste værktøjer får du kun hints til, så du s
 - Hent reparationerne og så alle linjer med `repair_id = any(@Ids)`, som i 6.2
 - Model: `RepairHistory` med en liste af `RepairLine` (`Title`, `Quantity`, `Price`, `Total`)
 - Brug `total` og `total_price` fra databasen. Lad være med at regne priserne ud igen.
+- Test med testdata fra 8.2: `bike_history` for cykel 1 (Jens' Kildemoes) skal give to reparationer, én på 450 kr. med bremsekabel og arbejdsløn, og én på 300 kr. med lapning.
 
 ### 10.3 Ekstra: `find_customer` med cykel-id'er
 
