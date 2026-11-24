@@ -56,7 +56,7 @@ Simons egne ansøgninger er skrevet i et roligt, almindeligt dansk. Følg det:
 - Han nævner ærligt, hvad han ikke har prøvet, og at han gerne lærer det. Ingen overdrivelser.
 - Omkring én side.
 - Afslut med hvornår han kan starte, at han gerne kommer til samtale, og GitHub-link (github.com/SimonFrom).
-
+this 
 ## Tjekliste for AI-formuleringer
 
 Skriv om, hvis teksten indeholder:
