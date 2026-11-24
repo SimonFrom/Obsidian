@@ -128,6 +128,7 @@ _Hvad virkede, hvad drillede, og hvad ville jeg gøre anderledes. Det er godt at
 
 ## Links
 
+- [[Guide - byg serveren trin for trin]]
 - Appen: `~/Code/cykel-service-v0`
 - MCP-dokumentation: https://modelcontextprotocol.io
 - C#-SDK: https://github.com/modelcontextprotocol/csharp-sdk
