@@ -34,7 +34,7 @@ Spørgsmål af typen "hvorfor" er også velkomne, fx "Hvorfor bruger vi `init`-e
 
 ### Fremskridt
 
-- [ ] 1. Overblik læst
+- [x] 1. Overblik læst
 - [ ] 2. Supabase forberedt
 - [ ] 3. Projekt oprettet
 - [ ] 4. Program.cs
@@ -96,7 +96,7 @@ order by table_name, ordinal_position;
 
 Sammenlign med tabellen i [[MCP - CykelService]]. Skriv afvigelser ned her:
 
-- ...
+customer_contacted er customerContacted i databasen.
 
 ### 2.2 Tjek om RLS er slået til
 
