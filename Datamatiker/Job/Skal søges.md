@@ -5,3 +5,4 @@
 - [ ] https://app.jobmatchprofile.com/22ky3k?client=jobindex
 - [ ] https://jobs.grundfos.com/job/Software-Developer/77582-en_GB?applySourceOverride=Jobindex.dk&utm_campaign=jobindex&utm_source=jobindex?utm_source=jobindex
 - [ ] https://www.jobindex.dk/jobannonce/r14087840
+- [ ] https://jobs.vitecsoftware.dk/jobs/8787321-net-udvikler
