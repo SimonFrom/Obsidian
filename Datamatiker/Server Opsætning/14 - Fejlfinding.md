@@ -2,7 +2,7 @@
 tags: [server, linux, homelab, fejlfinding]
 ---
 
-# 11 – Fejlfinding
+# 14 – Fejlfinding
 
 ← [[00 - Oversigt]]
 
@@ -82,7 +82,7 @@ docker system prune     # fjerner stoppede containere, ubrugte netværk og dangl
 sudo journalctl --vacuum-size=200M
 ```
 
-**`/` er meget mindre end disken** → se [[04 - Grundopsætning og sikkerhed#3. Udvid disken (hvis jeg glemte det)]].
+**`/` er meget mindre end disken** → se [[05 - Grundopsætning og sikkerhed#3. Udvid disken (hvis jeg glemte det)]].
 
 ## Docker
 

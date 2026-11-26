@@ -4,7 +4,7 @@ tags: [server, linux, homelab, ssh]
 
 # 03 – Første boot og SSH
 
-← [[02 - Installer Ubuntu Server]] | Næste: [[04 - Grundopsætning og sikkerhed]] →
+← [[02 - Installer Ubuntu Server]] | Næste: [[04 - Herdr]] →
 
 Målet med det her trin er at kunne logge ind fra min primære PC og så tage skærmen af.
 
@@ -41,7 +41,7 @@ systemctl status ssh
 Så får serveren altid den samme IP, uden at jeg skal ændre noget på serveren.
 
 > [!note] Alternativ: fast IP på selve serveren (netplan)
-> Kan routeren ikke lave reservationer, kan IP'en sættes i `/etc/netplan/`. Det er beskrevet i [[11 - Fejlfinding#Fast IP med netplan]].
+> Kan routeren ikke lave reservationer, kan IP'en sættes i `/etc/netplan/`. Det er beskrevet i [[14 - Fejlfinding#Fast IP med netplan]].
 
 ## 3. Første SSH-login fra min primære PC
 
@@ -106,15 +106,15 @@ Nu er det nok at skrive:
 ssh homeserver
 ```
 
-> Når Tailscale er sat op ([[07 - Tailscale]]), ændrer jeg `HostName` til serverens Tailscale-navn, så genvejen også virker uden for hjemmet.
+> Når Tailscale er sat op ([[08 - Tailscale]]), ændrer jeg `HostName` til serverens Tailscale-navn, så genvejen også virker uden for hjemmet.
 
 ## 6. Tag skærmen af 🖥️❌
 
-Når `ssh homeserver` virker med nøgle, kan skærm og tastatur fjernes. Resten af guiden foregår over SSH.
+Når `ssh homeserver` virker med nøgle, kan skærm og tastatur fjernes. Resten af guiden foregår over SSH, og fra næste trin inde i herdr.
 
 > [!warning] Inden skærmen tages af
 > Tjek at jeg kan logge ind med **nøgle**, og at jeg kan køre `sudo` (fx `sudo whoami` → `root`). Ellers kan jeg risikere at skulle sætte skærmen på igen.
 
 ---
 
-Næste: [[04 - Grundopsætning og sikkerhed]] →
+Næste: [[04 - Herdr]] →

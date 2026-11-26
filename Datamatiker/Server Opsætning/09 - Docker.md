@@ -2,9 +2,9 @@
 tags: [server, linux, homelab, docker]
 ---
 
-# 08 – Docker
+# 09 – Docker
 
-← [[07 - Tailscale]] | Næste: [[09 - Claude Code]] →
+← [[08 - Tailscale]] | Næste: [[10 - Claude Code]] →
 
 Docker installeres fra **Dockers eget apt-repository**. Ikke `docker.io` fra Ubuntu (gammel version) og ikke snap (problemer med rettigheder og mapper).
 
@@ -176,4 +176,4 @@ Viser containere, logs, CPU/RAM og giver mulighed for at genstarte containere me
 
 ---
 
-Næste: [[09 - Claude Code]] →
+Næste: [[10 - Claude Code]] →

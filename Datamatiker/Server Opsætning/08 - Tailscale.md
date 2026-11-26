@@ -2,9 +2,9 @@
 tags: [server, linux, homelab, netværk, tailscale]
 ---
 
-# 07 – Tailscale
+# 08 – Tailscale
 
-← [[06 - Teksteditor (micro)]] | Næste: [[08 - Docker]] →
+← [[07 - Teksteditor (micro)]] | Næste: [[09 - Docker]] →
 
 Tailscale laver et privat netværk (VPN, bygget på WireGuard) mellem mine enheder. Så kan jeg nå serveren fra min primære PC, laptop og telefon, også uden for hjemmet, **uden at åbne porte i routeren**.
 
@@ -42,7 +42,7 @@ sudo systemctl enable --now tailscaled
 sudo tailscale up
 ```
 
-Installér også appen på telefonen/laptoppen, hvis jeg vil kunne nå serveren derfra.
+Installér også appen på telefonen, hvis jeg vil kunne nå serveren derfra. Laptoppen: se [[15 - Forbind fra laptop]].
 
 ## 5. MagicDNS – brug navnet i stedet for IP
 
@@ -102,4 +102,4 @@ Normal SSH med nøgler virker også fint, så det er ikke nødvendigt.
 
 ---
 
-Næste: [[08 - Docker]] →
+Næste: [[09 - Docker]] →

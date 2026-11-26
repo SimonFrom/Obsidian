@@ -2,9 +2,9 @@
 tags: [server, linux, homelab, editor]
 ---
 
-# 06 – Teksteditor: micro
+# 07 – Teksteditor: micro
 
-← [[05 - Grundværktøjer og Git]] | Næste: [[07 - Tailscale]] →
+← [[06 - Grundværktøjer og Git]] | Næste: [[08 - Tailscale]] →
 
 **micro** er en terminal-editor (TUI), der føles som VS Code/Notepad: Ctrl+S gemmer, Ctrl+C/V kopierer og indsætter, Ctrl+F søger, og musen virker. Den har syntax highlighting, flere cursors, faner og plugins.
 
@@ -118,4 +118,4 @@ Terminal, filer, git og udvidelser kører så på serveren. micro bruger jeg til
 
 ---
 
-Næste: [[07 - Tailscale]] →
+Næste: [[08 - Tailscale]] →

@@ -39,7 +39,10 @@ Sæt **ikke** kryds i *Search for third-party drivers*, medmindre der er hardwar
 
 ## 5. Netværk
 
-- Med netværkskabel får forbindelsen (fx `enp1s0`) en IP via DHCP. Skriv IP'en ned, fx `192.168.1.50`.
+- Med netværkskabel får forbindelsen (fx `enp1s0`) en IP via DHCP. Skriv IP'en ned, fx 
+  ```
+  192.168.0.171/24
+  ```
 - Uden kabel: vælg WiFi-kortet (`wlp...`), og skriv netværksnavn og kode.
 - Lad den stå på **DHCP**. En fast IP laver jeg med en reservation i routeren (se [[03 - Første boot og SSH]]). Det er nemmere og sværere at lave fejl i.
 
@@ -67,7 +70,7 @@ På oversigtsskærmen bliver `ubuntu-lv` (`/`) ofte sat til kun en del af disken
 2. Sæt **Size** til det maksimale (der står en max-værdi ud for feltet).
 3. **Save** → **Done** → **Continue** (bekræft at disken slettes).
 
-> Har jeg glemt det, kan det rettes bagefter, se [[04 - Grundopsætning og sikkerhed#3. Udvid disken (hvis jeg glemte det)]].
+> Har jeg glemt det, kan det rettes bagefter, se [[05 - Grundopsætning og sikkerhed#3. Udvid disken (hvis jeg glemte det)]].
 
 ## 9. Profil
 
@@ -91,7 +94,7 @@ Vælg **Skip for now**. (Ubuntu Pro er gratis til private og kan slås til sener
 
 ## 12. Featured server snaps
 
-**Vælg ingen.** Især **ikke docker** herfra – snap-udgaven af Docker giver problemer med rettigheder og mapper. Docker installeres fra Dockers egen kilde i [[08 - Docker]].
+**Vælg ingen.** Især **ikke docker** herfra – snap-udgaven af Docker giver problemer med rettigheder og mapper. Docker installeres fra Dockers egen kilde i [[09 - Docker]].
 
 ## 13. Installation
 

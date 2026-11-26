@@ -2,9 +2,9 @@
 tags: [server, linux, homelab]
 ---
 
-# 10 – Næste skridt
+# 13 – Næste skridt
 
-← [[13 - Cron job - Auto pull af git repos]] | Fejlfinding: [[11 - Fejlfinding]]
+← [[12 - Cron job - Auto pull af git repos]] | Fejlfinding: [[14 - Fejlfinding]]
 
 Grundopsætningen er færdig. Her er idéer til, hvad der er værd at lave bagefter, med de vigtigste først.
 
@@ -23,7 +23,7 @@ sudo apt install -y restic
 
 ## 2. Overvågning
 
-- **Uptime Kuma** – er mine tjenester oppe? (eksemplet i [[08 - Docker]])
+- **Uptime Kuma** – er mine tjenester oppe? (eksemplet i [[09 - Docker]])
 - **btop** – live CPU/RAM/disk i terminalen.
 - **Beszel** eller **Netdata** – grafer over ressourceforbrug over tid.
 - Diskens helbred:

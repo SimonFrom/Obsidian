@@ -2,9 +2,9 @@
 tags: [server, linux, homelab, claude]
 ---
 
-# 09 – Claude Code
+# 10 – Claude Code
 
-← [[08 - Docker]] | Næste: [[12 - Cron job - Jobsøgning]] →
+← [[09 - Docker]] | Næste: [[11 - Cron job - Jobsøgning]] →
 
 ## 1. Installér (native installer)
 
@@ -31,10 +31,12 @@ source ~/.bashrc
 
 ## 2. Log ind (uden skærm/browser på serveren)
 
-Start Claude Code **i tmux**, så det bliver ved med at køre, selvom SSH ryger:
+Start Claude Code **i herdr**, så det bliver ved med at køre, selvom SSH ryger:
 
 ```bash
-tmux new -s claude
+# på min primære PC:
+herdr --remote homeserver
+# i et nyt panel/fane (Ctrl+b c):
 claude
 ```
 
@@ -46,6 +48,15 @@ Tjek installationen:
 
 ```bash
 claude doctor
+```
+
+### Kobl herdr på Claude Code
+
+Så kan herdr vise, om Claude arbejder, venter på mig eller er blokeret (se [[04 - Herdr#7. Claude Code-integration (senere)]]):
+
+```bash
+herdr integration install claude
+herdr integration status
 ```
 
 ## 3. Giv Claude kontekst om serveren
@@ -88,11 +99,10 @@ Eksempler på opgaver:
 ## 5. Tilbage i sessionen
 
 ```bash
-ssh homeserver
-tmux attach -t claude
+herdr                      # på serveren efter ssh homeserver, eller fra min primære PC: herdr --remote homeserver
 ```
 
-Inde i tmux: `Ctrl+b d` forlader sessionen uden at stoppe Claude.
+Inde i herdr: `Ctrl+b q` forlader sessionen uden at stoppe Claude.
 
 ## 6. Opdatering
 
@@ -104,4 +114,4 @@ claude update
 
 ---
 
-Næste: [[12 - Cron job - Jobsøgning]] →
+Næste: [[11 - Cron job - Jobsøgning]] →

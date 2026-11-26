@@ -2,9 +2,9 @@
 tags: [server, linux, homelab, claude, cron, job]
 ---
 
-# 12 – Cron job: ugentlig jobsøgning
+# 11 – Cron job: ugentlig jobsøgning
 
-← [[09 - Claude Code]] | Næste: [[13 - Cron job - Auto pull af git repos]] →
+← [[10 - Claude Code]] | Næste: [[12 - Cron job - Auto pull af git repos]] →
 
 Serveren kører min `job-soegning`-skill med Claude Code **én gang om ugen om natten** (natten til mandag kl. 03:00). Skill'en læser søgefilen i vaulten, skriver nye opslag i `Skal søges.md` og laver udkast til ansøgninger på Google Drev. Når den er færdig, bliver ændringerne pushet til GitHub, så de dukker op i Obsidian på min primære PC.
 
@@ -13,8 +13,8 @@ cron (man. 03:00) → job-soegning.sh → git pull → claude -p "/job-soegning"
 ```
 
 > [!info] Forudsætninger
-> - [[05 - Grundværktøjer og Git]]: serverens SSH-nøgle er lagt på GitHub
-> - [[09 - Claude Code]]: Claude Code er installeret og logget ind med min **claude.ai-konto**. Google Drev-connectoren følger med kontoen, og skill'en har brug for den.
+> - [[06 - Grundværktøjer og Git]]: serverens SSH-nøgle er lagt på GitHub
+> - [[10 - Claude Code]]: Claude Code er installeret og logget ind med min **claude.ai-konto**. Google Drev-connectoren følger med kontoen, og skill'en har brug for den.
 
 ## 1. Hent vaulten til serveren
 
@@ -145,7 +145,7 @@ Tilføj nederst:
 | måned | `*` | alle |
 | ugedag | `1` | mandag (0/7 = søndag) |
 
-- Tiden følger serverens tidszone. Den blev sat til `Europe/Copenhagen` i [[04 - Grundopsætning og sikkerhed]].
+- Tiden følger serverens tidszone. Den blev sat til `Europe/Copenhagen` i [[05 - Grundopsætning og sikkerhed]].
 - `flock -n` sørger for, at to kørsler aldrig kører samtidig.
 - Andet tidspunkt? Brug <https://crontab.guru> til at lave udtrykket.
 
@@ -192,4 +192,4 @@ og i vaulten: `Datamatiker/Job/Jobsøgning/Kørselslog.md`.
 
 ---
 
-Næste: [[13 - Cron job - Auto pull af git repos]] →
+Næste: [[12 - Cron job - Auto pull af git repos]] →

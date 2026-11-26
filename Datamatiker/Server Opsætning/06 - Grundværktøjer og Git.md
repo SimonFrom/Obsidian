@@ -2,9 +2,9 @@
 tags: [server, linux, homelab, git]
 ---
 
-# 05 – Grundværktøjer og Git
+# 06 – Grundværktøjer og Git
 
-← [[04 - Grundopsætning og sikkerhed]] | Næste: [[06 - Teksteditor (micro)]] →
+← [[05 - Grundopsætning og sikkerhed]] | Næste: [[07 - Teksteditor (micro)]] →
 
 ## 1. Installér pakkerne
 
@@ -22,7 +22,7 @@ sudo apt install -y \
 |-------|---------------------|
 | `git` | Versionsstyring, hente repos |
 | `curl`, `wget` | Hente filer/scripts fra nettet (bruges i Tailscale, Docker og Claude Code) |
-| `tmux` | Sessioner, der bliver ved med at køre, når SSH lukkes |
+| `tmux` | Reserve til [[04 - Herdr]], hvis herdr driller |
 | `btop` / `htop` | Se CPU, RAM, diske, processer |
 | `ncdu` | Find ud af, hvad der fylder på disken |
 | `jq` | Læse/formatere JSON i terminalen |
@@ -74,7 +74,7 @@ Den viser en kode og et link. Åbn linket på min primære PC, og skriv koden.
 
 ## 4. tmux – det vigtigste at vide
 
-tmux gør, at programmer bliver ved med at køre, selvom SSH-forbindelsen ryger. Det er især smart til Claude Code og lange installationer.
+Til daglig bruger jeg [[04 - Herdr]]. tmux er en reserve, der altid er der (fx hvis herdr er nede efter en opdatering). Jeg starter **ikke** tmux inde i herdr, fordi begge bruger `Ctrl+b`.
 
 ```bash
 tmux new -s main        # ny session med navnet "main"
@@ -123,4 +123,4 @@ source ~/.bashrc
 
 ---
 
-Næste: [[06 - Teksteditor (micro)]] →
+Næste: [[07 - Teksteditor (micro)]] →

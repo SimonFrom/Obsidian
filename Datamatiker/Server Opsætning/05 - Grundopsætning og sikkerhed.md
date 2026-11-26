@@ -2,11 +2,11 @@
 tags: [server, linux, homelab, sikkerhed]
 ---
 
-# 04 – Grundopsætning og sikkerhed
+# 05 – Grundopsætning og sikkerhed
 
-← [[03 - Første boot og SSH]] | Næste: [[05 - Grundværktøjer og Git]] →
+← [[04 - Herdr]] | Næste: [[06 - Grundværktøjer og Git]] →
 
-Alt herfra foregår over SSH: `ssh homeserver`
+Alt herfra foregår over SSH og inde i herdr: `herdr --remote homeserver` fra min primære PC (eller `ssh homeserver` → `herdr`).
 
 ## 1. Opdatér systemet
 
@@ -106,7 +106,7 @@ sudo ufw allow 80/tcp     # eksempel – kun når jeg rent faktisk har en webser
 ```
 
 > [!warning] Docker og UFW
-> Porte, som Docker åbner med `ports:`, går **uden om** UFW. Se [[08 - Docker#Docker og firewall]].
+> Porte, som Docker åbner med `ports:`, går **uden om** UFW. Se [[09 - Docker#Docker og firewall]].
 
 ## 6. Automatiske sikkerhedsopdateringer
 
@@ -146,4 +146,4 @@ sudo fail2ban-client status sshd
 
 ---
 
-Næste: [[05 - Grundværktøjer og Git]] →
+Næste: [[06 - Grundværktøjer og Git]] →

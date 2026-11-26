@@ -2,9 +2,9 @@
 tags: [server, linux, homelab, git, cron]
 ---
 
-# 13 – Cron job: auto pull af alle git repos
+# 12 – Cron job: auto pull af alle git repos
 
-← [[12 - Cron job - Jobsøgning]] | Næste: [[10 - Næste skridt]] →
+← [[11 - Cron job - Jobsøgning]] | Næste: [[13 - Næste skridt]] →
 
 Hver nat kl. 02:00 finder serveren alle git repos i min hjemmemappe og kører `git pull` i dem. Så har serveren altid de nyeste ændringer fra GitHub, fx dem jeg har pushet fra min primære PC.
 
@@ -15,7 +15,7 @@ Hver nat kl. 02:00 finder serveren alle git repos i min hjemmemappe og kører `g
 > - Pull laves med `--ff-only`, så der aldrig bliver lavet merge-commits eller konflikter. Er branchen gået forskellige veje, skrives det i loggen, og jeg ordner det selv.
 
 > [!info] Forudsætninger
-> - [[05 - Grundværktøjer og Git]]: serverens SSH-nøgle er lagt på GitHub og har **ingen passphrase** (cron har ingen ssh-agent, se [[12 - Cron job - Jobsøgning#4. Script, der står for kørslen]])
+> - [[06 - Grundværktøjer og Git]]: serverens SSH-nøgle er lagt på GitHub og har **ingen passphrase** (cron har ingen ssh-agent, se [[11 - Cron job - Jobsøgning#4. Script, der står for kørslen]])
 
 ## 1. Scriptet
 
