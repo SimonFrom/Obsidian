@@ -10,7 +10,7 @@ Det, du selv skal gøre, når agenten søger job for dig.
 ## Start en søgning
 
 - **I Claude Code:** skriv `/job-soegning`.
-- **Fra terminalen:** kør `~/.local/share/job-soegning/run.sh`. Den kører uden at spørge om noget og skriver sin log i `~/.local/share/job-soegning/logs/`.
+- **Fra terminalen:** kør `~/.claude/skills/job-soegning/run.sh`. Den kører uden at spørge om noget og skriver sin log i `~/.local/share/job-soegning/logs/`.
 
 En kørsel tager 10-25 minutter. Den første kostede 4,82 dollar ved API-pris, fordi alle 104 opslag var nye. Senere kørsler er billigere, fordi der kun er få nye opslag.
 
@@ -57,6 +57,8 @@ Skriv gerne under linjen i Skal søges, hvordan og hvornår du søgte, fx `Sendt
 Sæt kryds i **frasorter** øverst i noten. Opslaget forsvinder med det samme fra fanen "Ikke sendt" i [[Overblik.base]] og kommer i fanen "Frasorteret af mig".
 
 Ved næste kørsel flytter agenten linjen fra [[Skal søges]] til [[Frasorteret]] under "Frasorteret af dig" og flytter noten til den grå mappe `Frasorteret`. Har du skrevet noget under linjen i Skal søges, flyttes det ned i noten. Der bliver ikke lavet udkast til et frasorteret opslag.
+
+Har opslaget et udkast eller et målrettet CV på Drevet, lægger agenten dem i papirkurven, og mappen også, hvis den er tom bagefter. Det sker kun, hvis titlen stadig begynder med "Udkast - ". Har du fjernet det ord, rører agenten ikke filen. Du kan hente filerne tilbage fra Drevets papirkurv i 30 dage.
 
 Skriv gerne i noten, hvorfor du frasorterede det.
 
