@@ -41,9 +41,9 @@ Spørgsmål af typen "hvorfor" er også velkomne, fx "Hvorfor bruger vi `init`-e
 - [x] 5. Modeller
 - [x] 6. Dataadgang
 - [x] 7. Værktøjer
-- [ ] 8. Testet lokalt
-- [ ] 9. Forbundet til Claude Code
-- [ ] 10. Resten af version 1
+- [x] 8. Testet lokalt
+- [x] 9. Forbundet til Claude Code
+- [x] 10. Resten af version 1
 - [ ] 11. Version 2
 
 ---
