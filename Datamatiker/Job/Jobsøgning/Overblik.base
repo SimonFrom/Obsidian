@@ -1,0 +1,56 @@
+filters:
+  and:
+    - file.inFolder("Datamatiker/Job/Jobsøgning")
+    - file.hasProperty("url")
+properties:
+  note.virksomhed:
+    displayName: Virksomhed
+  note.stilling:
+    displayName: Stilling
+  note.by:
+    displayName: By
+  note.arbejdsform:
+    displayName: Arbejdsform
+  note.frist:
+    displayName: Frist
+  note.gruppe:
+    displayName: Gruppe
+  note.sendt:
+    displayName: Sendt
+views:
+  - type: table
+    name: Ikke sendt
+    filters:
+      and:
+        - note.sendt != true
+    order:
+      - sendt
+      - virksomhed
+      - stilling
+      - by
+      - arbejdsform
+      - frist
+      - gruppe
+    sort:
+      - property: gruppe
+        direction: DESC
+  - type: table
+    name: Sendt
+    filters:
+      and:
+        - note.sendt == true
+    order:
+      - virksomhed
+      - stilling
+      - by
+      - frist
+  - type: table
+    name: Alle
+    order:
+      - sendt
+      - virksomhed
+      - stilling
+      - by
+      - arbejdsform
+      - frist
+      - gruppe

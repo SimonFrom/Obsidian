@@ -43,6 +43,6 @@ Opslag med disse ord i titlen springes over.
 
 ## Indstillinger
 
-- Kør: hver morgen
-- Lav kun udkast, når jeg opfylder de fleste krav i opslaget, se bort fra ønsker omkring x antal års erfaring, men gør opmærksom på det i noten
-- Højst 3 nye udkast pr. kørsel
+- Lav kun udkast, når jeg opfylder de fleste krav i opslaget og altid når det ikke er remote eller hybrid
+- Se bort fra ønsker omkring x antal års erfaring, men gør opmærksom på det i noten
+- Højst 5 nye udkast pr. kørsel
