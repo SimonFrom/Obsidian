@@ -10,7 +10,7 @@ gruppe: udkast
 udkast: https://docs.google.com/document/d/1Bbakw_9NAY6YguprVBncPKC5ivfnsxJOrqLyHFfHtpE/edit
 cv:
 sendt: false
-frasorter: false
+frasorter: true
 ---
 
 # Softwareudvikler til Frontline & Automation, NORMAL A/S

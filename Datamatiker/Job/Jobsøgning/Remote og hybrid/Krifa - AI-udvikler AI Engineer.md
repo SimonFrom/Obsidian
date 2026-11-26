@@ -10,7 +10,7 @@ gruppe: udkast
 udkast: https://docs.google.com/document/d/1OUKd4XDCarcBqjg8QSeoQL1c3RVqk43DAtsbuoCHzWM/edit
 cv: https://docs.google.com/document/d/1x3yfP606LPUTUSjVPA7ymykk7hyuvvha1ijrlsQNdIc/edit
 sendt: false
-frasorter: false
+frasorter: true
 ---
 
 # AI-udvikler / AI Engineer, Krifa

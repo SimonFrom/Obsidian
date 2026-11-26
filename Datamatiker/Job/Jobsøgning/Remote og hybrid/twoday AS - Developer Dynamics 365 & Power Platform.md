@@ -10,7 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
-frasorter: false
+frasorter: true
 ---
 
 # Developer – Dynamics 365 & Power Platform, twoday A/S

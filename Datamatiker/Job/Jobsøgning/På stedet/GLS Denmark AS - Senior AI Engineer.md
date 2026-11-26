@@ -10,7 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
-frasorter: false
+frasorter: true
 ---
 
 # Senior AI Engineer, GLS Denmark A/S
