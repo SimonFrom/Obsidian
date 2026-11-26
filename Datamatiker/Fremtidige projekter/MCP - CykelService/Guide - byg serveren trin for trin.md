@@ -35,8 +35,8 @@ Spørgsmål af typen "hvorfor" er også velkomne, fx "Hvorfor bruger vi `init`-e
 ### Fremskridt
 
 - [x] 1. Overblik læst
-- [ ] 2. Supabase forberedt
-- [ ] 3. Projekt oprettet
+- [x] 2. Supabase forberedt
+- [x] 3. Projekt oprettet
 - [ ] 4. Program.cs
 - [ ] 5. Modeller
 - [ ] 6. Dataadgang
@@ -70,11 +70,11 @@ Claude Code ──(starter serveren, taler via stdin/stdout)──► CykelServi
 
 ### 1.2 Lagene
 
-| Mappe | Ansvar | Kender til |
-|---|---|---|
-| `Tools/` | Tager imod parametre fra Claude, tjekker dem og returnerer svaret | MCP-attributter og interfaces fra `Data/` |
-| `Data/` | SQL mod databasen | Dapper og Npgsql |
-| `Models/` | De records, der sendes tilbage som JSON | Ingenting |
+| Mappe     | Ansvar                                                            | Kender til                                |
+| --------- | ----------------------------------------------------------------- | ----------------------------------------- |
+| `Tools/`  | Tager imod parametre fra Claude, tjekker dem og returnerer svaret | MCP-attributter og interfaces fra `Data/` |
+| `Data/`   | SQL mod databasen                                                 | Dapper og Npgsql                          |
+| `Models/` | De records, der sendes tilbage som JSON                           | Ingenting                                 |
 
 Det er samme idé som i FuelPace: værktøjerne kender kun et interface, så de kan testes uden database.
 
@@ -113,7 +113,7 @@ Hvis `relrowsecurity` er `true`, skal du bruge policies i 2.3. Ellers ser den ny
 ### 2.3 Opret en rolle, der kun kan læse
 
 ```sql
-create role mcp_readonly with login password '<lang tilfældig adgangskode>';
+create role mcp_readonly with login password 'langTilfældigMcpKode';
 
 grant usage on schema public to mcp_readonly;
 grant select on customers, bikes, repairs, repair_items to mcp_readonly;
@@ -144,7 +144,7 @@ reset role;
 3. Skriv den om til Npgsql-format:
 
 ```
-Host=aws-0-eu-central-1.pooler.supabase.com;Port=5432;Database=postgres;Username=mcp_readonly.<project-ref>;Password=<adgangskode>;SSL Mode=Require
+Host=aws-1-eu-north-1.pooler.supabase.com;Port=5432;Database=postgres;Username=mcp_readonly.<project-ref>;Password=<adgangskode>;SSL Mode=Require
 ```
 
 Den må **aldrig** komme i git. I 9.1 lægger du den i en miljøvariabel.
