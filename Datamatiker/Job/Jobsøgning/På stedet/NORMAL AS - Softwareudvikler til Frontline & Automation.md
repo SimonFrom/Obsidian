@@ -6,10 +6,11 @@ by: Skanderborg
 arbejdsform: på stedet
 frist: 14/12/26
 fundet: 26/11/26
-gruppe: udkast mangler
-udkast:
+gruppe: udkast
+udkast: https://docs.google.com/document/d/1Bbakw_9NAY6YguprVBncPKC5ivfnsxJOrqLyHFfHtpE/edit
 cv:
 sendt: false
+frasorter: false
 ---
 
 # Softwareudvikler til Frontline & Automation, NORMAL A/S
@@ -36,4 +37,9 @@ Fuldt opslag: https://jobs.hq.normal.dk/jobs/8781264-softwareudvikler-til-frontl
 - Afstand: Skanderborg er ca. 1 t 10 min fra Vissenbjerg, og man skal møde ind dagligt.
 
 ## Til udkastet
-Grænsen på 3 udkast blev nået i denne kørsel. Udkastet laves i næste kørsel. Det skal være kort: CV plus et par linjer med et eksempel på AI i udviklingsarbejdet.
+Udkast lavet 26/11/26: [Udkast - Ansøgning Softwareudvikler Frontline & Automation NORMAL](https://docs.google.com/document/d/1Bbakw_9NAY6YguprVBncPKC5ivfnsxJOrqLyHFfHtpE/edit), i mappen "Softwareudvikler Frontline & Automation NORMAL" på Drevet. Det er kort, fordi de ikke vil have en traditionel ansøgning. Det er de "par linjer", der skal sendes med CV'et, med eksemplet på AI i udviklingsarbejdet (Claude Code-opsætningen og MCP-serveren).
+
+- **Pladsholder:** hvordan du vil klare at møde ind dagligt i Skanderborg (ca. 1 t 10 min fra Vissenbjerg).
+- **Pladsholder:** bekræftelsen af, at de må skrive til dig på sms. Opslaget beder om den. Behold sætningen, hvis det er i orden.
+- **Tjek:** teksten siger ærligt, at du ikke har 3 års erfaring eller har prøvet Azure og CI/CD.
+- **CV:** intet nyt målrettet CV. Her er CV'et hoveddokumentet, så overvej at sende Hesehus-CV'et ("CV Simon From – Hesehus"), som har AI og backend længere fremme og nævner dine egne opgaver i FuelPace. MCP-serveren står ikke i noget CV endnu.

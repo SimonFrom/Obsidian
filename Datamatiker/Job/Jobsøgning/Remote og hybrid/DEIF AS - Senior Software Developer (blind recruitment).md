@@ -10,6 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
+frasorter: false
 ---
 
 # Senior Software Developer (blind recruitment), DEIF A/S

@@ -10,6 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
+frasorter: false
 ---
 
 # IT-Integrationsudvikler, V. Guldmann A/S

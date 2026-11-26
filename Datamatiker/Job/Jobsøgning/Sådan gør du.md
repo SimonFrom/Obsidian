@@ -52,6 +52,14 @@ Overblikket opdaterer med det samme. Ved næste kørsel sætter agenten det ande
 
 Skriv gerne under linjen i Skal søges, hvordan og hvornår du søgte, fx `Sendt d. 24/11/26 via Jobindex`. Det rører agenten ikke.
 
+## Frasortér et opslag selv
+
+Sæt kryds i **frasorter** øverst i noten. Opslaget forsvinder med det samme fra fanen "Ikke sendt" i [[Overblik.base]] og kommer i fanen "Frasorteret af mig".
+
+Ved næste kørsel flytter agenten linjen fra [[Skal søges]] til [[Frasorteret]] under "Frasorteret af dig" og flytter noten til den grå mappe `Frasorteret`. Har du skrevet noget under linjen i Skal søges, flyttes det ned i noten. Der bliver ikke lavet udkast til et frasorteret opslag.
+
+Skriv gerne i noten, hvorfor du frasorterede det.
+
 ## Frasorterede opslag
 
 [[Frasorteret]] har en boks for hver kørsel. Den nyeste er foldet ud, og de ældre er foldet sammen. Kig især under **Gode match, men for langt væk**.

@@ -4,7 +4,7 @@ tags: [server, linux, homelab, claude, cron, job]
 
 # 12 – Cron job: ugentlig jobsøgning
 
-← [[09 - Claude Code]] | Næste: [[10 - Næste skridt]] →
+← [[09 - Claude Code]] | Næste: [[13 - Cron job - Auto pull af git repos]] →
 
 Serveren kører min `job-soegning`-skill med Claude Code **én gang om ugen om natten** (natten til mandag kl. 03:00). Skill'en læser søgefilen i vaulten, skriver nye opslag i `Skal søges.md` og laver udkast til ansøgninger på Google Drev. Når den er færdig, bliver ændringerne pushet til GitHub, så de dukker op i Obsidian på min primære PC.
 
@@ -189,3 +189,7 @@ og i vaulten: `Datamatiker/Job/Jobsøgning/Kørselslog.md`.
 
 > [!tip] Alternativ: systemd-timer
 > Skal kørslen tages igen, hvis serveren var slukket kl. 03, kan en systemd-timer med `Persistent=true` bruges i stedet for cron. En server, der altid er tændt, kan sagtens bruge cron.
+
+---
+
+Næste: [[13 - Cron job - Auto pull af git repos]] →

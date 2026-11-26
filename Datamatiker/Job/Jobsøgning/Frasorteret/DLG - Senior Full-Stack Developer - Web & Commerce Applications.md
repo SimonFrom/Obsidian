@@ -10,6 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
+frasorter: true
 ---
 
 # Senior Full-Stack Developer - Web & Commerce Applications, DLG

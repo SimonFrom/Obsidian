@@ -10,6 +10,7 @@ gruppe: udkast
 udkast: https://docs.google.com/document/d/1c36JeKd_BihWyFs-u53MrVuq4dwPhXSY0YIGGncI-Vw/edit
 cv:
 sendt: false
+frasorter: false
 ---
 
 # Fullstack-udvikler, IDA

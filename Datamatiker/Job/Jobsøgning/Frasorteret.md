@@ -4,7 +4,16 @@ Opslag, som agenten har set og valgt fra. De bliver ikke vurderet igen. Flyt et 
 
 Hver kørsel har sin egen boks, nyeste øverst. Den nyeste er foldet ud, de ældre er foldet sammen. Klik på en boks for at folde den ud.
 
-> [!note]+ 26/11/26 · 89 frasorteret
+> [!note]+ 26/11/26 · 93 frasorteret
+>
+> ### Frasorteret af dig
+>
+> | Stilling | Virksomhed | Note |
+> |---|---|---|
+> | [Senior .NET Developer](https://www.jobindex.dk/vis-job/h1713941) | GLS Denmark A/S | [[GLS Denmark AS - Senior .NET Developer\|note]] |
+> | [Seniorudvikler til vores softwareafdeling](https://www.jobindex.dk/vis-job/h1714733) | Techsoft A/S | [[Techsoft AS - Seniorudvikler til vores softwareafdeling\|note]] |
+> | [Senior Full-Stack Developer - Web & Commerce Applications](https://www.jobindex.dk/vis-job/h1718957) | DLG | [[DLG - Senior Full-Stack Developer - Web & Commerce Applications\|note]] |
+> | [Senior fullstack udvikler (.NET eller Java)](https://www.jobindex.dk/vis-job/h1714235) | Sopra Steria A/S | [[Sopra Steria AS - Senior fullstack udvikler (.NET eller Java)\|note]] |
 >
 > ### Gode match, men for langt væk
 >

@@ -4,7 +4,7 @@ tags: [server, linux, homelab]
 
 # 10 – Næste skridt
 
-← [[12 - Cron job - Jobsøgning]] | Fejlfinding: [[11 - Fejlfinding]]
+← [[13 - Cron job - Auto pull af git repos]] | Fejlfinding: [[11 - Fejlfinding]]
 
 Grundopsætningen er færdig. Her er idéer til, hvad der er værd at lave bagefter, med de vigtigste først.
 

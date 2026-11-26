@@ -23,6 +23,7 @@ Rækkefølgen er valgt sådan, at jeg kan tage skærmen af så tidligt som mulig
 | 8 | [[08 - Docker]] | ❌ | Docker kører alle tjenesterne på serveren |
 | 9 | [[09 - Claude Code]] | ❌ | Kommer sidst, så Claude kan hjælpe med vedligehold og nye tjenester |
 | 9b | [[12 - Cron job - Jobsøgning]] | ❌ | Kører `job-soegning`-skill'en én gang om ugen om natten |
+| 9c | [[13 - Cron job - Auto pull af git repos]] | ❌ | `git pull` i alle repos hver nat |
 | 10 | [[10 - Næste skridt]] | ❌ | Backup, overvågning og forslag til tjenester |
 
 Fejlfinding: [[11 - Fejlfinding]]
@@ -39,7 +40,7 @@ Fejlfinding: [[11 - Fejlfinding]]
 - **micro** som teksteditor – tastaturgenveje som i VS Code (Ctrl+S, Ctrl+C/V, Ctrl+F, mus).
 - **VS Code Remote-SSH** (valgfrit) – mappen på serveren åbnes i VS Code på min primære PC.
 - **gh** (GitHub CLI) – valgfrit, nemt login på GitHub.
-- **Cron job** – ugentlig jobsøgning med Claude Code og `job-soegning`-skill'en.
+- **Cron jobs** – ugentlig jobsøgning med Claude Code og `job-soegning`-skill'en, og natlig auto pull af alle git repos.
 
 ## Faste værdier i guiden
 
@@ -71,4 +72,5 @@ Ret dem til, hvis jeg vælger noget andet:
 - [ ] Claude Code installeret og logget ind
 - [ ] Vault klonet og skills kopieret til serveren
 - [ ] Cron job til ugentlig jobsøgning testet og oprettet
+- [ ] Cron job til natlig auto pull af git repos testet og oprettet
 - [ ] Backup sat op

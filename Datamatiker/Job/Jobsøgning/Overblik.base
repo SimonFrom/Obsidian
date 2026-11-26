@@ -17,14 +17,18 @@ properties:
     displayName: Gruppe
   note.sendt:
     displayName: Sendt
+  note.frasorter:
+    displayName: Frasortér
 views:
   - type: table
     name: Ikke sendt
     filters:
       and:
         - note.sendt != true
+        - note.frasorter != true
     order:
       - sendt
+      - frasorter
       - virksomhed
       - stilling
       - by
@@ -39,6 +43,16 @@ views:
     filters:
       and:
         - note.sendt == true
+    order:
+      - virksomhed
+      - stilling
+      - by
+      - frist
+  - type: table
+    name: Frasorteret af mig
+    filters:
+      and:
+        - note.frasorter == true
     order:
       - virksomhed
       - stilling

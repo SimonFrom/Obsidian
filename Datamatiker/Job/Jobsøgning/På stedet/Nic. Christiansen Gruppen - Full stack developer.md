@@ -10,6 +10,7 @@ gruppe: udkast
 udkast: https://docs.google.com/document/d/196IuAKcPZtG78ukE_ESW8TIe-SLfh_96mOonZW6WpQY/edit
 cv:
 sendt: false
+frasorter: false
 ---
 
 # Full stack developer, Nic. Christiansen Gruppen

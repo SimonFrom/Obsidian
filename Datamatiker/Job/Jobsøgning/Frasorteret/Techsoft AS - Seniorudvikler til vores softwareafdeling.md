@@ -10,6 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
+frasorter: true
 ---
 
 # Seniorudvikler til vores softwareafdeling, Techsoft A/S

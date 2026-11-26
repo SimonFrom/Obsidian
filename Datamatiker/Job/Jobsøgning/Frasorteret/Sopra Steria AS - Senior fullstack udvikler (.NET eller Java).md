@@ -10,6 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
+frasorter: true
 ---
 
 # Senior fullstack udvikler (.NET eller Java), Sopra Steria A/S

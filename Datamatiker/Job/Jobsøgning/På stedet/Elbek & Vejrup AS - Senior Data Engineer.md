@@ -10,6 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
+frasorter: false
 ---
 
 # Senior Data Engineer, Elbek & Vejrup A/S

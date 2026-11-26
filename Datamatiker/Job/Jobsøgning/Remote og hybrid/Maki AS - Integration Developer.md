@@ -6,10 +6,11 @@ by: Hørning
 arbejdsform: hybrid (hjemmearbejde muligt)
 frist: løbende
 fundet: 26/11/26
-gruppe: udkast mangler
-udkast:
+gruppe: udkast
+udkast: https://docs.google.com/document/d/1OUbzp57U28w52kGHJ8lMNQCGfsiAHduRXRbNO4zhqMk/edit
 cv:
 sendt: false
+frasorter: false
 ---
 
 # Integration Developer, Maki A/S
@@ -46,4 +47,11 @@ Fuldt opslag: https://www.jobindex.dk/jobannonce/h1710579/integration-developer-
 - Afstand: Hørning er ca. 1 t 15 min fra Vissenbjerg, men der er mulighed for hjemmearbejde.
 
 ## Til udkastet
-Grænsen på 3 udkast blev nået i denne kørsel. Udkastet laves i næste kørsel.
+Udkast lavet 26/11/26: [Udkast - Ansøgning Integration Developer Maki](https://docs.google.com/document/d/1OUbzp57U28w52kGHJ8lMNQCGfsiAHduRXRbNO4zhqMk/edit), i mappen "Integration Developer Maki" på Drevet.
+
+- **Pladsholder:** hvor tit du regner med at møde ind i Hørning (ca. 1 t 15 min fra Vissenbjerg).
+- **Tjek:** ansøgningen siger ærligt, at du kun kender Odoo som bruger og ikke har prøvet Azure, Logic Apps eller n8n.
+- **Tjek:** fakta om CykelService.Mcp er taget fra Hesehus-ansøgningen.
+- **Send:** CV og ansøgning på mail til jobs@maki.dk med emnet "Integration Developer".
+- **CV:** intet målrettet CV. Det generelle dækker kravene (API'er, C#, Python, TypeScript, Git, Odoo), og MCP-serveren står i ansøgningen. Brug evt. Hesehus-CV'et, hvis du vil have backend længere frem.
+- Sidetallet er ikke tjekket som PDF, men teksten er ca. 2.700 tegn og burde holde sig til én side.

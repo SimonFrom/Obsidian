@@ -10,6 +10,7 @@ gruppe: delvis match
 udkast:
 cv:
 sendt: false
+frasorter: true
 ---
 
 # Senior .NET Developer, GLS Denmark A/S
