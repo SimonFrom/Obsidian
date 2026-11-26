@@ -37,10 +37,10 @@ Spørgsmål af typen "hvorfor" er også velkomne, fx "Hvorfor bruger vi `init`-e
 - [x] 1. Overblik læst
 - [x] 2. Supabase forberedt
 - [x] 3. Projekt oprettet
-- [ ] 4. Program.cs
-- [ ] 5. Modeller
-- [ ] 6. Dataadgang
-- [ ] 7. Værktøjer
+- [x] 4. Program.cs
+- [x] 5. Modeller
+- [x] 6. Dataadgang
+- [x] 7. Værktøjer
 - [ ] 8. Testet lokalt
 - [ ] 9. Forbundet til Claude Code
 - [ ] 10. Resten af version 1
@@ -737,3 +737,9 @@ Ting, der er gode at kunne forklare til en samtale:
 ## Noter undervejs
 
 _Skriv her, hvad der drillede, og hvordan du løste det._
+Tilføj mcp til claude på ny maskine:
+``` bash
+claude mcp add cykelservice -s user \
+  -e CYKELSERVICE_DB="Host=aws-1-eu-north-1.pooler.supabase.com;Port=5432;Database=postgres;Username=mcp_readonly.sidznwefvvhckqsqfxue;Password=<kode fra password manager>;SSL Mode=Require" \
+  -- ~/.local/share/cykelservice-mcp/CykelService.Mcp
+```
