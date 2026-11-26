@@ -1,6 +1,6 @@
 # Søgeord og sider
 
-Agenten læser denne fil, før den søger efter job. Skriv én ting pr. linje i listerne. Linjer, der starter med `%%`, bliver ignoreret.
+Agenten læser denne fil, før den søger efter job. Skriv én ting pr. linje i listerne. Tekst mellem %% og %% bliver ignoreret, ligesom i Obsidian.
 
 ## Sider
 
@@ -22,8 +22,6 @@ Agenten søger på hvert ord eller hver frase for sig.
 - Linux
 - Docker
 - Webudvikler
-- Udvikler
-- Programmør
 - backend udvikler
 - full-stack udvikler
 
@@ -41,9 +39,10 @@ Opslag med disse ord i titlen springes over.
 - Fredericia
 - Vejle
 - Generelt omkring 1 times kørsel fra Magtenbølle, Vissenbjerg
+- Remote og hybrid, uanset hvor firmaet ligger. Skriv i noten, om jobbet er remote eller hybrid, og hvor tit man skal møde ind, hvis opslaget siger det
 
 ## Indstillinger
 
 - Kør: hver morgen
-- Lav kun udkast, når jeg opfylder de fleste krav i opslaget, se bortfra fra ønkser omkring x antal års erfaring, men gør opmærksom på det i noten
+- Lav kun udkast, når jeg opfylder de fleste krav i opslaget, se bort fra ønsker omkring x antal års erfaring, men gør opmærksom på det i noten
 - Højst 3 nye udkast pr. kørsel
