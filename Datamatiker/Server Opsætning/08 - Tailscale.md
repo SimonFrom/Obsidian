@@ -64,7 +64,7 @@ Host homeserver
 
 # Bruges hvis Tailscale er nede:
 Host homeserver-lan
-    HostName 192.168.1.50
+    HostName 192.168.0.171
     User simon
     IdentityFile ~/.ssh/id_ed25519
 ```
@@ -98,7 +98,7 @@ Normal SSH med nøgler virker også fint, så det er ikke nødvendigt.
   sudo tailscale set --advertise-exit-node
   ```
   Godkend derefter i admin console → Machines → `homeserver` → *Edit route settings*.
-- **Subnet router** – giv adgang til hele hjemmenetværket (fx printer, NAS): `--advertise-routes=192.168.1.0/24`.
+- **Subnet router** – giv adgang til hele hjemmenetværket (fx printer, NAS): `--advertise-routes=192.168.0.0/24`.
 
 ---
 

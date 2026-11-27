@@ -109,7 +109,7 @@ Host homeserver
     ServerAliveInterval 60
 
 Host homeserver-lan
-    HostName 192.168.1.50        # kun hjemme, hvis Tailscale er nede
+    HostName 192.168.0.171       # kun hjemme, hvis Tailscale er nede
     User simon
     IdentityFile ~/.ssh/id_ed25519
 ```

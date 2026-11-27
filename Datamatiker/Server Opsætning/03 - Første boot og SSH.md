@@ -22,7 +22,7 @@ hostname -I
 ip -br a
 ```
 
-Det er den adresse, der starter med `192.168.` (eller `10.`), fx `192.168.1.50`.
+Det er den adresse, der starter med `192.168.` (eller `10.`). Min server har `192.168.0.171`.
 
 Tjek, at SSH kører:
 
@@ -48,7 +48,7 @@ Så får serveren altid den samme IP, uden at jeg skal ændre noget på serveren
 På **min primære PC**:
 
 ```bash
-ssh simon@192.168.1.50
+ssh simon@192.168.0.171
 ```
 
 Første gang spørger den, om jeg stoler på serverens fingerprint → skriv `yes`.
@@ -75,13 +75,13 @@ ssh-keygen -t ed25519 -C "primaer-pc"
 Hvis jeg ikke importerede nøglen fra GitHub under installationen:
 
 ```bash
-ssh-copy-id simon@192.168.1.50
+ssh-copy-id simon@192.168.0.171
 ```
 
 Test, om den virker – jeg må **ikke** blive spurgt om serverens password (måske om nøglens passphrase, og det er fint):
 
 ```bash
-ssh simon@192.168.1.50
+ssh simon@192.168.0.171
 ```
 
 ## 5. Genvej i SSH-config
@@ -94,7 +94,7 @@ micro ~/.ssh/config    # eller en anden editor
 
 ```ssh-config
 Host homeserver
-    HostName 192.168.1.50
+    HostName 192.168.0.171
     User simon
     IdentityFile ~/.ssh/id_ed25519
     ServerAliveInterval 60

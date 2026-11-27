@@ -53,7 +53,7 @@ Ret dem til, hvis jeg vælger noget andet:
 |------|-------|
 | Servernavn (hostname) | `homeserver` |
 | Brugernavn | `simon` |
-| Lokal IP | `192.168.1.50` (eksempel, se [[03 - Første boot og SSH]]) |
+| Lokal IP | `192.168.0.171` (se [[03 - Første boot og SSH]]) |
 | SSH-alias på min PC | `homeserver` |
 
 ## Tjekliste

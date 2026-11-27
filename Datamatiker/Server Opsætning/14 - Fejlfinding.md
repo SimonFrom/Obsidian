@@ -9,7 +9,7 @@ tags: [server, linux, homelab, fejlfinding]
 ## SSH
 
 **`Connection refused` / `timed out`**
-- Er serveren tændt og på netværket? `ping 192.168.1.50`
+- Er serveren tændt og på netværket? `ping 192.168.0.171`
 - Har IP'en ændret sig? Sæt skærmen på, og kør `hostname -I`. Lav en DHCP-reservation ([[03 - Første boot og SSH]]).
 - Kører SSH? `systemctl status ssh ssh.socket`
 - Blokerer UFW? `sudo ufw status` → `OpenSSH` skal stå som *ALLOW*.
@@ -25,7 +25,7 @@ tags: [server, linux, homelab, fejlfinding]
 **`WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED`**
 Det sker typisk efter en geninstallation af serveren. På min primære PC:
 ```bash
-ssh-keygen -R 192.168.1.50
+ssh-keygen -R 192.168.0.171
 ssh-keygen -R homeserver
 ```
 
@@ -49,10 +49,10 @@ network:
   ethernets:
     enp1s0:
       dhcp4: false
-      addresses: [192.168.1.50/24]
+      addresses: [192.168.0.171/24]
       routes:
         - to: default
-          via: 192.168.1.1
+          via: 192.168.0.1
       nameservers:
         addresses: [1.1.1.1, 9.9.9.9]
 ```
